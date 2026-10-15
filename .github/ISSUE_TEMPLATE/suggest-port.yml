@@ -1,0 +1,48 @@
+name: Suggest a port
+description: A native port, decompilation or recompilation that is missing from PortVault.
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the catalog grow. Please do **not** include links to ROMs, ISOs or game files.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: Super Mario 64
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Original platform
+      placeholder: Nintendo 64
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project link
+      description: Repository or official website of the port.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of port
+      options:
+        - Decompilation port
+        - Static recompilation
+        - Source port
+        - Engine remake
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Is it playable today? Which systems does it support?

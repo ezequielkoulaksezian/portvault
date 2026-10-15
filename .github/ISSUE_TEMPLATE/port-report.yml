@@ -1,0 +1,23 @@
+name: Report a problem
+description: Wrong information, a broken link, a wrong cover or a port that should not be listed.
+labels: ["data"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the PortVault page with the problem.
+      placeholder: https://portvault.vercel.app/games/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Correct information
+      description: Include a source if you can.
