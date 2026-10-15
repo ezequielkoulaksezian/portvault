@@ -1,0 +1,901 @@
+[
+  {
+    "game": "Super Mario 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "sm64pcbuilder2",
+        "url": "https://sm64pc.info/sm64pcbuilder2/",
+        "repo": null,
+        "description": "GUI app for compiling ports, applying mods, texture packs, and more."
+      },
+      {
+        "name": "sm64plus",
+        "url": "https://www.mfgg.net/?act=resdb&param=02&c=2&id=38190",
+        "repo": null,
+        "description": "Installer with GUI + quality-of-life features like 60 FPS and better camera. Also buildable with sm64pcbuilder2"
+      },
+      {
+        "name": "Ghostship",
+        "url": "https://github.com/HarbourMasters/Ghostship",
+        "repo": "HarbourMasters/Ghostship",
+        "description": "Harbour Masters source port. Extract the release, launch Ghostship.exe, and select a supported US or JP ROM. Includes mods, modern graphics backends, and additional platform support."
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Ship of Harkinian",
+        "url": "https://github.com/HarbourMasters/Shipwright",
+        "repo": "HarbourMasters/Shipwright",
+        "description": "GUI installer. Easily install mods."
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: Majora's Mask",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Zelda 64: Recompiled",
+        "url": "https://github.com/Mr-Wiseguy/Zelda64Recomp",
+        "repo": "Mr-Wiseguy/Zelda64Recomp",
+        "description": "GUI installer."
+      },
+      {
+        "name": "2 Ship 2 Harkinian",
+        "url": "https://github.com/HarbourMasters/2ship2harkinian",
+        "repo": "HarbourMasters/2ship2harkinian",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: The Minish Cap",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "auto-tmc",
+        "url": "https://github.com/StonedModder/auto-tmc",
+        "repo": "StonedModder/auto-tmc",
+        "description": "Automated launcher/installer"
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: The Wind Waker HD",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "ZeldaWWHDRecomp",
+        "url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+        "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+        "description": "Native static recompilation of the Wii U version for Windows, Linux, macOS, and Android. Portable releases prepare the game from your own dump on first launch and include a built-in mod manager."
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: The Wind Waker",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "BlueWake",
+        "url": "https://github.com/chrissotraidis/bluewake",
+        "repo": "chrissotraidis/bluewake",
+        "description": "Native GameCube static recompilation. The Windows build is ready-made: launch it and select your own USA revision 0 disc image. Also supports iOS/macOS builds, controller support, and mods."
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: Twilight Princess",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "dusk",
+        "url": "https://github.com/TwilitRealm/dusk",
+        "repo": "TwilitRealm/dusk",
+        "description": "PC port"
+      }
+    ]
+  },
+  {
+    "game": "Star Fox 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Starship",
+        "url": "https://github.com/HarbourMasters/starship",
+        "repo": "HarbourMasters/starship",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Super Smash Bros.",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "BattleShip",
+        "url": "https://github.com/JRickey/BattleShip",
+        "repo": "JRickey/BattleShip",
+        "description": "GUI installer"
+      }
+    ]
+  },
+  {
+    "game": "Perfect Dark",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Perfect Dark port",
+        "url": "https://github.com/fgsfdsfgs/perfect_dark",
+        "repo": "fgsfdsfgs/perfect_dark",
+        "description": "Easy install/play"
+      }
+    ]
+  },
+  {
+    "game": "Banjo-Kazooie",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Lighthouse",
+        "url": "https://github.com/HarbourMasters/Lighthouse",
+        "repo": "HarbourMasters/Lighthouse",
+        "description": "Native PC port with Anchor multiplayer, romhack/multi-language support, and a built-in randomizer. Extract the release, launch it, and select your compatible ROM."
+      },
+      {
+        "name": "BanjoRecomp",
+        "url": "https://github.com/BanjoRecomp/BanjoRecomp",
+        "repo": "BanjoRecomp/BanjoRecomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Banjo-Tooie",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Banjo-Tooie: Recompiled",
+        "url": "https://github.com/Vidanox/BanjoTooieRecompiled",
+        "repo": "Vidanox/BanjoTooieRecompiled",
+        "description": "Native N64 static recompilation. Ready-made Windows/Linux releases; select your US ROM on first launch. Playable end-to-end with widescreen and high-refresh-rate support."
+      }
+    ]
+  },
+  {
+    "game": "Bomberman 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "BM64Recomp",
+        "url": "https://github.com/RevoSucks/BM64Recomp",
+        "repo": "RevoSucks/BM64Recomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Bomberman Hero",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "BMHeroRecomp",
+        "url": "https://github.com/RevoSucks/BMHeroRecomp",
+        "repo": "RevoSucks/BMHeroRecomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Quest 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Quest64-Recomp",
+        "url": "https://github.com/Rainchus/Quest64-Recomp",
+        "repo": "Rainchus/Quest64-Recomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Mega Man 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "MegaMan64Recompiled",
+        "url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled",
+        "repo": "MegaMan64Recomp/MegaMan64Recompiled",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Space Station Silicon Valley",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "SSSV_Recomp",
+        "url": "https://github.com/Cellenseres/SSSV_Recomp",
+        "repo": "Cellenseres/SSSV_Recomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Mystical Ninja Starring Goemon",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Goemon64Recomp",
+        "url": "https://github.com/klorfmorf/Goemon64Recomp",
+        "repo": "klorfmorf/Goemon64Recomp",
+        "description": "GUI installer"
+      }
+    ]
+  },
+  {
+    "game": "Dinosaur Planet",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Dinosaur Planet: Recompiled",
+        "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+        "repo": "DinosaurPlanetRecomp/dino-recomp",
+        "description": "GUI installer"
+      }
+    ]
+  },
+  {
+    "game": "Mario Kart 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "SpaghettiKart",
+        "url": "https://github.com/HarbourMasters/SpaghettiKart",
+        "repo": "HarbourMasters/SpaghettiKart",
+        "description": "GUI installer + Track editor"
+      },
+      {
+        "name": "MarioKart64Recomp",
+        "url": "https://github.com/sonicdcer/MarioKart64Recomp",
+        "repo": "sonicdcer/MarioKart64Recomp",
+        "description": "GUI installer + mod support"
+      }
+    ]
+  },
+  {
+    "game": "Duke Nukem: Zero Hour",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Duke Nukem Zero Hour: Recompiled",
+        "url": "https://github.com/sonicdcer/DNZHRecomp",
+        "repo": "sonicdcer/DNZHRecomp",
+        "description": "GUI installer + mod support (Gyro aiming, 60+ FPS)"
+      }
+    ]
+  },
+  {
+    "game": "Chameleon Twist",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Chameleon Twist: Recompiled",
+        "url": "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp",
+        "repo": "Rainchus/ChameleonTwist1-JP-Recomp",
+        "description": "GUI installer"
+      }
+    ]
+  },
+  {
+    "game": "Dr. Mario 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Dr. Mario 64 Recomp Plus",
+        "url": "https://github.com/theboy181/drmario64_recomp_plus",
+        "repo": "theboy181/drmario64_recomp_plus",
+        "description": "GUI installer + improvements (4-player controller support, 60+ FPS interpolation)"
+      }
+    ]
+  },
+  {
+    "game": "Pokémon Snap",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Snap64Recomp",
+        "url": "https://github.com/JackandBeans/Snap64Recomp",
+        "repo": "JackandBeans/Snap64Recomp",
+        "description": "Native N64 static recompilation. Unzip and supply your own ROM on first launch."
+      }
+    ]
+  },
+  {
+    "game": "Snowboard Kids 2",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "snowboardkids2-recomp",
+        "url": "https://github.com/cdlewis/snowboardkids2-recomp",
+        "repo": "cdlewis/snowboardkids2-recomp",
+        "description": "Native N64 static recompilation + enhancements and mod support."
+      }
+    ]
+  },
+  {
+    "game": "Mario Strikers Charged",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "strikers",
+        "url": "https://github.com/new-coke/strikers",
+        "repo": "new-coke/strikers",
+        "description": "Native PC port/recompilation project for Mario Strikers Charged."
+      }
+    ]
+  },
+  {
+    "game": "Automobili Lamborghini",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "automobililamborghini-recomp",
+        "url": "https://github.com/alondero/automobililamborghini-recomp",
+        "repo": "alondero/automobililamborghini-recomp",
+        "description": "Native N64 static recompilation with ready-to-use releases."
+      }
+    ]
+  },
+  {
+    "game": "WCW vs. nWo: World Tour",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "WCWvsNWOWorldTourRecomp",
+        "url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp",
+        "repo": "jessetbh/WCWvsNWOWorldTourRecomp",
+        "description": "Native N64 recompilation with an easy end-user setup."
+      }
+    ]
+  },
+  {
+    "game": "WCW/nWo Revenge",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "WCWnWoRevengeRecomp",
+        "url": "https://github.com/jessetbh/WCWnWoRevengeRecomp",
+        "repo": "jessetbh/WCWnWoRevengeRecomp",
+        "description": "Native N64 recompilation with an easy end-user setup."
+      }
+    ]
+  },
+  {
+    "game": "WWF WrestleMania 2000",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "WWFWrestleMania2000Recomp",
+        "url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp",
+        "repo": "jessetbh/WWFWrestleMania2000Recomp",
+        "description": "Native N64 recompilation with an easy end-user setup."
+      }
+    ]
+  },
+  {
+    "game": "Virtual Pro Wrestling 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "VPW64Recomp",
+        "url": "https://github.com/jessetbh/VPW64Recomp",
+        "repo": "jessetbh/VPW64Recomp",
+        "description": "Native N64 recompilation with an easy end-user setup."
+      }
+    ]
+  },
+  {
+    "game": "WWF No Mercy",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "WWFNoMercyRecomp",
+        "url": "https://github.com/jessetbh/WWFNoMercyRecomp",
+        "repo": "jessetbh/WWFNoMercyRecomp",
+        "description": "Native N64 recompilation with an easy end-user setup."
+      }
+    ]
+  },
+  {
+    "game": "Extreme-G",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Extreme-G: Recompiled",
+        "url": "https://gitlab.com/sonicdcer/ExtremeGRecomp",
+        "repo": null,
+        "description": "Native N64 static recompilation with ready-to-use releases, modern display options, and mod support."
+      }
+    ]
+  },
+  {
+    "game": "Paper Mario",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "PaperBoat",
+        "url": "https://github.com/HarbourMasters/PaperBoat",
+        "repo": "HarbourMasters/PaperBoat",
+        "description": "Harbour Masters source port based on the Paper Mario decompilation. Download a release, provide a supported ROM, and launch."
+      }
+    ]
+  },
+  {
+    "game": "Donkey Kong 64",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Donkey Kong 64: Recompiled",
+        "url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled",
+        "repo": "Rainchus/Donkey-Kong-64-Recompiled",
+        "description": "Native N64 static recompilation with plug-and-play releases, high-framerate support, modern menus, and Linux/Steam Deck support."
+      }
+    ]
+  },
+  {
+    "game": "Rocket: Robot on Wheels",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Rocket-R",
+        "url": "https://github.com/ThatGuyMcd/Rocket-R",
+        "repo": "ThatGuyMcd/Rocket-R",
+        "description": "Native N64 static recompilation for Windows, Linux, Steam Deck, and Android. Launch it and select or drag in your supported US ROM."
+      }
+    ]
+  },
+  {
+    "game": "Star Fox Adventures",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "FoxHollow",
+        "url": "https://github.com/JackPriceBurns/foxhollow",
+        "repo": "JackPriceBurns/foxhollow",
+        "description": "Native PC port built from the completed Star Fox Adventures decompilation, with Windows, Linux, macOS, modern display support, and mods."
+      }
+    ]
+  },
+  {
+    "game": "Golden Sun",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "GSRecomp",
+        "url": "https://github.com/Shmargus/GSRecomp",
+        "repo": "Shmargus/GSRecomp",
+        "description": "Native Game Boy Advance static recompilation for Windows and Linux. Download the release, launch GoldenSunLauncher, select your own ROM, and the bundled compiler prepares the game automatically. Currently a public-testing pre-release, but playable through the ending credits."
+      }
+    ]
+  },
+  {
+    "game": "Animal Crossing (GameCube)",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "ACGC-PC-Port",
+        "url": "https://github.com/flyngmt/ACGC-PC-Port",
+        "repo": "flyngmt/ACGC-PC-Port",
+        "description": "PC port"
+      }
+    ]
+  },
+  {
+    "game": "The Legend of Zelda: A Link to the Past",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Zelda 3 Launcher",
+        "url": "https://github.com/RadzPrower/Zelda-3-Launcher",
+        "repo": "RadzPrower/Zelda-3-Launcher",
+        "description": "GUI installer + mod/texture support"
+      }
+    ]
+  },
+  {
+    "game": "Super Metroid",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Super Metroid Launcher",
+        "url": "https://github.com/RadzPrower/Super-Metroid-Launcher",
+        "repo": "RadzPrower/Super-Metroid-Launcher",
+        "description": "GUI installer + mod/texture support"
+      }
+    ]
+  },
+  {
+    "game": "Super Mario World + All-Stars",
+    "family": "Nintendo",
+    "recommended": [
+      {
+        "name": "Super Mario All-Stars Launcher for SMW",
+        "url": "https://github.com/qurious-pixel/SMAS_Launcher",
+        "repo": "qurious-pixel/SMAS_Launcher",
+        "description": "GUI installer"
+      }
+    ]
+  },
+  {
+    "game": "Crash Team Racing",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "Crash Team Racing: Turbocharged",
+        "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged",
+        "repo": "CameronRedmore/Crash-Team-Racing-Turbocharged",
+        "description": "PC-focused source port with a native 3D renderer, true widescreen, high-resolution rendering, up to 240 FPS, and additional quality-of-life options."
+      }
+    ]
+  },
+  {
+    "game": "Wipeout",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "WipeOut Phantom Edition",
+        "url": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition",
+        "repo": "wipeout-phantom-edition/wipeout-phantom-edition",
+        "description": "Drop BIN+CUE into diskimages and launch"
+      }
+    ]
+  },
+  {
+    "game": "Jak and Daxter 1-3",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "OpenGoal",
+        "url": "https://github.com/open-goal/jak-project",
+        "repo": "open-goal/jak-project",
+        "description": "GUI installer + mods"
+      }
+    ]
+  },
+  {
+    "game": "Driver 2",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "REDRIVER2",
+        "url": "https://github.com/OpenDriver2/REDRIVER2",
+        "repo": "OpenDriver2/REDRIVER2",
+        "description": "GUI installer + mods"
+      }
+    ]
+  },
+  {
+    "game": "Vandal Hearts",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "VandalHearts-PcPort",
+        "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort",
+        "repo": "HalmyLyseas/VandalHearts-PcPort",
+        "description": "Native PC port based on a byte-exact matching decompilation. Put your supported .bin disc image in the game folder and launch. Windows and Linux releases are available."
+      }
+    ]
+  },
+  {
+    "game": "Legend of Dragoon",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "Severed Chains",
+        "url": "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains",
+        "repo": "Legend-of-Dragoon-Modding/Severed-Chains",
+        "description": "Reverse-engineered native recreation with mod support. Drop your disc images into the isos folder."
+      }
+    ]
+  },
+  {
+    "game": "Silent Hill",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "Silent Hill Native PC Port",
+        "url": "https://github.com/SlickAmogus/silent-hill-decomp",
+        "repo": "SlickAmogus/silent-hill-decomp",
+        "description": "Native PC port based on the PlayStation decompilation. Extract the release, add your disc image to gamedata, and launch."
+      }
+    ]
+  },
+  {
+    "game": "WWF SmackDown! 2: Know Your Role",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "KnowYourRoleRecomp",
+        "url": "https://github.com/Comfubar/KnowYourRoleRecomp",
+        "repo": "Comfubar/KnowYourRoleRecomp",
+        "description": "GUI setup from your own CUE/BIN disc image; the game is checked, built, and launched automatically."
+      }
+    ]
+  },
+  {
+    "game": "Bloody Roar II",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "BloodyRoar2Recomp",
+        "url": "https://github.com/novapowers0/BloodyRoar2Recomp",
+        "repo": "novapowers0/BloodyRoar2Recomp",
+        "description": "Native PlayStation recompilation with ready-to-use Windows/Linux releases."
+      }
+    ]
+  },
+  {
+    "game": "King's Field",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "kf1-enhanced",
+        "url": "https://github.com/Acranon/kf1-enhanced",
+        "repo": "Acranon/kf1-enhanced",
+        "description": "Enhanced native PC port based on reverse engineering of the original PlayStation game."
+      }
+    ]
+  },
+  {
+    "game": "Yu-Gi-Oh! Forbidden Memories",
+    "family": "PlayStation",
+    "recommended": [
+      {
+        "name": "Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+        "url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+        "repo": "Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+        "description": "Native PlayStation recompilation with an end-user-friendly setup."
+      }
+    ]
+  },
+  {
+    "game": "Dead or Alive Xtreme Beach Volleyball",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "doaxvb-re",
+        "url": "https://github.com/NoRain211/doaxvb-re",
+        "repo": "NoRain211/doaxvb-re",
+        "description": "Native original-Xbox static recompilation. Drag your ISO onto BuildGame.cmd, then launch through Launcher.cmd."
+      }
+    ]
+  },
+  {
+    "game": "The Darkness",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "The-Darkness-Recomp",
+        "url": "https://github.com/portingpete/The-Darkness-Recomp",
+        "repo": "portingpete/The-Darkness-Recomp",
+        "description": "Native Xbox 360 static recompilation. Extract the release, copy your own game dump into the included Darkness folder, and launch."
+      }
+    ]
+  },
+  {
+    "game": "Silent Hill: Downpour",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "DownpourRecomp",
+        "url": "https://github.com/LittleBitUA/DownpourRecomp",
+        "repo": "LittleBitUA/DownpourRecomp",
+        "description": "Native Xbox 360 static recompilation with a launcher and first-run ISO installer."
+      }
+    ]
+  },
+  {
+    "game": "Deadly Premonition",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "DPRecomp",
+        "url": "https://github.com/LittleBitUA/DPRecomp",
+        "repo": "LittleBitUA/DPRecomp",
+        "description": "Native Xbox 360 static recompilation with a built-in ISO installer and launcher."
+      }
+    ]
+  },
+  {
+    "game": "Tony Hawk's Project 8",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "Project8Recomp",
+        "url": "https://github.com/theokyr/Project8Recomp",
+        "repo": "theokyr/Project8Recomp",
+        "description": "Native Xbox 360 static recompilation. The launcher reads your own disc image and sets up the game."
+      }
+    ]
+  },
+  {
+    "game": "Spider-Man: Edge of Time",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "Project-2099",
+        "url": "https://github.com/GenryTheFox0/Project-2099",
+        "repo": "GenryTheFox0/Project-2099",
+        "description": "Native Xbox 360 recompilation with a GUI installer, launcher, keyboard/mouse controls, and mod support."
+      }
+    ]
+  },
+  {
+    "game": "3 on 3 NHL Arcade",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "3on3NHL-recomp",
+        "url": "https://github.com/Wndwsqrrl/3on3NHL-recomp",
+        "repo": "Wndwsqrrl/3on3NHL-recomp",
+        "description": "Native Xbox 360 static recompilation. Put your XBLA package next to the release and use the launcher to set up and play."
+      }
+    ]
+  },
+  {
+    "game": "Dead Rising 2: Case Zero",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "url": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "repo": "wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "description": "Native Xbox 360 recompilation of the standalone Case Zero release."
+      }
+    ]
+  },
+  {
+    "game": "Dead Rising 2: Case West",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "Dead_Rising_2_Case_West_Xenon_Recomp",
+        "url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+        "repo": "wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+        "description": "Native Xbox 360 recompilation of the standalone Case West release."
+      }
+    ]
+  },
+  {
+    "game": "The Simpsons Game",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "TheSimpsonsGameRecomp",
+        "url": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+        "repo": "YesterMester/TheSimpsonsGameRecomp",
+        "description": "Native Xbox 360 recompilation with an installer/launcher for end users."
+      }
+    ]
+  },
+  {
+    "game": "Blue Dragon",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "re:Blue",
+        "url": "https://github.com/zolaware/reblue",
+        "repo": "zolaware/reblue",
+        "description": "Native Xbox 360 static recompilation. The setup wizard asks for your three retail disc images, validates them, extracts the required files, and installs the port. Includes modern resolutions, unlocked frame rates, keyboard/mouse support, and mods."
+      }
+    ]
+  },
+  {
+    "game": "Earthworm Jim HD",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "Earthworm Jim HD: Recompiled",
+        "url": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled",
+        "repo": "TekRantGaming/earthworm-jim-hd-recompiled",
+        "description": "Native Xbox Live Arcade static recompilation for Windows. Download the release, launch it, select or drag in your own XBLA package, and press Play. Includes automatic updates, modern graphics settings, high frame-rate support, remappable controls, and achievements."
+      }
+    ]
+  },
+  {
+    "game": "Peter Jackson's King Kong",
+    "family": "Xbox",
+    "recommended": [
+      {
+        "name": "King Kong: Recompiled",
+        "url": "https://github.com/TekRantGaming/king-kong-recompiled",
+        "repo": "TekRantGaming/king-kong-recompiled",
+        "description": "Native Xbox 360 static recompilation for Windows. The launcher installs the game directly from your own disc image and adds modern resolutions, high frame-rate options, keyboard/mouse support, remappable controls, achievements, and automatic updates."
+      }
+    ]
+  },
+  {
+    "game": "Sonic the Hedgehog 1",
+    "family": "SEGA",
+    "recommended": [
+      {
+        "name": "Sonic the Hedgehog Forever",
+        "url": "https://teamforeveronline.wixsite.com/home/sonic-1-forever",
+        "repo": null,
+        "description": "Drag-and-drop setup"
+      }
+    ]
+  },
+  {
+    "game": "Sonic the Hedgehog 2",
+    "family": "SEGA",
+    "recommended": [
+      {
+        "name": "Sonic the Hedgehog 2 Absolute",
+        "url": "https://teamforeveronline.wixsite.com/home/sonic-2-absolute",
+        "repo": null,
+        "description": "Drag-and-drop setup"
+      }
+    ]
+  },
+  {
+    "game": "Sonic 3 & Knuckles",
+    "family": "SEGA",
+    "recommended": [
+      {
+        "name": "Sonic 3 AIR",
+        "url": "https://github.com/Eukaryot/sonic3air",
+        "repo": "Eukaryot/sonic3air",
+        "description": "Launcher with mod support"
+      }
+    ]
+  },
+  {
+    "game": "Sonic Unleashed",
+    "family": "SEGA",
+    "recommended": [
+      {
+        "name": "UnleashedRecomp",
+        "url": "https://github.com/hedge-dev/UnleashedRecomp",
+        "repo": "hedge-dev/UnleashedRecomp",
+        "description": "Launcher with mod support"
+      }
+    ]
+  },
+  {
+    "game": "OutRun",
+    "family": "SEGA",
+    "recommended": [
+      {
+        "name": "Cannonball - OutRun Engine",
+        "url": "https://github.com/djyt/cannonball",
+        "repo": "djyt/cannonball",
+        "description": "Drag-and-drop install"
+      }
+    ]
+  },
+  {
+    "game": "Cave Story+",
+    "family": "Indie",
+    "recommended": [
+      {
+        "name": "doukutsu-rs",
+        "url": "https://github.com/doukutsu-rs/doukutsu-rs",
+        "repo": "doukutsu-rs/doukutsu-rs",
+        "description": "Just drop the EXE into the Cave Story folder and run"
+      }
+    ]
+  },
+  {
+    "game": "Ratchet & Clank: Clone Home",
+    "family": "J2ME",
+    "recommended": []
+  }
+]

@@ -1,0 +1,1294 @@
+{
+  "exclude": [
+    "Brawmario/libsm64-godot",
+    "chrissotraidis/goldenpad",
+    "Team-Beef-Studios/Lambda1VR",
+    "rehlds/ReHLDS",
+    "rehlds/ReGameDLL_CS",
+    "Velaron/cs16-client",
+    "MiniBandit/MKW-3DS",
+    "Phi1ow/mkwii-ps5",
+    "mkw-sp/mkw-sp",
+    "ZallaxDev/pokeemerald-3Ds-dualscreen",
+    "EstebanPdN/zelda-alttp-3ds",
+    "EstebanPdN/zelda-tmc-3ds",
+    "RecompRando/MMRecompRando",
+    "z2442/oot-PSP",
+    "jnmartin84/wipeout-dc",
+    "MikeWuPing/UEFI_SuperMario",
+    "DogParty/iPodClickWheelRecomps",
+    "alexbeavs-ps1-ports/psxrecomp-ports",
+    "2006-Scape/2006Scape",
+    "2003scape/rsc-c",
+    "Rangi42/polishedcrystal",
+    "StevensND/nfsmw-nx",
+    "CTR-tools/CTR-ModSDK"
+  ],
+  "ports": {
+    "samuelit0davila/fifa-street-pc-port": {
+      "name": "FIFA Street PC Port",
+      "game": "FIFA Street"
+    },
+    "christianortel/skate2-recompile-pc": {
+      "name": "Skate 2 PC Recompile",
+      "game": "Skate 2"
+    },
+    "yancharkin/SpelunkyClassicHD": {
+      "name": "Spelunky Classic HD",
+      "game": "Spelunky"
+    },
+    "RSDKModding/RSDKv4-Decompilation": {
+      "name": "RSDKv4 Decompilation",
+      "game": [
+        "Sonic the Hedgehog",
+        "Sonic the Hedgehog 2"
+      ]
+    },
+    "foreverWIP/s1-port": {
+      "name": "Sonic 1 Forever port",
+      "game": "Sonic the Hedgehog"
+    },
+    "ZDoom/Raze": {
+      "game": [
+        "Duke Nukem 3D",
+        "Blood",
+        "Shadow Warrior"
+      ]
+    },
+    "kondrak/vkQuake2": {
+      "name": "vkQuake2"
+    },
+    "suijingfeng/vkQuake3": {
+      "name": "vkQuake3"
+    },
+    "inolen/quakejs": {
+      "name": "QuakeJS"
+    },
+    "patchzyy/Wiicompiled": {
+      "name": "Wiicompiled"
+    },
+    "gta-reversed/gta-reversed": {
+      "name": "gta-reversed"
+    },
+    "OpenCommunityEdition/OpenCE": {
+      "game": "Crash Nitro Kart"
+    },
+    "FatalDecomp/ROLLER": {
+      "game": "Whiplash"
+    },
+    "JackPriceBurns/foxhollow": {
+      "recommended": true,
+      "name": "FoxHollow"
+    },
+    "SunJaycy/GoldenEye-Recomp": {
+      "name": "GoldenEye XBLA Recompiled"
+    },
+    "LostArtefacts/TRX": {
+      "name": "TRX"
+    },
+    "AliveTeam/alive_reversing": {
+      "name": "R.E.L.I.V.E.",
+      "game": "Oddworld: Abe's Oddysee"
+    },
+    "open-goal/jak-project": {
+      "name": "OpenGOAL"
+    },
+    "UNDERdecoded/Gen2Recomped": {
+      "game": "Pokémon Gold and Silver"
+    },
+    "codepdbh/PSPRecomp-VCS-Android": {
+      "name": "VCS Recomp for Android"
+    },
+    "Unchiga/YuGiOhForbiddenMemoriesRecomp": {
+      "name": "Forbidden Memories Recomp (legacy)"
+    },
+    "Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled": {
+      "name": "Forbidden Memories Recompiled"
+    },
+    "freefrank/LostOdysseyRecomp": {
+      "name": "LostOdysseyRecomp"
+    },
+    "faligame/lost-odyssey-hd-remaster": {
+      "name": "Lost Odyssey HD Remaster"
+    },
+    "invinceble55-wq/Estacado-The-Darkness-Recomp": {
+      "name": "Estacado"
+    },
+    "portingpete/The-Darkness-Recomp": {
+      "name": "The Darkness Recomp"
+    },
+    "Sampreeth004/nfs-carbon-recomp": {
+      "name": "nfs-carbon-recomp"
+    },
+    "codepdbh/NFS-CARBON-360-ANDROID-RECOMP": {
+      "name": "NFS Carbon Android Recomp"
+    },
+    "elforeign/nfs-most-wanted-mac": {
+      "name": "NFS Most Wanted for Mac"
+    },
+    "OpenDriver2/REDRIVER2": {
+      "name": "REDRIVER2",
+      "type": "source-port"
+    },
+    "n64decomp/sm64": {
+      "name": "SM64 Decompilation (n64decomp)"
+    },
+    "sm64pc/sm64ex": {
+      "name": "sm64ex"
+    }
+  },
+  "aliases": {
+    "crispydoom": "Doom",
+    "chocolatedoom": "Doom",
+    "doomretro": "Doom",
+    "odamex": "Doom",
+    "theeternityengine": "Doom",
+    "edgeclassic": "Doom",
+    "doomsdayengine": "Doom",
+    "doom64explusenhanced": "Doom 64",
+    "chocolatequake": "Quake",
+    "vkquake": "Quake",
+    "ironwail": "Quake",
+    "ezquake": "Quake",
+    "yamagiquakeii": "Quake II",
+    "ioquake3": "Quake III Arena",
+    "quake3e": "Quake III Arena",
+    "openq4": "Quake 4",
+    "dhewm3": "Doom 3",
+    "rbdoom3bfg": "Doom 3",
+    "idtech4a": "Doom 3",
+    "heretic2": "Heretic II",
+    "heretic2r": "Heretic II",
+    "nblood": "Blood",
+    "xash3dfwgs": "Half-Life",
+    "iortcw": "Return to Castle Wolfenstein",
+    "openjk": "Star Wars Jedi Knight: Jedi Academy",
+    "liliumvoyager": "Star Trek: Voyager – Elite Force",
+    "fs2open": "FreeSpace 2",
+    "omnispeak": "Commander Keen in Goodbye, Galaxy!",
+    "rigelengine": "Duke Nukem II",
+    "opencrystalcaves": "Crystal Caves",
+    "catacombgl": "Catacomb 3-D",
+    "bstone": "Blake Stone: Aliens of Gold",
+    "taradino": "Rise of the Triad: Dark War",
+    "dxxrebirth": "Descent",
+    "dxxredux": "Descent",
+    "descent3": "Descent 3",
+    "exult": "Ultima VII: The Black Gate",
+    "gemrb": "Baldur's Gate",
+    "openage": "Age of Empires II",
+    "openblack": "Black & White",
+    "opendune": "Dune II",
+    "duneiithebuildingofadynasty": "Dune II",
+    "duneiithemaker": "Dune II",
+    "fheroes2": "Heroes of Might and Magic II",
+    "opengothic": "Gothic II",
+    "opentesarena": "The Elder Scrolls: Arena",
+    "daggerfallunity": "The Elder Scrolls II: Daggerfall",
+    "surrealengine": "Unreal Tournament",
+    "theforceengine": "Star Wars: Dark Forces",
+    "openxcom": "UFO: Enemy Unknown",
+    "openapocalypse": "X-COM: Apocalypse",
+    "openra": "Command & Conquer: Red Alert",
+    "vanillaconquer": "Command & Conquer",
+    "generalsgamecode": "Command & Conquer: Generals – Zero Hour",
+    "zerohourreforged": "Command & Conquer: Generals – Zero Hour",
+    "opensage": "Command & Conquer: Generals",
+    "openxw": "Star Wars: X-Wing",
+    "opentie": "Star Wars: TIE Fighter",
+    "openxvt": "Star Wars: X-Wing vs. TIE Fighter",
+    "openxwa": "Star Wars: X-Wing Alliance",
+    "openkeeper": "Dungeon Keeper",
+    "keeperfx": "Dungeon Keeper",
+    "glkeeper": "Dungeon Keeper",
+    "openenroth": "Might and Magic VI: The Mandate of Heaven",
+    "openloco": "Chris Sawyer's Locomotion",
+    "opensc2k": "SimCity 2000",
+    "openkrush": "KKnD",
+    "openomf": "One Must Fall: 2097",
+    "opentyrian": "Tyrian",
+    "openjazz": "Jazz Jackrabbit",
+    "jazz2resurrection": "Jazz Jackrabbit 2",
+    "openmohaa": "Medal of Honor: Allied Assault",
+    "opene2140": "Earth 2140",
+    "openciv3": "Civilization III",
+    "1oom": "Master of Orion",
+    "arxlibertatis": "Arx Fatalis",
+    "lba2classiccommunity": "Little Big Adventure 2",
+    "librelancer": "Freelancer",
+    "falltergeist": "Fallout 2",
+    "freeablo": "Diablo",
+    "riiablo": "Diablo II",
+    "freeft": "Fallout Tactics: Brotherhood of Steel",
+    "freeserfnet": "The Settlers",
+    "thesettlersi": "The Settlers",
+    "returntotheroots": "The Settlers II",
+    "freeso": "The Sims Online",
+    "warcraftorcsandhumans": "Warcraft: Orcs & Humans",
+    "wargus": "Warcraft II: Tides of Darkness",
+    "wc1re": "Wing Commander",
+    "glsmac": "Sid Meier's Alpha Centauri",
+    "mdksdl": "MDK",
+    "mc2": "MechCommander 2",
+    "nxengineevo": "Cave Story",
+    "princemonogame": "Prince of Persia",
+    "sdlpop": "Prince of Persia",
+    "remc2": "Magic Carpet 2",
+    "shockolate": "System Shock",
+    "underworldexhumed": "Ultima Underworld: The Stygian Abyss",
+    "underworldgodot": "Ultima Underworld: The Stygian Abyss",
+    "vanger": "Vangers",
+    "vangers": "Vangers",
+    "vorpalfix": "American McGee's Alice",
+    "carnage3d": "Grand Theft Auto",
+    "serioussamclassicvk": "Serious Sam: The First Encounter",
+    "alephone": "Marathon",
+    "chasmreverse": "Chasm: The Rift",
+    "mrboom": "Mr. Boom",
+    "sopwith": "Sopwith",
+    "opensupaplex": "Supaplex",
+    "openttd": "Transport Tycoon Deluxe",
+    "openannihilation": "Total Annihilation",
+    "raptorcalloftheshadows": "Raptor: Call of the Shadows",
+    "legendofswordandfairy": "The Legend of Sword and Fairy",
+    "edgeoftimerecomp": "Spider-Man: Edge of Time",
+    "sonicthehedgehog1": "Sonic the Hedgehog",
+    "streetfighteriii3rdstrike3sx": "Street Fighter III: 3rd Strike",
+    "streetfighteriii3rdstrike3sxw": "Street Fighter III: 3rd Strike",
+    "psxusamedievil": "MediEvil",
+    "dq8recompiled": "Dragon Quest VIII",
+    "icopc": "Ico",
+    "jakanddaxter13": "Jak and Daxter: The Precursor Legacy",
+    "meleepc": "Super Smash Bros. Melee",
+    "metroidprimeport": "Metroid Prime",
+    "animalcrossinggamecube": "Animal Crossing",
+    "pokemongoldsilvercrystal": "Pokémon Gold and Silver",
+    "bloodborneforwindows": "Bloodborne",
+    "supermariobros": "Super Mario Bros.",
+    "needforspeediispecialedition": "Need for Speed II",
+    "needforspeediispecialeditionneedforspeediiihotpursuit": "Need for Speed II",
+    "needforspeediiihotpursuit": "Need for Speed III: Hot Pursuit",
+    "kingsfield": "King's Field",
+    "wwfsmackdown2knowyourrole": "WWF SmackDown! 2: Know Your Role",
+    "touhoupc98": "Touhou Project (PC-98)",
+    "pt": "P.T.",
+    "fable2": "Fable II",
+    "f15ii": "F-15 Strike Eagle II",
+    "linksawakening": "The Legend of Zelda: Link's Awakening (2019)",
+    "ocarinaoftime3d": "The Legend of Zelda: Ocarina of Time 3D",
+    "acecombatx": "Ace Combat X: Skies of Deception",
+    "lionheartremake": "Lionheart",
+    "machines": "Machines: Wired for War",
+    "maxr": "M.A.X.: Mechanized Assault & Exploration",
+    "thegreatescapeinc": "The Great Escape",
+    "sensibleworldofsoccer9697": "Sensible World of Soccer",
+    "megaman64": "Mega Man 64"
+  },
+  "games": {
+    "awesome-open-source-games": {
+      "exclude": true
+    },
+    "space-station-14": {
+      "exclude": true
+    },
+    "freedoom": {
+      "exclude": true
+    },
+    "unvanquished": {
+      "exclude": true
+    },
+    "spearmint": {
+      "exclude": true
+    },
+    "q2tools-220": {
+      "exclude": true
+    },
+    "permafrost-engine": {
+      "exclude": true
+    },
+    "omega-engine": {
+      "exclude": true
+    },
+    "dgengine": {
+      "exclude": true
+    },
+    "openmb": {
+      "exclude": true
+    },
+    "o21": {
+      "exclude": true
+    },
+    "ophd": {
+      "exclude": true
+    },
+    "keeperrl": {
+      "exclude": true
+    },
+    "triplea": {
+      "exclude": true
+    },
+    "freeciv": {
+      "exclude": true
+    },
+    "megaglest": {
+      "exclude": true
+    },
+    "simutrans": {
+      "exclude": true
+    },
+    "c-dogs-sdl": {
+      "exclude": true
+    },
+    "betterspades": {
+      "exclude": true
+    },
+    "openspades": {
+      "exclude": true
+    },
+    "rotp-fusion": {
+      "exclude": true
+    },
+    "zelda-classic": {
+      "exclude": true
+    },
+    "super-mario-bros-x": {
+      "exclude": true
+    },
+    "super-mario-bros-remastered": {
+      "exclude": true
+    },
+    "am2r-another-metroid-2-remake": {
+      "exclude": true
+    },
+    "celeste-64-fragments-of-the-mountain": {
+      "exclude": true
+    },
+    "cube-2-sauerbraten": {
+      "exclude": true
+    },
+    "nethack": {
+      "exclude": true
+    },
+    "barony": {
+      "exclude": true
+    },
+    "barrett": {
+      "exclude": true
+    },
+    "flame": {
+      "exclude": true
+    },
+    "shortline-railroad": {
+      "exclude": true
+    },
+    "san-andreas-unity": {
+      "exclude": true
+    },
+    "serioussamalpharemake": {
+      "exclude": true
+    },
+    "sfall": {
+      "exclude": true
+    },
+    "command-and-conquer-red-alert-2": {
+      "exclude": true
+    },
+    "shattered-paradise": {
+      "exclude": true
+    },
+    "romanovs-vengeance": {
+      "exclude": true
+    },
+    "madnesspatch": {
+      "exclude": true
+    },
+    "legend-of-doom": {
+      "exclude": true
+    },
+    "anodyne": {
+      "exclude": true
+    },
+    "habitat": {
+      "exclude": true
+    },
+    "thinker": {
+      "exclude": true
+    },
+    "scummvm": {
+      "exclude": true
+    },
+    "xoreos": {
+      "exclude": true
+    },
+    "world-of-warcraft-112": {
+      "exclude": true
+    },
+    "club-penguin": {
+      "exclude": true
+    },
+    "runescape": {
+      "exclude": true
+    },
+    "counter-strike": {
+      "exclude": true
+    },
+    "minecraft-java-edition": {
+      "exclude": true
+    },
+    "lost": {
+      "exclude": true
+    },
+    "alexbeavs-ps1-recomps": {
+      "exclude": true
+    },
+    "pokemon-emerald": {
+      "exclude": true
+    },
+    "pokemon-rby-gsc-frlf-rse": {
+      "exclude": true
+    },
+    "mario-kart-wii-service-pack": {
+      "exclude": true
+    },
+    "the-legend-of-zelda-majoras-mask-3d": {
+      "exclude": true
+    },
+    "the-binding-of-isaac": {
+      "exclude": true
+    },
+    "starbound": {
+      "exclude": true
+    },
+    "hollow-knight": {
+      "exclude": true
+    },
+    "hollow-knight-silksong": {
+      "exclude": true
+    },
+    "shin-megami-tensei-persona-3-portable": {
+      "exclude": true
+    },
+    "metroid-prime-hunters": {
+      "exclude": true
+    },
+    "need-for-speed-1-6": {
+      "exclude": true
+    },
+    "super-mario-world-all-stars": {
+      "exclude": true
+    },
+    "3-on-3-nhl-arcade": {
+      "platform": "xbox-360",
+      "wikipedia": "3 on 3 NHL Arcade"
+    },
+    "extreme-g": {
+      "platform": "nintendo-64",
+      "wikipedia": "Extreme-G"
+    },
+    "kings-field": {
+      "platform": "playstation",
+      "wikipedia": "King's Field (video game)"
+    },
+    "wwf-smackdown-2-know-your-role": {
+      "platform": "playstation",
+      "wikipedia": "WWF SmackDown! 2: Know Your Role"
+    },
+    "super-metroid": {
+      "platform": "snes",
+      "wikipedia": "Super Metroid"
+    },
+    "super-mario-world": {
+      "platform": "snes",
+      "wikipedia": "Super Mario World"
+    },
+    "the-legend-of-zelda-a-link-to-the-past": {
+      "platform": "snes"
+    },
+    "sonic-the-hedgehog": {
+      "platform": "sega-genesis",
+      "wikipedia": "Sonic the Hedgehog (1991 video game)"
+    },
+    "sonic-the-hedgehog-2": {
+      "platform": "sega-genesis",
+      "wikipedia": "Sonic the Hedgehog 2"
+    },
+    "sonic-the-hedgehog-sonic-the-hedgehog-2": {
+      "exclude": true
+    },
+    "sonic-cd": {
+      "platform": "sega-genesis",
+      "wikipedia": "Sonic CD"
+    },
+    "sonic-mania": {
+      "platform": "pc",
+      "wikipedia": "Sonic Mania"
+    },
+    "star-fox-adventures": {
+      "platform": "gamecube"
+    },
+    "earthworm-jim-hd": {
+      "platform": "xbox-360",
+      "wikipedia": "Earthworm Jim HD"
+    },
+    "the-legend-of-zelda-the-minish-cap": {
+      "platform": "game-boy-advance"
+    },
+    "animal-crossing": {
+      "platform": "gamecube",
+      "wikipedia": "Animal Crossing (video game)"
+    },
+    "doom": {
+      "platform": "dos",
+      "wikipedia": "Doom (1993 video game)"
+    },
+    "doom-64": {
+      "platform": "nintendo-64",
+      "wikipedia": "Doom 64"
+    },
+    "doom-3": {
+      "platform": "pc",
+      "wikipedia": "Doom 3"
+    },
+    "quake": {
+      "platform": "dos",
+      "wikipedia": "Quake (video game)"
+    },
+    "quake-ii": {
+      "platform": "pc",
+      "wikipedia": "Quake II"
+    },
+    "quake-iii-arena": {
+      "platform": "pc",
+      "wikipedia": "Quake III Arena"
+    },
+    "quake-4": {
+      "platform": "pc",
+      "wikipedia": "Quake 4"
+    },
+    "half-life": {
+      "platform": "pc",
+      "wikipedia": "Half-Life (video game)"
+    },
+    "blood": {
+      "platform": "dos",
+      "wikipedia": "Blood (video game)"
+    },
+    "shadow-warrior": {
+      "platform": "dos",
+      "wikipedia": "Shadow Warrior (1997 video game)"
+    },
+    "duke-nukem-3d": {
+      "platform": "dos",
+      "wikipedia": "Duke Nukem 3D"
+    },
+    "descent": {
+      "platform": "dos",
+      "wikipedia": "Descent (1995 video game)"
+    },
+    "descent-3": {
+      "platform": "pc",
+      "wikipedia": "Descent 3"
+    },
+    "diablo": {
+      "platform": "pc",
+      "wikipedia": "Diablo (video game)"
+    },
+    "diablo-ii": {
+      "platform": "pc",
+      "wikipedia": "Diablo II"
+    },
+    "prince-of-persia": {
+      "platform": "dos",
+      "wikipedia": "Prince of Persia (1989 video game)"
+    },
+    "the-settlers": {
+      "platform": "home-computers",
+      "wikipedia": "The Settlers (1993 video game)"
+    },
+    "the-settlers-ii": {
+      "platform": "dos",
+      "wikipedia": "The Settlers II"
+    },
+    "grand-theft-auto": {
+      "platform": "dos",
+      "wikipedia": "Grand Theft Auto (video game)"
+    },
+    "marathon": {
+      "platform": "mac",
+      "wikipedia": "Marathon (1994 video game)"
+    },
+    "cave-story": {
+      "platform": "pc",
+      "wikipedia": "Cave Story"
+    },
+    "baldurs-gate": {
+      "platform": "pc",
+      "wikipedia": "Baldur's Gate (video game)"
+    },
+    "black-and-white": {
+      "platform": "pc",
+      "wikipedia": "Black & White (video game)"
+    },
+    "dune-ii": {
+      "platform": "dos",
+      "wikipedia": "Dune II"
+    },
+    "command-and-conquer": {
+      "platform": "dos",
+      "wikipedia": "Command & Conquer (1995 video game)"
+    },
+    "command-and-conquer-red-alert": {
+      "platform": "pc",
+      "wikipedia": "Command & Conquer: Red Alert"
+    },
+    "command-and-conquer-generals": {
+      "platform": "pc",
+      "wikipedia": "Command & Conquer: Generals"
+    },
+    "command-and-conquer-generals-zero-hour": {
+      "platform": "pc",
+      "wikipedia": "Command & Conquer: Generals – Zero Hour"
+    },
+    "transport-tycoon-deluxe": {
+      "platform": "dos",
+      "wikipedia": "Transport Tycoon"
+    },
+    "jazz-jackrabbit": {
+      "platform": "dos",
+      "wikipedia": "Jazz Jackrabbit (1994 video game)"
+    },
+    "jazz-jackrabbit-2": {
+      "platform": "pc",
+      "wikipedia": "Jazz Jackrabbit 2"
+    },
+    "tomb-raider-i-and-ii": {
+      "platform": "pc",
+      "wikipedia": "Tomb Raider (1996 video game)"
+    },
+    "tomb-raider-chronicles": {
+      "platform": "pc",
+      "wikipedia": "Tomb Raider Chronicles"
+    },
+    "wing-commander": {
+      "platform": "dos",
+      "wikipedia": "Wing Commander (video game)"
+    },
+    "kknd": {
+      "platform": "dos",
+      "wikipedia": "KKnD (video game)"
+    },
+    "tyrian": {
+      "platform": "dos",
+      "wikipedia": "Tyrian (video game)"
+    },
+    "sopwith": {
+      "platform": "dos",
+      "wikipedia": "Sopwith (video game)"
+    },
+    "mdk": {
+      "platform": "pc",
+      "wikipedia": "MDK (video game)"
+    },
+    "freelancer": {
+      "platform": "pc",
+      "wikipedia": "Freelancer (video game)"
+    },
+    "freespace-2": {
+      "platform": "pc",
+      "wikipedia": "FreeSpace 2"
+    },
+    "heretic-ii": {
+      "platform": "pc",
+      "wikipedia": "Heretic II"
+    },
+    "blake-stone-aliens-of-gold": {
+      "platform": "dos"
+    },
+    "rise-of-the-triad-dark-war": {
+      "platform": "dos"
+    },
+    "catacomb-3-d": {
+      "platform": "dos",
+      "wikipedia": "Catacomb 3-D"
+    },
+    "magic-carpet-2": {
+      "platform": "dos",
+      "wikipedia": "Magic Carpet 2"
+    },
+    "system-shock": {
+      "platform": "dos",
+      "wikipedia": "System Shock"
+    },
+    "ultima-underworld-the-stygian-abyss": {
+      "platform": "dos"
+    },
+    "ultima-vii-the-black-gate": {
+      "platform": "dos"
+    },
+    "the-elder-scrolls-arena": {
+      "platform": "dos"
+    },
+    "the-elder-scrolls-ii-daggerfall": {
+      "platform": "dos"
+    },
+    "the-elder-scrolls-iii-morrowind": {
+      "platform": "pc"
+    },
+    "ufo-enemy-unknown": {
+      "platform": "dos",
+      "aka": [
+        "X-COM: UFO Defense"
+      ],
+      "wikipedia": "UFO: Enemy Unknown"
+    },
+    "x-com-apocalypse": {
+      "platform": "dos"
+    },
+    "dungeon-keeper": {
+      "platform": "dos",
+      "wikipedia": "Dungeon Keeper"
+    },
+    "master-of-orion": {
+      "platform": "dos",
+      "wikipedia": "Master of Orion"
+    },
+    "warcraft-orcs-and-humans": {
+      "platform": "dos"
+    },
+    "warcraft-ii-tides-of-darkness": {
+      "platform": "dos"
+    },
+    "heroes-of-might-and-magic-ii": {
+      "platform": "dos"
+    },
+    "heroes-of-might-and-magic-iii": {
+      "platform": "pc"
+    },
+    "star-wars-dark-forces": {
+      "platform": "dos",
+      "wikipedia": "Star Wars: Dark Forces"
+    },
+    "star-wars-x-wing": {
+      "platform": "dos",
+      "wikipedia": "Star Wars: X-Wing (video game)"
+    },
+    "star-wars-tie-fighter": {
+      "platform": "dos",
+      "wikipedia": "Star Wars: TIE Fighter"
+    },
+    "commander-keen-in-goodbye-galaxy": {
+      "platform": "dos"
+    },
+    "crystal-caves": {
+      "platform": "dos",
+      "wikipedia": "Crystal Caves"
+    },
+    "duke-nukem-ii": {
+      "platform": "dos",
+      "wikipedia": "Duke Nukem II"
+    },
+    "one-must-fall-2097": {
+      "platform": "dos"
+    },
+    "supaplex": {
+      "platform": "dos",
+      "wikipedia": "Supaplex"
+    },
+    "mr-boom": {
+      "platform": "dos"
+    },
+    "raptor-call-of-the-shadows": {
+      "platform": "dos"
+    },
+    "whiplash": {
+      "platform": "dos",
+      "aka": [
+        "Fatal Racing"
+      ],
+      "wikipedia": "Whiplash (1995 video game)"
+    },
+    "wolfenstein-3d": {
+      "platform": "dos",
+      "wikipedia": "Wolfenstein 3D"
+    },
+    "simcity-2000": {
+      "platform": "dos",
+      "wikipedia": "SimCity 2000"
+    },
+    "chasm-the-rift": {
+      "platform": "dos",
+      "wikipedia": "Chasm: The Rift"
+    },
+    "earth-2140": {
+      "platform": "dos",
+      "wikipedia": "Earth 2140"
+    },
+    "the-terminator-skynet": {
+      "platform": "dos",
+      "wikipedia": "The Terminator: SkyNET"
+    },
+    "unreal-tournament": {
+      "platform": "pc",
+      "wikipedia": "Unreal Tournament"
+    },
+    "fallout": {
+      "platform": "dos",
+      "wikipedia": "Fallout (video game)"
+    },
+    "fallout-2": {
+      "platform": "pc",
+      "wikipedia": "Fallout 2"
+    },
+    "gothic-ii": {
+      "platform": "pc",
+      "wikipedia": "Gothic II"
+    },
+    "age-of-empires-ii": {
+      "platform": "pc",
+      "wikipedia": "Age of Empires II: The Age of Kings"
+    },
+    "the-sims-online": {
+      "platform": "pc",
+      "wikipedia": "The Sims Online"
+    },
+    "civilization-iii": {
+      "platform": "pc",
+      "wikipedia": "Civilization III"
+    },
+    "total-annihilation": {
+      "platform": "pc",
+      "wikipedia": "Total Annihilation"
+    },
+    "the-legend-of-sword-and-fairy": {
+      "platform": "dos",
+      "wikipedia": "Chinese Paladin: Sword and Fairy"
+    },
+    "beats-of-rage": {
+      "platform": "pc",
+      "wikipedia": "Beats of Rage"
+    },
+    "vangers": {
+      "platform": "pc",
+      "wikipedia": "Vangers"
+    },
+    "spelunky": {
+      "platform": "pc",
+      "wikipedia": "Spelunky"
+    },
+    "gish": {
+      "platform": "pc",
+      "wikipedia": "Gish (video game)"
+    },
+    "touhou-project-pc-98": {
+      "platform": "dos",
+      "wikipedia": "Touhou Project"
+    },
+    "crimsonland": {
+      "platform": "pc",
+      "wikipedia": "Crimsonland"
+    },
+    "lionheart": {
+      "platform": "home-computers",
+      "wikipedia": "Lionheart (video game)"
+    },
+    "ambermoon": {
+      "platform": "home-computers",
+      "wikipedia": "Ambermoon"
+    },
+    "machines-wired-for-war": {
+      "platform": "pc",
+      "wikipedia": "Machines (video game)"
+    },
+    "max-mechanized-assault-and-exploration": {
+      "platform": "dos",
+      "wikipedia": "Mechanized Assault & Exploration"
+    },
+    "tribal-trouble": {
+      "platform": "pc",
+      "wikipedia": "Tribal Trouble"
+    },
+    "race-into-space": {
+      "platform": "dos",
+      "wikipedia": "Buzz Aldrin's Race Into Space"
+    },
+    "the-great-escape": {
+      "platform": "home-computers",
+      "wikipedia": "The Great Escape (1986 video game)"
+    },
+    "marble-blast-gold": {
+      "platform": "pc",
+      "wikipedia": "Marble Blast Gold"
+    },
+    "tails-adventure": {
+      "platform": "game-gear",
+      "wikipedia": "Tails Adventure"
+    },
+    "sensible-world-of-soccer": {
+      "platform": "home-computers",
+      "wikipedia": "Sensible World of Soccer"
+    },
+    "jak-and-daxter-the-precursor-legacy": {
+      "title": "Jak and Daxter trilogy",
+      "aka": [
+        "Jak II",
+        "Jak 3",
+        "OpenGOAL"
+      ],
+      "wikipedia": "Jak and Daxter: The Precursor Legacy"
+    },
+    "need-for-speed-ii": {
+      "platform": "pc",
+      "wikipedia": "Need for Speed II"
+    },
+    "need-for-speed-iii-hot-pursuit": {
+      "platform": "pc"
+    },
+    "need-for-speed-most-wanted": {
+      "platform": "xbox-360",
+      "wikipedia": "Need for Speed: Most Wanted (2005 video game)"
+    },
+    "need-for-speed-carbon": {
+      "wikipedia": "Need for Speed: Carbon"
+    },
+    "need-for-speed-underground-2": {
+      "platform": "pc"
+    },
+    "medievil": {
+      "platform": "playstation",
+      "wikipedia": "MediEvil (1998 video game)"
+    },
+    "ico": {
+      "platform": "playstation-2",
+      "wikipedia": "Ico"
+    },
+    "dragon-quest-viii": {
+      "platform": "playstation-2",
+      "wikipedia": "Dragon Quest VIII"
+    },
+    "super-mario-bros": {
+      "platform": "nes",
+      "wikipedia": "Super Mario Bros."
+    },
+    "bloodborne": {
+      "platform": "playstation-4",
+      "wikipedia": "Bloodborne"
+    },
+    "pt": {
+      "platform": "playstation-4",
+      "wikipedia": "P.T. (video game)"
+    },
+    "god-of-war-iii-remastered": {
+      "wikipedia": "God of War III"
+    },
+    "goldeneye-007": {
+      "wikipedia": "GoldenEye 007 (1997 video game)"
+    },
+    "perfect-dark": {
+      "wikipedia": "Perfect Dark"
+    },
+    "black": {
+      "wikipedia": "Black (video game)"
+    },
+    "halo-combat-evolved": {
+      "wikipedia": "Halo: Combat Evolved"
+    },
+    "crash-nitro-kart": {
+      "platform": "xbox",
+      "wikipedia": "Crash Nitro Kart"
+    },
+    "lego-island": {
+      "platform": "pc",
+      "wikipedia": "Lego Island"
+    },
+    "skate-2": {
+      "wikipedia": "Skate 2"
+    },
+    "skate-3": {
+      "wikipedia": "Skate 3"
+    },
+    "fifa-street": {
+      "wikipedia": "FIFA Street (2012 video game)"
+    },
+    "fable-ii": {
+      "wikipedia": "Fable II"
+    },
+    "forza-horizon": {
+      "wikipedia": "Forza Horizon"
+    },
+    "mass-effect": {
+      "wikipedia": "Mass Effect (video game)"
+    },
+    "the-darkness": {
+      "wikipedia": "The Darkness (video game)"
+    },
+    "blue-dragon": {
+      "wikipedia": "Blue Dragon (video game)"
+    },
+    "army-of-two": {
+      "wikipedia": "Army of Two (video game)"
+    },
+    "naughty-bear": {
+      "wikipedia": "Naughty Bear"
+    },
+    "area-51": {
+      "platform": "pc",
+      "wikipedia": "Area 51 (2005 video game)"
+    },
+    "alone-in-the-dark": {
+      "wikipedia": "Alone in the Dark (1992 video game)"
+    },
+    "ecstatica": {
+      "wikipedia": "Ecstatica"
+    },
+    "f-15-strike-eagle-ii": {
+      "wikipedia": "F-15 Strike Eagle II"
+    },
+    "resident-evil-2": {
+      "platform": "playstation",
+      "wikipedia": "Resident Evil 2 (1998 video game)"
+    },
+    "resident-evil-3-nemesis": {
+      "wikipedia": "Resident Evil 3: Nemesis"
+    },
+    "silent-hill": {
+      "wikipedia": "Silent Hill (video game)"
+    },
+    "ridge-racer": {
+      "wikipedia": "Ridge Racer (1993 video game)"
+    },
+    "tekken-3": {
+      "wikipedia": "Tekken 3"
+    },
+    "syphon-filter": {
+      "wikipedia": "Syphon Filter (video game)"
+    },
+    "wipeout": {
+      "wikipedia": "Wipeout (video game)"
+    },
+    "xenogears": {
+      "wikipedia": "Xenogears"
+    },
+    "metroid-prime": {
+      "wikipedia": "Metroid Prime"
+    },
+    "paper-mario": {
+      "wikipedia": "Paper Mario (video game)"
+    },
+    "harvest-moon-64": {
+      "wikipedia": "Harvest Moon 64"
+    },
+    "quest-64": {
+      "wikipedia": "Quest 64"
+    },
+    "mega-man-64": {
+      "wikipedia": "Mega Man Legends (video game)"
+    },
+    "golden-sun": {
+      "wikipedia": "Golden Sun (video game)"
+    },
+    "the-legend-of-zelda-the-wind-waker-hd": {
+      "wikipedia": "The Legend of Zelda: The Wind Waker HD"
+    },
+    "earthbound": {
+      "wikipedia": "EarthBound"
+    },
+    "the-legend-of-zelda-links-awakening-2019": {
+      "wikipedia": "The Legend of Zelda: Link's Awakening (2019 video game)"
+    },
+    "the-legend-of-zelda-ocarina-of-time-3d": {
+      "wikipedia": "The Legend of Zelda: Ocarina of Time 3D"
+    },
+    "super-smash-bros": {
+      "wikipedia": "Super Smash Bros. (video game)"
+    },
+    "mario-kart-wii": {
+      "wikipedia": "Mario Kart Wii"
+    },
+    "the-legend-of-zelda-ocarina-of-time": {
+      "aka": [
+        "Ship of Harkinian",
+        "SoH"
+      ]
+    },
+    "the-legend-of-zelda-majoras-mask": {
+      "aka": [
+        "Zelda64Recomp",
+        "2 Ship 2 Harkinian"
+      ]
+    },
+    "super-mario-64": {
+      "aka": [
+        "sm64ex",
+        "sm64coopdx",
+        "Ghostship"
+      ]
+    },
+    "star-fox-64": {
+      "aka": [
+        "Lylat Wars",
+        "Starship"
+      ]
+    },
+    "mario-kart-64": {
+      "aka": [
+        "SpaghettiKart"
+      ]
+    },
+    "the-legend-of-zelda-twilight-princess": {
+      "aka": [
+        "Dusklight"
+      ]
+    },
+    "jackie-chan-stuntmaster": {
+      "wikipedia": "Jackie Chan Stuntmaster"
+    },
+    "gran-turismo-2": {
+      "wikipedia": "Gran Turismo 2"
+    },
+    "ratchet-and-clank": {
+      "wikipedia": "Ratchet & Clank (2002 video game)"
+    },
+    "sly-cooper-and-the-thievius-raccoonus": {
+      "wikipedia": "Sly Cooper and the Thievius Raccoonus"
+    },
+    "street-fighter-iii-3rd-strike": {
+      "platform": "playstation-2",
+      "wikipedia": "Street Fighter III: 3rd Strike"
+    },
+    "grand-theft-auto-san-andreas": {
+      "platform": "playstation-2",
+      "wikipedia": "Grand Theft Auto: San Andreas"
+    },
+    "grand-theft-auto-iv": {
+      "wikipedia": "Grand Theft Auto IV"
+    },
+    "the-simpsons-game": {
+      "wikipedia": "The Simpsons Game"
+    },
+    "disneys-hercules-action-game": {
+      "platform": "playstation",
+      "wikipedia": "Disney's Hercules (video game)"
+    },
+    "oddworld-abes-oddysee": {
+      "platform": "playstation",
+      "aka": [
+        "Abe's Exoddus"
+      ],
+      "wikipedia": "Oddworld: Abe's Oddysee"
+    },
+    "serious-sam-the-first-encounter": {
+      "platform": "pc",
+      "wikipedia": "Serious Sam: The First Encounter"
+    },
+    "ace-combat-x-skies-of-deception": {
+      "wikipedia": "Ace Combat X: Skies of Deception"
+    },
+    "pokemon-gold-and-silver": {
+      "platform": "game-boy",
+      "wikipedia": "Pokémon Gold and Silver"
+    },
+    "the-legend-of-zelda-the-wind-waker": {
+      "wikipedia": "The Legend of Zelda: The Wind Waker"
+    },
+    "legend-of-dragoon": {
+      "title": "The Legend of Dragoon",
+      "platform": "playstation",
+      "wikipedia": "The Legend of Dragoon"
+    },
+    "outrun": {
+      "title": "Out Run",
+      "platform": "arcade",
+      "wikipedia": "Out Run"
+    },
+    "carmageddon": {
+      "platform": "dos",
+      "wikipedia": "Carmageddon"
+    },
+    "theme-hospital": {
+      "platform": "dos",
+      "wikipedia": "Theme Hospital"
+    },
+    "caesar-iii": {
+      "platform": "pc",
+      "wikipedia": "Caesar III"
+    },
+    "n64-classic-rush-2": {
+      "title": "Rush 2: Extreme Racing USA",
+      "wikipedia": "Rush 2: Extreme Racing USA"
+    },
+    "rollercoaster-tycoon-2": {
+      "platform": "pc",
+      "wikipedia": "RollerCoaster Tycoon 2"
+    },
+    "warzone-2100": {
+      "platform": "pc",
+      "wikipedia": "Warzone 2100"
+    },
+    "syndicate-wars": {
+      "platform": "dos",
+      "wikipedia": "Syndicate Wars"
+    },
+    "bloody-roar-ii": {
+      "wikipedia": "Bloody Roar 2"
+    },
+    "jagged-alliance-stracciatella": {
+      "title": "Jagged Alliance 2",
+      "platform": "pc",
+      "wikipedia": "Jagged Alliance 2"
+    },
+    "mighty-mike": {
+      "wikipedia": "Power Pete"
+    },
+    "open-fodder": {
+      "title": "Cannon Fodder",
+      "wikipedia": "Cannon Fodder (video game)"
+    },
+    "dragon-ball-z-budokai-tenkaichi-3": {
+      "wikipedia": "Dragon Ball Z: Budokai Tenkaichi 3"
+    },
+    "dragon-ball-z-budokai-hd-collection": {
+      "wikipedia": "Dragon Ball Z: Budokai"
+    },
+    "initial-d-arcade-stage-ver3": {
+      "title": "Initial D Arcade Stage Ver. 3",
+      "wikipedia": "Initial D Arcade Stage"
+    },
+    "billy-frontier": {
+      "wikipedia": "Billy Frontier"
+    },
+    "dinosaur-planet": {
+      "wikipedia": false
+    },
+    "bugdom-2": {
+      "wikipedia": false
+    },
+    "driver-2": {
+      "wikipedia": "Driver 2"
+    }
+  },
+  "extraPorts": [
+    {
+      "repo": "UZDoom/UZDoom",
+      "name": "UZDoom",
+      "game": "Doom",
+      "type": "source-port",
+      "recommended": true,
+      "description": "Feature-rich Doom source port (the community continuation of GZDoom) with a modern renderer, mod support and every Doom engine game."
+    },
+    {
+      "repo": "ZDoom/gzdoom",
+      "name": "GZDoom",
+      "game": "Doom",
+      "type": "source-port",
+      "description": "The classic feature-rich Doom source port with an OpenGL renderer and powerful scripting."
+    },
+    {
+      "repo": "OpenTTD/OpenTTD",
+      "name": "OpenTTD",
+      "game": "Transport Tycoon Deluxe",
+      "type": "engine-remake",
+      "recommended": true,
+      "description": "Open-source reimplementation of Transport Tycoon Deluxe with huge maps, multiplayer and many improvements."
+    }
+  ]
+}
