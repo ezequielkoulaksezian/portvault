@@ -577,9 +577,14 @@ async function main() {
     };
   });
 
+  // Keep the previous date when nothing changed, so the weekly job only commits real updates.
+  const previous = await readJson("src/data/catalog.json").catch(() => null);
+  const unchanged = previous && JSON.stringify(previous.games) === JSON.stringify(catalog);
   await writeJson("src/data/catalog.json", {
-    generatedAt: new Date().toISOString(),
-    upstream: { name: "SubmitGame/awesome-decomp-games", generatedAt: upstream.generated_at },
+    generatedAt: unchanged ? previous.generatedAt : new Date().toISOString(),
+    upstream: unchanged
+      ? previous.upstream
+      : { name: "SubmitGame/awesome-decomp-games", generatedAt: upstream.generated_at },
     games: catalog,
   });
 
