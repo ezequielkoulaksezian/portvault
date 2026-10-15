@@ -2,14 +2,25 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { site } from "@/config/site";
-import { games, getGame, getPlatform, indexEntry, portTypes, relatedGames, type Game, type Port } from "@/lib/catalog";
+import {
+  games,
+  getGame,
+  getPlatform,
+  indexEntry,
+  portTypes,
+  relatedGames,
+  webAccess,
+  type Game,
+  type Port,
+  type WebPort,
+} from "@/lib/catalog";
 import { formatDate, formatMonth, formatStars, listToText, plural } from "@/lib/format";
 import { faqJsonLd, gameFaqs, gameJsonLd } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { GameCard } from "@/components/game-card";
+import { GameCard, PlayIcon } from "@/components/game-card";
 import { GameCover } from "@/components/game-cover";
 import { JsonLd } from "@/components/json-ld";
-import { PlatformBadge, RecommendedBadge, TypeBadge } from "@/components/badges";
+import { AccessBadge, PlatformBadge, RecommendedBadge, TypeBadge } from "@/components/badges";
 import { GitHubIcon } from "@/components/site-header";
 
 export const dynamicParams = false;
@@ -22,20 +33,30 @@ type Props = { params: Promise<{ slug: string }> };
 
 function describe(game: Game): string {
   const context = [game.year, getPlatform(game.platform)?.name].filter(Boolean).join(", ");
+  const label = `${game.title}${context ? ` (${context})` : ""}`;
+  if (game.web.length) {
+    const free = game.web.some((w) => w.access === "free");
+    return `Play ${label} in your browser${free ? " for free" : " with your own game files"} with ${listToText(
+      game.web.map((w) => w.name),
+    )}.${game.ports.length ? ` Also ${plural(game.ports.length, "native PC port")} to download.` : ""} No install needed.`;
+  }
   const names = listToText(game.ports.slice(0, 3).map((p) => p.name));
-  return `${game.title}${context ? ` (${context})` : ""} on PC: ${plural(game.ports.length, "native port")} including ${names}. Downloads, source code, status and how to play with your own copy.`;
+  return `${label} on PC: ${plural(game.ports.length, "native port")} including ${names}. Downloads, source code, status and how to play with your own copy.`;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const game = getGame(slug);
   if (!game) return {};
-  const title = `${game.title} PC port${game.ports.length > 1 ? "s" : ""}`;
+  const title = game.web.length
+    ? `Play ${game.title} in your browser`
+    : `${game.title} PC port${game.ports.length > 1 ? "s" : ""}`;
   const description = describe(game);
   return {
     title,
     description,
     keywords: [
+      ...(game.web.length ? [`play ${game.title} online`, `${game.title} browser`, `${game.title} free online`] : []),
       `${game.title} pc port`,
       `${game.title} pc`,
       `${game.title} recomp`,
@@ -78,8 +99,9 @@ export default async function GamePage({ params }: Props) {
     ["Developer", game.developers.length ? game.developers.join(", ") : "—"],
     ["Publisher", game.publishers.length ? game.publishers.join(", ") : "—"],
     ["Genre", game.genres.length ? game.genres.slice(0, 3).join(", ") : "—"],
-    ["Ports", plural(game.ports.length, "port")],
-    ["Last port update", formatDate(game.lastUpdate) ?? "—"],
+    ...(game.web.length ? [["Browser ports", String(game.web.length)] as [string, string]] : []),
+    ...(game.ports.length ? [["PC ports", String(game.ports.length)] as [string, string]] : []),
+    ...(game.lastUpdate ? [["Last port update", formatDate(game.lastUpdate)!] as [string, string]] : []),
   ];
 
   return (
@@ -136,20 +158,60 @@ export default async function GamePage({ params }: Props) {
           <h1 className="mt-3 font-pixel text-3xl leading-tight text-ink text-balance sm:text-5xl">{game.title}</h1>
           {game.aka.length > 0 && <p className="mt-2 text-sm text-muted">Also known as {listToText(game.aka)}</p>}
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink-soft">
-            <strong className="font-semibold text-ink">
-              {game.title} has {plural(game.ports.length, "native PC port")}.
-            </strong>{" "}
-            The {best.recommended ? "recommended" : "most established"} one is{" "}
-            <a href={`#${best.id}`} className="font-medium text-accent-ink underline underline-offset-4">
-              {best.name}
-            </a>
-            , a {portTypes[best.type].name.toLowerCase()}
-            {best.release ? ` (latest release ${best.release})` : ""}. You need files from your own copy of the game to
-            play.
+            {game.web.length > 0 ? (
+              <>
+                <strong className="font-semibold text-ink">
+                  You can play {game.title} in your browser
+                  {game.web.some((w) => w.access === "free") ? " for free" : " with your own game files"}.
+                </strong>{" "}
+                {plural(game.web.length, "browser port")} available
+                {game.ports.length > 0 && <>, plus {plural(game.ports.length, "native PC port")} to install</>}.
+              </>
+            ) : (
+              <>
+                <strong className="font-semibold text-ink">
+                  {game.title} has {plural(game.ports.length, "native PC port")}.
+                </strong>{" "}
+                The {best.recommended ? "recommended" : "most established"} one is{" "}
+                <a href={`#${best.id}`} className="font-medium text-accent-ink underline underline-offset-4">
+                  {best.name}
+                </a>
+                , a {portTypes[best.type].name.toLowerCase()}
+                {best.release ? ` (latest release ${best.release})` : ""}. You need files from your own copy of the game
+                to play.
+              </>
+            )}
           </p>
+          {game.web.length > 0 && (
+            <a
+              href={game.web[0].url}
+              target="_blank"
+              rel="noopener"
+              className="mt-6 inline-flex h-12 items-center gap-2.5 rounded-md bg-accent px-6 text-base font-semibold text-white shadow-card transition hover:brightness-110 dark:text-bg"
+            >
+              <PlayIcon size={14} />
+              Play {game.title} now
+              <span className="font-mono text-xs font-normal opacity-80">via {game.web[0].name} ↗</span>
+            </a>
+          )}
         </header>
 
         <div className="order-3 min-w-0 lg:order-none lg:col-start-2 lg:row-start-2">
+          {game.web.length > 0 && (
+            <section aria-labelledby="play-heading" className="mt-2">
+              <h2 id="play-heading" className="font-pixel text-2xl text-ink">
+                Play in your browser
+              </h2>
+              <ol className="mt-4 grid gap-3 xl:grid-cols-2">
+                {game.web.map((w) => (
+                  <li key={w.id} className="flex">
+                    <WebPortCard port={w} />
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
+
           {game.summary && (
             <section aria-labelledby="about-heading" className="mt-8 max-w-3xl">
               <h2 id="about-heading" className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
@@ -173,23 +235,25 @@ export default async function GamePage({ params }: Props) {
             </section>
           )}
 
-          <section aria-labelledby="ports-heading" className="mt-10">
-            <h2 id="ports-heading" className="font-pixel text-2xl text-ink">
-              Available ports
-            </h2>
-            <ol className="mt-4 space-y-4">
-              {game.ports.map((port) => (
-                <li key={port.id}>
-                  <PortCard port={port} />
-                </li>
-              ))}
-            </ol>
-            <div className="mt-4 rounded-md border border-dashed border-line-strong bg-bg-elevated p-4 text-sm leading-relaxed text-ink-soft">
-              <strong className="text-ink">Before you start:</strong> these projects do not include the game. Each one
-              asks for a ROM, disc image or game files from a copy you own on first launch. PortVault never links to
-              ROMs or ISOs. Download ports only from their official project pages linked here.
-            </div>
-          </section>
+          {game.ports.length > 0 && (
+            <section aria-labelledby="ports-heading" className="mt-10">
+              <h2 id="ports-heading" className="font-pixel text-2xl text-ink">
+                {game.web.length ? "Native PC ports" : "Available ports"}
+              </h2>
+              <ol className="mt-4 space-y-4">
+                {game.ports.map((port) => (
+                  <li key={port.id}>
+                    <PortCard port={port} />
+                  </li>
+                ))}
+              </ol>
+              <div className="mt-4 rounded-md border border-dashed border-line-strong bg-bg-elevated p-4 text-sm leading-relaxed text-ink-soft">
+                <strong className="text-ink">Before you start:</strong> these projects do not include the game. Each one
+                asks for a ROM, disc image or game files from a copy you own on first launch. PortVault never links to
+                ROMs or ISOs. Download ports only from their official project pages linked here.
+              </div>
+            </section>
+          )}
 
           <section aria-labelledby="faq-heading" className="mt-12">
             <h2 id="faq-heading" className="font-pixel text-2xl text-ink">
@@ -245,6 +309,48 @@ export default async function GamePage({ params }: Props) {
       <JsonLd data={gameJsonLd(game)} />
       <JsonLd data={faqJsonLd(faqs)} />
     </article>
+  );
+}
+
+function WebPortCard({ port }: { port: WebPort }) {
+  const access = webAccess[port.access];
+  return (
+    <div className="flex w-full flex-col rounded-md border border-line bg-surface p-4 shadow-card">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h3 className="text-lg font-semibold text-ink">{port.name}</h3>
+        <AccessBadge free={port.access === "free"} />
+      </div>
+      <p className="mt-2 text-sm leading-relaxed text-ink-soft">{port.note}</p>
+      <p className="mt-2 text-xs text-muted">
+        {access.label}
+        {port.multiplayer ? " · Online multiplayer" : ""}
+      </p>
+      <div className="mt-4 flex flex-wrap gap-2 pt-1 sm:mt-auto">
+        <a
+          href={port.url}
+          target="_blank"
+          rel="noopener"
+          className="inline-flex h-10 items-center gap-2 rounded-md bg-ink px-4 text-sm font-semibold text-bg transition hover:opacity-90"
+        >
+          <PlayIcon />
+          Play now
+          <span aria-hidden="true" className="text-xs opacity-60">
+            ↗
+          </span>
+        </a>
+        {port.repo && (
+          <a
+            href={`https://github.com/${port.repo}`}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex h-10 items-center gap-1.5 rounded-md border border-line bg-bg-elevated px-3 text-sm text-ink-soft transition hover:border-line-strong hover:text-ink"
+          >
+            <GitHubIcon size={14} />
+            Source code
+          </a>
+        )}
+      </div>
+    </div>
   );
 }
 

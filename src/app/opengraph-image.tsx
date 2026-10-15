@@ -8,8 +8,8 @@ export const contentType = "image/png";
 
 export default function Image() {
   return ogImage({
-    kicker: `${stats.games} games · ${stats.ports} ports`,
-    title: "Classic games, running natively on modern machines.",
-    footer: "Decompilations · Recompilations · Source ports · Engine remakes",
+    kicker: `${stats.webGames} games · ${stats.webFree} free right now`,
+    title: "Play classic games in your browser.",
+    footer: "Doom · Quake · Diablo · Duke Nukem 3D · Cave Story · Halo",
   });
 }

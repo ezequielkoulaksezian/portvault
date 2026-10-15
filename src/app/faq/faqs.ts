@@ -2,6 +2,26 @@ import type { Faq } from "@/lib/seo";
 
 export const siteFaqs: Faq[] = [
   {
+    question: "Can I play classic games in my browser without installing anything?",
+    answer:
+      "Yes. The games in the Play online section run directly in a browser tab through WebAssembly ports of their original engines: Doom, Quake, Diablo, Duke Nukem 3D, Cave Story, Halo and more. Use a recent desktop version of Chrome, Edge or Firefox; some ports also work on phones.",
+  },
+  {
+    question: "Is it legal to play these games in the browser?",
+    answer:
+      "PortVault only lists browser ports that play legally free data (shareware episodes, official demos, freeware or open-source games) or that ask you to load the files from a copy you own. Sites that serve full commercial games without permission are left out on purpose.",
+  },
+  {
+    question: "What do “Free” and “Your files” mean?",
+    answer:
+      "“Free” means the game starts instantly with data that may be shared legally, such as the shareware episode of Doom or the official Quake III demo. “Your files” means the port runs in the browser but asks for the game files from your own copy, which are normally read inside your browser. Check each project page for details.",
+  },
+  {
+    question: "Are my saves kept?",
+    answer:
+      "Most browser ports store saves in your browser's local storage, so they stay on that device and browser. Clearing site data deletes them, and a few ports offer export or cloud saves.",
+  },
+  {
     question: "What is an unofficial PC port?",
     answer:
       "An unofficial PC port is a fan-made native version of a game that was originally released on a console or an old computer. Instead of emulating the original hardware, the game's code runs directly on Windows, Linux or macOS, which allows higher resolutions, widescreen, high frame rates, modern controls and mods.",

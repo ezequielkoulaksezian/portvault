@@ -9,34 +9,51 @@ export type Faq = { question: string; answer: string };
 /** Short, self-contained answers for answer engines and the on-page FAQ. */
 export function gameFaqs(game: Game): Faq[] {
   const platform = getPlatform(game.platform)?.name ?? "its original platform";
-  const best = game.ports[0];
-  const others = game.ports.slice(1).map((p) => p.name);
-  const typeName = portTypes[best.type].name.toLowerCase();
-  const faqs: Faq[] = [
-    {
+  const label = `${game.title} (${platform}${game.year ? `, ${game.year}` : ""})`;
+  const faqs: Faq[] = [];
+
+  if (game.web.length) {
+    const free = game.web.filter((w) => w.access === "free");
+    const own = game.web.filter((w) => w.access === "own-files");
+    faqs.push({
+      question: `Can I play ${game.title} in my browser?`,
+      answer: `Yes. ${label} runs in a browser tab with ${listToText(game.web.map((w) => w.name))}, with no installation.`,
+    });
+    faqs.push({
+      question: `Can I play ${game.title} online for free?`,
+      answer: free.length
+        ? `Yes. ${listToText(free.map((w) => w.name))} ${free.length === 1 ? "plays" : "play"} instantly with legally free data (${free[0].note.replace(/\.$/, "").toLowerCase()}).${
+            own.length
+              ? ` ${listToText(own.map((w) => w.name))} ${own.length === 1 ? "needs" : "need"} files from your own copy.`
+              : ""
+          }`
+        : `The browser ${game.web.length === 1 ? "port is" : "ports are"} free, but ${game.web.length === 1 ? "it needs" : "they need"} the game files from a copy you own: the game itself is not included.`,
+    });
+  }
+
+  if (game.ports.length) {
+    const best = game.ports[0];
+    const others = game.ports.slice(1).map((p) => p.name);
+    faqs.push({
       question: `Is there a PC port of ${game.title}?`,
-      answer: `Yes. ${game.title} (${platform}${game.year ? `, ${game.year}` : ""}) has ${plural(
-        game.ports.length,
-        "unofficial native port",
-      )}: ${listToText(game.ports.map((p) => p.name))}. These are fan projects that run natively instead of through an emulator.`,
-    },
-    {
+      answer: `Yes. ${label} has ${plural(game.ports.length, "unofficial native port")}: ${listToText(
+        game.ports.map((p) => p.name),
+      )}. These are fan projects that run natively instead of through an emulator.`,
+    });
+    faqs.push({
       question: `Which port of ${game.title} should I use?`,
-      answer: `${best.name} is the ${best.recommended ? "recommended" : "most established"} option. It is a ${typeName}${
-        best.release ? ` and its latest release is ${best.release}${best.releaseDate ? ` (${formatDate(best.releaseDate)})` : ""}` : ""
+      answer: `${best.name} is the ${best.recommended ? "recommended" : "most established"} option. It is a ${portTypes[
+        best.type
+      ].name.toLowerCase()}${
+        best.release
+          ? ` and its latest release is ${best.release}${best.releaseDate ? ` (${formatDate(best.releaseDate)})` : ""}`
+          : ""
       }.${others.length ? ` Alternatives: ${listToText(others)}.` : ""}`,
-    },
-    {
+    });
+    faqs.push({
       question: `Do I need the original game to play ${game.title} on PC?`,
       answer:
         "Usually yes. Ports like these contain no copyrighted game data: you supply the ROM, disc image or game files from a copy you own, and the port uses them on first launch. PortVault never links to ROMs or ISOs.",
-    },
-  ];
-  if (game.browser) {
-    const web = game.ports.find((p) => p.playUrl);
-    faqs.push({
-      question: `Can I play ${game.title} in a web browser?`,
-      answer: `Yes, ${web?.name} runs in the browser. Some browser ports still ask for files from your own copy of the game.`,
     });
   }
   return faqs;
@@ -82,27 +99,44 @@ export function gameJsonLd(game: Game) {
     ...(game.year ? { datePublished: String(game.year) } : {}),
     ...(game.genres.length ? { genre: game.genres } : {}),
     ...(platform ? { gamePlatform: platform.name } : {}),
-    ...(game.developers.length
-      ? { author: game.developers.map((name) => ({ "@type": "Organization", name })) }
-      : {}),
+    ...(game.developers.length ? { author: game.developers.map((name) => ({ "@type": "Organization", name })) } : {}),
     ...(game.publishers.length
       ? { publisher: game.publishers.map((name) => ({ "@type": "Organization", name })) }
       : {}),
     ...(game.wikipedia ? { sameAs: [game.wikipedia.url] } : {}),
-    workExample: game.ports.map((p) => ({
-      "@type": "SoftwareApplication",
-      name: p.name,
-      applicationCategory: "GameApplication",
-      operatingSystem: "Windows, Linux, macOS",
-      url: p.homepage || p.url,
-      ...(p.repo ? { codeRepository: p.url } : {}),
-      ...(p.release ? { softwareVersion: p.release } : {}),
-      ...(p.releaseDate ? { dateModified: p.releaseDate } : {}),
-      ...(p.license ? { license: `https://spdx.org/licenses/${p.license}.html` } : {}),
-      ...(p.description ? { description: p.description } : {}),
-      isAccessibleForFree: true,
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    })),
+    ...(game.web.length
+      ? {
+          playMode: game.web.some((w) => w.multiplayer) ? ["SinglePlayer", "MultiPlayer"] : "SinglePlayer",
+          potentialAction: game.web.map((w) => ({ "@type": "PlayAction", name: w.name, target: w.url })),
+        }
+      : {}),
+    workExample: [
+      ...game.web.map((w) => ({
+        "@type": "WebApplication",
+        name: w.name,
+        applicationCategory: "GameApplication",
+        browserRequirements: "Requires a modern browser with WebAssembly",
+        operatingSystem: "Any",
+        url: w.url,
+        description: w.note,
+        isAccessibleForFree: true,
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      })),
+      ...game.ports.map((p) => ({
+        "@type": "SoftwareApplication",
+        name: p.name,
+        applicationCategory: "GameApplication",
+        operatingSystem: "Windows, Linux, macOS",
+        url: p.homepage || p.url,
+        ...(p.repo ? { codeRepository: p.url } : {}),
+        ...(p.release ? { softwareVersion: p.release } : {}),
+        ...(p.releaseDate ? { dateModified: p.releaseDate } : {}),
+        ...(p.license ? { license: `https://spdx.org/licenses/${p.license}.html` } : {}),
+        ...(p.description ? { description: p.description } : {}),
+        isAccessibleForFree: true,
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      })),
+    ],
   };
 }
 

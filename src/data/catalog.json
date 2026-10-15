@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:17:12.069Z",
+  "generatedAt": "2026-10-15T16:49:31.500Z",
   "upstream": {
     "name": "SubmitGame/awesome-decomp-games",
     "generatedAt": "2026-10-15T14:27:12Z"
@@ -27,7 +27,7 @@
         "url": "https://en.wikipedia.org/wiki/3_on_3_NHL_Arcade"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/3_on_3_NHL_Arcade_cover.jpg",
+        "url": "/covers/3-on-3-nhl-arcade.jpg",
         "width": 480,
         "height": 673,
         "source": "Wikipedia",
@@ -36,6 +36,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 4,
       "lastUpdate": "2026-10-06T17:26:44Z",
       "multiplayer": false,
@@ -80,6 +81,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 210,
       "lastUpdate": "2025-02-16T20:56:07Z",
       "multiplayer": false,
@@ -131,7 +133,7 @@
         "url": "https://en.wikipedia.org/wiki/Full_Tilt!_Pinball"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Full_Tilt%21_Pinball_coverart.png",
+        "url": "/covers/3d-pinball-space-cadet.png",
         "width": 480,
         "height": 567,
         "source": "Wikipedia",
@@ -140,6 +142,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 4701,
       "lastUpdate": "2023-10-16T06:31:47Z",
       "multiplayer": false,
@@ -169,6 +172,53 @@
       ]
     },
     {
+      "slug": "abuse",
+      "title": "Abuse",
+      "aka": [],
+      "platform": "dos",
+      "family": "Computers",
+      "year": 1996,
+      "developers": [
+        "Crack dot Com"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "shoot 'em up",
+        "science fiction"
+      ],
+      "summary": "Abuse is a run and gun video game developed by Crack dot Com and published by Electronic Arts in North America and Origin Systems in Europe. It was released on February 29, 1996 for MS-DOS. A Mac OS port of the game was published by Bungie and released on March 5, 1997. The game's source code, along with some of the shareware content, has been in the public domain since the late 1990s and has been ported to Linux and many other platforms.",
+      "wikipedia": {
+        "title": "Abuse (video game)",
+        "url": "https://en.wikipedia.org/wiki/Abuse_(video_game)"
+      },
+      "cover": {
+        "url": "/covers/abuse.png",
+        "width": 480,
+        "height": 613,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Abuse_Coverart.png"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-abuse-web",
+          "name": "Abuse Web",
+          "url": "https://midzer.de/wasm/abuse/",
+          "repo": "midzer/abuse",
+          "access": "free",
+          "note": "Abuse in the browser with the game data Crack dot Com made freely available alongside the public-domain source code.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "ace-combat-6-fires-of-liberation",
       "title": "Ace Combat 6: Fires of Liberation",
       "aka": [],
@@ -193,6 +243,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 517,
       "lastUpdate": "2026-08-22T15:46:30Z",
       "multiplayer": false,
@@ -243,7 +294,7 @@
         "url": "https://en.wikipedia.org/wiki/Ace_Combat_X:_Skies_of_Deception"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Acx_cover1.jpg",
+        "url": "/covers/ace-combat-x-skies-of-deception.jpg",
         "width": 480,
         "height": 825,
         "source": "Wikipedia",
@@ -252,6 +303,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 76,
       "lastUpdate": "2026-08-28T19:20:41Z",
       "multiplayer": false,
@@ -304,7 +356,7 @@
         "url": "https://en.wikipedia.org/wiki/Age_of_Empires_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/56/Age_of_Empires_II_-_The_Age_of_Kings_Coverart.png",
+        "url": "/covers/age-of-empires-ii.png",
         "width": 480,
         "height": 566,
         "source": "Wikipedia",
@@ -313,6 +365,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 14507,
       "lastUpdate": "2024-11-26T15:27:08Z",
       "multiplayer": false,
@@ -359,7 +412,7 @@
         "url": "https://en.wikipedia.org/wiki/Alone_in_the_Dark_(1992_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/73/Alone_in_the_Dark_boxart.jpg",
+        "url": "/covers/alone-in-the-dark.jpg",
         "width": 480,
         "height": 603,
         "source": "Wikipedia",
@@ -368,6 +421,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 119,
       "lastUpdate": "2026-08-10T11:12:34Z",
       "multiplayer": false,
@@ -418,7 +472,7 @@
         "url": "https://en.wikipedia.org/wiki/Ambermoon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Ambermoon_German_Cover_art.jpg",
+        "url": "/covers/ambermoon.jpg",
         "width": 480,
         "height": 675,
         "source": "Wikipedia",
@@ -427,6 +481,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 541,
       "lastUpdate": "2026-10-15T12:57:17Z",
       "multiplayer": false,
@@ -478,7 +533,7 @@
         "url": "https://en.wikipedia.org/wiki/American_McGee%27s_Alice"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
+        "url": "/covers/american-mcgees-alice.png",
         "width": 480,
         "height": 603,
         "source": "Wikipedia",
@@ -487,6 +542,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 329,
       "lastUpdate": "2026-05-29T14:57:47Z",
       "multiplayer": false,
@@ -537,7 +593,7 @@
         "url": "https://en.wikipedia.org/wiki/Animal_Crossing_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png",
+        "url": "/covers/animal-crossing.png",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -546,10 +602,21 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-animal-crossing-online",
+          "name": "Animal Crossing Online",
+          "url": "https://animalcrossingonline.com/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Full GameCube-to-WebAssembly port with cloud saves. Bring your own disc image.",
+          "multiplayer": false
+        }
+      ],
       "stars": 1524,
       "lastUpdate": "2026-10-04T01:21:52Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "flyngmt-acgc-pc-port",
@@ -618,7 +685,7 @@
         "url": "https://en.wikipedia.org/wiki/Area_51_(2005_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Area_51_cover_art.jpg",
+        "url": "/covers/area-51.jpg",
         "width": 480,
         "height": 617,
         "source": "Wikipedia",
@@ -627,6 +694,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 578,
       "lastUpdate": "2021-08-28T02:36:46Z",
       "multiplayer": false,
@@ -677,7 +745,7 @@
         "url": "https://en.wikipedia.org/wiki/Army_of_Two_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/72/ArmyofTwo_front-1-.jpg",
+        "url": "/covers/army-of-two.jpg",
         "width": 480,
         "height": 589,
         "source": "Wikipedia",
@@ -686,6 +754,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 68,
       "lastUpdate": "2026-10-07T16:17:04Z",
       "multiplayer": false,
@@ -736,7 +805,7 @@
         "url": "https://en.wikipedia.org/wiki/Arx_Fatalis"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Arx_Fatalis_cover.png",
+        "url": "/covers/arx-fatalis.png",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -745,6 +814,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1099,
       "lastUpdate": "2022-04-10T15:29:01Z",
       "multiplayer": false,
@@ -796,7 +866,7 @@
         "url": "https://en.wikipedia.org/wiki/Asura%27s_Wrath"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d8/Asura%27s_Wrath_Cover_Art.png",
+        "url": "/covers/asuras-wrath.png",
         "width": 480,
         "height": 511,
         "source": "Wikipedia",
@@ -805,6 +875,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 30,
       "lastUpdate": "2026-09-11T19:41:26Z",
       "multiplayer": false,
@@ -855,7 +926,7 @@
         "url": "https://en.wikipedia.org/wiki/Automobili_Lamborghini_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/Automobili_Lamborghini.jpg",
+        "url": "/covers/automobili-lamborghini.jpg",
         "width": 480,
         "height": 349,
         "source": "Wikipedia",
@@ -864,6 +935,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 42,
       "lastUpdate": "2026-10-13T19:21:46Z",
       "multiplayer": false,
@@ -912,7 +984,7 @@
         "url": "https://en.wikipedia.org/wiki/Baldur%27s_Gate_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d0/Baldur%27s_Gate_box.PNG",
+        "url": "/covers/baldurs-gate.png",
         "width": 480,
         "height": 582,
         "source": "Wikipedia",
@@ -921,6 +993,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1258,
       "lastUpdate": "2026-03-23T22:32:30Z",
       "multiplayer": false,
@@ -973,7 +1046,7 @@
         "url": "https://en.wikipedia.org/wiki/Banjo-Kazooie_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png",
+        "url": "/covers/banjo-kazooie.png",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -983,6 +1056,7 @@
         "static-recomp",
         "decompilation"
       ],
+      "web": [],
       "stars": 2647,
       "lastUpdate": "2026-08-17T02:20:38Z",
       "multiplayer": false,
@@ -1077,7 +1151,7 @@
         "url": "https://en.wikipedia.org/wiki/Banjo-Kazooie:_Nuts_%26_Bolts"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg",
+        "url": "/covers/banjo-kazooie-nuts-and-bolts.jpg",
         "width": 480,
         "height": 687,
         "source": "Wikipedia",
@@ -1086,6 +1160,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 155,
       "lastUpdate": "2026-08-12T20:34:31Z",
       "multiplayer": false,
@@ -1137,7 +1212,7 @@
         "url": "https://en.wikipedia.org/wiki/Banjo-Tooie"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Banjo-Tooie_Coverart.png",
+        "url": "/covers/banjo-tooie.png",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -1147,6 +1222,7 @@
         "static-recomp",
         "source-port"
       ],
+      "web": [],
       "stars": 97,
       "lastUpdate": "2026-10-15T03:21:11Z",
       "multiplayer": false,
@@ -1216,7 +1292,7 @@
         "url": "https://en.wikipedia.org/wiki/Beats_of_Rage"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/61/Beats_of_Rage_Logo.jpg",
+        "url": "/covers/beats-of-rage.jpg",
         "width": 480,
         "height": 98,
         "source": "Wikipedia",
@@ -1225,6 +1301,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1277,
       "lastUpdate": "2024-01-01T06:37:48Z",
       "multiplayer": false,
@@ -1269,6 +1346,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 38,
       "lastUpdate": "2023-09-06T19:47:40Z",
       "multiplayer": false,
@@ -1319,7 +1397,7 @@
         "url": "https://en.wikipedia.org/wiki/Black_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Black_cover_art.jpg",
+        "url": "/covers/black.jpg",
         "width": 480,
         "height": 677,
         "source": "Wikipedia",
@@ -1329,6 +1407,7 @@
         "source-port",
         "static-recomp"
       ],
+      "web": [],
       "stars": 181,
       "lastUpdate": "2026-10-15T00:25:58Z",
       "multiplayer": false,
@@ -1403,7 +1482,7 @@
         "url": "https://en.wikipedia.org/wiki/Black_%26_White_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Black_%26_White_Coverart.png",
+        "url": "/covers/black-and-white.png",
         "width": 480,
         "height": 677,
         "source": "Wikipedia",
@@ -1412,6 +1491,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1583,
       "lastUpdate": "2024-09-04T13:52:04Z",
       "multiplayer": false,
@@ -1463,7 +1543,7 @@
         "url": "https://en.wikipedia.org/wiki/Blake_Stone:_Aliens_of_Gold"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Blake_Stone_Aliens_of_Gold_cover.jpg",
+        "url": "/covers/blake-stone-aliens-of-gold.jpg",
         "width": 480,
         "height": 655,
         "source": "Wikipedia",
@@ -1472,6 +1552,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 368,
       "lastUpdate": "2026-05-27T17:55:04Z",
       "multiplayer": false,
@@ -1522,7 +1603,7 @@
         "url": "https://en.wikipedia.org/wiki/Blood_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Blood_logo.jpg",
+        "url": "/covers/blood.jpg",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -1531,6 +1612,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1698,
       "lastUpdate": "2026-09-14T19:00:01Z",
       "multiplayer": false,
@@ -1606,7 +1688,7 @@
         "url": "https://en.wikipedia.org/wiki/Bloodborne"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+        "url": "/covers/bloodborne.jpg",
         "width": 480,
         "height": 575,
         "source": "Wikipedia",
@@ -1616,6 +1698,7 @@
         "source-port",
         "static-recomp"
       ],
+      "web": [],
       "stars": 6082,
       "lastUpdate": "2026-10-15T13:14:39Z",
       "multiplayer": false,
@@ -1709,7 +1792,7 @@
         "url": "https://en.wikipedia.org/wiki/Bloody_Roar_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Bloody_Roar_2.webp",
+        "url": "/covers/bloody-roar-ii.webp",
         "width": 480,
         "height": 675,
         "source": "Wikipedia",
@@ -1718,6 +1801,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 62,
       "lastUpdate": "2026-09-26T09:39:14Z",
       "multiplayer": false,
@@ -1768,7 +1852,7 @@
         "url": "https://en.wikipedia.org/wiki/Blue_Dragon_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Blue_Dragon_Box_Art.jpeg",
+        "url": "/covers/blue-dragon.jpg",
         "width": 480,
         "height": 557,
         "source": "Wikipedia",
@@ -1777,6 +1861,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 792,
       "lastUpdate": "2026-10-05T14:07:04Z",
       "multiplayer": false,
@@ -1830,7 +1915,7 @@
         "url": "https://en.wikipedia.org/wiki/Bomberman_64_(1997_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bomberman_64.jpg",
+        "url": "/covers/bomberman-64.jpg",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -1839,6 +1924,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 297,
       "lastUpdate": "2026-03-22T22:47:19Z",
       "multiplayer": false,
@@ -1890,7 +1976,7 @@
         "url": "https://en.wikipedia.org/wiki/Bomberman_Hero"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Bomberman_Hero_box.jpg",
+        "url": "/covers/bomberman-hero.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -1899,6 +1985,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 125,
       "lastUpdate": "2026-05-12T03:53:56Z",
       "multiplayer": false,
@@ -1950,6 +2037,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 510,
       "lastUpdate": "2024-01-03T19:11:58Z",
       "multiplayer": false,
@@ -1994,6 +2082,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 71,
       "lastUpdate": "2023-10-08T20:40:40Z",
       "multiplayer": false,
@@ -2044,7 +2133,7 @@
         "url": "https://en.wikipedia.org/wiki/Burnout_Revenge"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Revenge_boxart.jpg",
+        "url": "/covers/burnout-revenge.jpg",
         "width": 480,
         "height": 576,
         "source": "Wikipedia",
@@ -2053,6 +2142,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 57,
       "lastUpdate": "2026-10-12T14:40:20Z",
       "multiplayer": false,
@@ -2103,7 +2193,7 @@
         "url": "https://en.wikipedia.org/wiki/Caesar_III"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/56/Caeser_III_Coverart.jpg",
+        "url": "/covers/caesar-iii.jpg",
         "width": 480,
         "height": 610,
         "source": "Wikipedia",
@@ -2112,6 +2202,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 5512,
       "lastUpdate": "2025-07-31T17:46:57Z",
       "multiplayer": false,
@@ -2184,7 +2275,7 @@
         "url": "https://en.wikipedia.org/wiki/Call_of_Duty_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Call_of_Duty_3_Game_Cover.jpg",
+        "url": "/covers/call-of-duty-3.jpg",
         "width": 480,
         "height": 572,
         "source": "Wikipedia",
@@ -2193,6 +2284,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 177,
       "lastUpdate": "2026-10-13T01:20:26Z",
       "multiplayer": false,
@@ -2244,7 +2336,7 @@
         "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
+        "url": "/covers/call-of-duty-modern-warfare-2.png",
         "width": 480,
         "height": 699,
         "source": "Wikipedia",
@@ -2254,6 +2346,7 @@
         "static-recomp",
         "engine-remake"
       ],
+      "web": [],
       "stars": 1124,
       "lastUpdate": "2026-10-14T08:27:34Z",
       "multiplayer": false,
@@ -2326,7 +2419,7 @@
         "url": "https://en.wikipedia.org/wiki/Cannon_Fodder_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Cannon_fodder_box_art.jpg",
+        "url": "/covers/cannon-fodder.jpg",
         "width": 480,
         "height": 605,
         "source": "Wikipedia",
@@ -2335,6 +2428,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 605,
       "lastUpdate": "2025-12-16T21:23:17Z",
       "multiplayer": false,
@@ -2389,7 +2483,7 @@
         "url": "https://en.wikipedia.org/wiki/Carmageddon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/16/Carmageddon_box.jpg",
+        "url": "/covers/carmageddon.jpg",
         "width": 480,
         "height": 612,
         "source": "Wikipedia",
@@ -2398,6 +2492,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1217,
       "lastUpdate": "2026-02-22T21:40:00Z",
       "multiplayer": false,
@@ -2450,7 +2545,7 @@
         "url": "https://en.wikipedia.org/wiki/Castlevania:_Symphony_of_the_Night"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+        "url": "/covers/castlevania-symphony-of-the-night.jpg",
         "width": 480,
         "height": 491,
         "source": "Wikipedia",
@@ -2459,6 +2554,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 1247,
       "lastUpdate": "2026-08-27T23:17:33Z",
       "multiplayer": false,
@@ -2528,7 +2624,7 @@
         "url": "https://en.wikipedia.org/wiki/Catacomb_3-D"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Catacomb_3-D_The_Descent_title_screen.png",
+        "url": "/covers/catacomb-3-d.png",
         "width": 480,
         "height": 300,
         "source": "Wikipedia",
@@ -2537,6 +2633,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 192,
       "lastUpdate": "2026-10-12T19:04:19Z",
       "multiplayer": false,
@@ -2567,7 +2664,7 @@
     },
     {
       "slug": "cave-story",
-      "title": "Cave Story+",
+      "title": "Cave Story",
       "aka": [],
       "platform": "pc",
       "family": "Computers",
@@ -2591,7 +2688,7 @@
         "url": "https://en.wikipedia.org/wiki/Cave_Story"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+        "url": "/covers/cave-story.png",
         "width": 480,
         "height": 360,
         "source": "Wikipedia",
@@ -2600,10 +2697,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-cave-story-web-nxengine-evo",
+          "name": "Cave Story Web (NXEngine-evo)",
+          "url": "https://midzer.de/wasm/cavestory/",
+          "repo": "midzer/nxengine-evo",
+          "access": "free",
+          "note": "The original freeware Cave Story, playable in full.",
+          "multiplayer": false
+        }
+      ],
       "stars": 1861,
       "lastUpdate": "2026-06-03T21:48:02Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "doukutsu-rs-doukutsu-rs",
@@ -2650,6 +2758,42 @@
       ]
     },
     {
+      "slug": "celeste-classic",
+      "title": "Celeste Classic",
+      "aka": [],
+      "platform": "pc",
+      "family": "Computers",
+      "year": 2015,
+      "developers": [
+        "Maddy Thorson",
+        "Noel Berry"
+      ],
+      "publishers": [],
+      "genres": [
+        "Platform game"
+      ],
+      "summary": "Celeste Classic is the original PICO-8 game made in four days by Maddy Thorson and Noel Berry in 2015, which later grew into the commercial game Celeste. It is free to play.",
+      "wikipedia": null,
+      "cover": null,
+      "types": [],
+      "web": [
+        {
+          "id": "web-ccleste-web",
+          "name": "ccleste Web",
+          "url": "https://midzer.de/wasm/celeste/",
+          "repo": "midzer/ccleste",
+          "access": "free",
+          "note": "C port of the free PICO-8 original that later became Celeste.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "chameleon-twist",
       "title": "Chameleon Twist",
       "aka": [],
@@ -2671,7 +2815,7 @@
         "url": "https://en.wikipedia.org/wiki/Chameleon_Twist"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg",
+        "url": "/covers/chameleon-twist.jpg",
         "width": 480,
         "height": 331,
         "source": "Wikipedia",
@@ -2680,6 +2824,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 60,
       "lastUpdate": "2024-12-14T08:14:13Z",
       "multiplayer": false,
@@ -2730,7 +2875,7 @@
         "url": "https://en.wikipedia.org/wiki/Chasm:_The_Rift"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/20/Chasm_-_The_Rift_Coverart.png",
+        "url": "/covers/chasm-the-rift.png",
         "width": 480,
         "height": 686,
         "source": "Wikipedia",
@@ -2739,6 +2884,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 179,
       "lastUpdate": "2017-12-03T05:05:53Z",
       "multiplayer": false,
@@ -2787,7 +2933,7 @@
         "url": "https://en.wikipedia.org/wiki/Chris_Sawyer%27s_Locomotion"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1d/Chrissawyerlocomotion.jpg",
+        "url": "/covers/chris-sawyers-locomotion.jpg",
         "width": 480,
         "height": 690,
         "source": "Wikipedia",
@@ -2796,6 +2942,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1938,
       "lastUpdate": "2026-09-18T19:13:09Z",
       "multiplayer": false,
@@ -2853,7 +3000,7 @@
         "url": "https://en.wikipedia.org/wiki/Civilization_III"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Civilization_III_Coverart.png",
+        "url": "/covers/civilization-iii.png",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -2862,6 +3009,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 668,
       "lastUpdate": "2025-12-07T03:13:38Z",
       "multiplayer": false,
@@ -2913,7 +3061,7 @@
         "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Command_%26_Conquer_1995_cover.jpg",
+        "url": "/covers/command-and-conquer.jpg",
         "width": 480,
         "height": 577,
         "source": "Wikipedia",
@@ -2922,6 +3070,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 464,
       "lastUpdate": "2026-07-16T13:57:16Z",
       "multiplayer": false,
@@ -2972,7 +3121,7 @@
         "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Generals"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0f/Cncgen-win-cover.jpg",
+        "url": "/covers/command-and-conquer-generals.jpg",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -2981,6 +3130,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1649,
       "lastUpdate": "2025-12-16T23:06:58Z",
       "multiplayer": false,
@@ -3032,7 +3182,7 @@
         "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Generals_%E2%80%93_Zero_Hour"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+        "url": "/covers/command-and-conquer-generals-zero-hour.jpg",
         "width": 480,
         "height": 640,
         "source": "Wikipedia",
@@ -3041,10 +3191,21 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-generalsx-web",
+          "name": "GeneralsX Web",
+          "url": "https://generals.wasm.ltd",
+          "repo": null,
+          "access": "own-files",
+          "note": "The Generals decompilation compiled to WebAssembly. Bring your own game files.",
+          "multiplayer": false
+        }
+      ],
       "stars": 1648,
       "lastUpdate": "2026-10-15T13:37:06Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "thesuperhackers-generalsgamecode",
@@ -3112,7 +3273,7 @@
         "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/71/Cncra-win-cover.jpg",
+        "url": "/covers/command-and-conquer-red-alert.jpg",
         "width": 480,
         "height": 544,
         "source": "Wikipedia",
@@ -3121,6 +3282,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 17571,
       "lastUpdate": "2025-03-30T17:36:43Z",
       "multiplayer": false,
@@ -3150,6 +3312,76 @@
       ]
     },
     {
+      "slug": "command-and-conquer-red-alert-2",
+      "title": "Command & Conquer: Red Alert 2",
+      "aka": [],
+      "platform": "pc",
+      "family": "Computers",
+      "year": 2000,
+      "developers": [
+        "Westwood Studios"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "real-time strategy"
+      ],
+      "summary": "Command & Conquer: Red Alert 2 is a real-time strategy video game released for Microsoft Windows on October 25, 2000, as the follow-up to Command & Conquer: Red Alert. Red Alert 2  picks up after the Allied campaign of the first game. Its expansion pack is Command & Conquer: Yuri's Revenge, released a year later in 2001.",
+      "wikipedia": {
+        "title": "Command & Conquer: Red Alert 2",
+        "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert_2"
+      },
+      "cover": {
+        "url": "/covers/command-and-conquer-red-alert-2.jpg",
+        "width": 480,
+        "height": 683,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Cncra2-win-cover.jpg"
+      },
+      "types": [
+        "decompilation"
+      ],
+      "web": [
+        {
+          "id": "web-chrono-divide",
+          "name": "Chrono Divide",
+          "url": "https://chronodivide.com/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Browser recreation of Red Alert 2 with online multiplayer, ladder and replays. Needs the original game files.",
+          "multiplayer": true
+        }
+      ],
+      "stars": 463,
+      "lastUpdate": "2026-01-28T12:46:35Z",
+      "multiplayer": true,
+      "browser": true,
+      "ports": [
+        {
+          "id": "phobos-developers-phobos",
+          "name": "Phobos",
+          "type": "decompilation",
+          "repo": "Phobos-developers/Phobos",
+          "url": "https://github.com/Phobos-developers/Phobos",
+          "homepage": "https://phobos.readthedocs.io",
+          "description": "Ares-compatible C&C Red Alert 2: Yuri's Revenge engine extension",
+          "stars": 463,
+          "lastCommit": "2026-10-15T10:42:56Z",
+          "archived": false,
+          "license": "GPL-3.0",
+          "release": "v0.4.0.2",
+          "releaseDate": "2026-01-28T12:46:35Z",
+          "releaseUrl": "https://github.com/Phobos-developers/Phobos/releases/tag/v0.4.0.2",
+          "playUrl": null,
+          "multiplayer": false,
+          "video": null,
+          "score": 4,
+          "recommended": false
+        }
+      ]
+    },
+    {
       "slug": "commander-keen-in-goodbye-galaxy",
       "title": "Commander Keen in Goodbye, Galaxy!",
       "aka": [],
@@ -3173,6 +3405,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 316,
       "lastUpdate": "2021-12-16T07:58:51Z",
       "multiplayer": false,
@@ -3202,6 +3435,50 @@
       ]
     },
     {
+      "slug": "commander-keen-in-invasion-of-the-vorticons",
+      "title": "Commander Keen in Invasion of the Vorticons",
+      "aka": [],
+      "platform": "dos",
+      "family": "Computers",
+      "year": 1990,
+      "developers": [],
+      "publishers": [
+        "3D Realms"
+      ],
+      "genres": [
+        "platformer"
+      ],
+      "summary": "Commander Keen in Invasion of the Vorticons is a three-part episodic side-scrolling platform video game developed by Ideas from the Deep (a precursor to id Software) and published by Apogee Software in 1990 for MS-DOS. It is the first set of episodes of the Commander Keen series. The game follows the titular Commander Keen, an eight-year-old child genius, as he retrieves the stolen parts of his spaceship from the cities of Mars, prevents a recently arrived alien mothership from destroying landmarks on Earth, and hunts down the leader of the aliens, the Grand Intellect, on the alien home planet. The three episodes feature Keen running, jumping, and shooting through various levels while opposed by aliens, robots, and other hazards.",
+      "wikipedia": {
+        "title": "Commander Keen in Invasion of the Vorticons",
+        "url": "https://en.wikipedia.org/wiki/Commander_Keen_in_Invasion_of_the_Vorticons"
+      },
+      "cover": {
+        "url": "/covers/commander-keen-in-invasion-of-the-vorticons.png",
+        "width": 480,
+        "height": 300,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Commander_Keen_Marooned_on_Mars_Title.png"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-chocolate-keen",
+          "name": "Chocolate Keen",
+          "url": "https://jamesfmackenzie.github.io/chocolatekeen/",
+          "repo": "jamesfmackenzie/chocolatekeen",
+          "access": "free",
+          "note": "Episode One, Marooned on Mars (the shareware episode), included.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "condemned-2-bloodshot",
       "title": "Condemned 2: Bloodshot",
       "aka": [],
@@ -3221,7 +3498,7 @@
         "url": "https://en.wikipedia.org/wiki/Condemned_2:_Bloodshot"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Condemned_2_Bloodshot.jpg",
+        "url": "/covers/condemned-2-bloodshot.jpg",
         "width": 480,
         "height": 600,
         "source": "Wikipedia",
@@ -3230,6 +3507,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 219,
       "lastUpdate": "2026-09-29T08:03:05Z",
       "multiplayer": false,
@@ -3281,7 +3559,7 @@
         "url": "https://en.wikipedia.org/wiki/Conker%27s_Bad_Fur_Day"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
+        "url": "/covers/conkers-bad-fur-day.jpg",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -3290,6 +3568,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 30,
       "lastUpdate": "2026-09-02T01:08:22Z",
       "multiplayer": false,
@@ -3337,7 +3616,7 @@
         "url": "https://en.wikipedia.org/wiki/Crash_Nitro_Kart"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/11/CNKConsoleFree.jpg",
+        "url": "/covers/crash-nitro-kart.jpg",
         "width": 480,
         "height": 616,
         "source": "Wikipedia",
@@ -3346,6 +3625,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 1504,
       "lastUpdate": "2026-10-14T10:29:43Z",
       "multiplayer": false,
@@ -3394,7 +3674,7 @@
         "url": "https://en.wikipedia.org/wiki/Crash_of_the_Titans"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Crash_of_the_Titans_cover.jpg",
+        "url": "/covers/crash-of-the-titans.jpg",
         "width": 480,
         "height": 599,
         "source": "Wikipedia",
@@ -3403,6 +3683,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 43,
       "lastUpdate": "2026-10-06T13:13:56Z",
       "multiplayer": false,
@@ -3455,7 +3736,7 @@
         "url": "https://en.wikipedia.org/wiki/Crash_Team_Racing"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
+        "url": "/covers/crash-team-racing.png",
         "width": 480,
         "height": 478,
         "source": "Wikipedia",
@@ -3465,6 +3746,7 @@
         "source-port",
         "decompilation"
       ],
+      "web": [],
       "stars": 718,
       "lastUpdate": "2026-10-12T22:52:04Z",
       "multiplayer": false,
@@ -3557,7 +3839,7 @@
         "url": "https://en.wikipedia.org/wiki/Crimsonland"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Crimsonland.jpg",
+        "url": "/covers/crimsonland.jpg",
         "width": 480,
         "height": 224,
         "source": "Wikipedia",
@@ -3566,6 +3848,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 187,
       "lastUpdate": "2026-10-14T23:25:42Z",
       "multiplayer": false,
@@ -3614,7 +3897,7 @@
         "url": "https://en.wikipedia.org/wiki/Cro-Mag_Rally"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ef/Cro-Mag_Rally_logo.png",
+        "url": "/covers/cro-mag-rally.png",
         "width": 480,
         "height": 250,
         "source": "Wikipedia",
@@ -3623,6 +3906,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 172,
       "lastUpdate": "2024-02-07T21:14:31Z",
       "multiplayer": false,
@@ -3673,7 +3957,7 @@
         "url": "https://en.wikipedia.org/wiki/Crystal_Caves"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/cf/Crystal_Caves_CD_Cover.jpg",
+        "url": "/covers/crystal-caves.jpg",
         "width": 480,
         "height": 472,
         "source": "Wikipedia",
@@ -3682,6 +3966,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 91,
       "lastUpdate": "2026-08-29T01:19:40Z",
       "multiplayer": false,
@@ -3732,7 +4017,7 @@
         "url": "https://en.wikipedia.org/wiki/Dante%27s_Inferno_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c6/Dante%27s_Inferno.jpg",
+        "url": "/covers/dantes-inferno.jpg",
         "width": 480,
         "height": 594,
         "source": "Wikipedia",
@@ -3741,6 +4026,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 515,
       "lastUpdate": "2026-10-12T19:18:39Z",
       "multiplayer": false,
@@ -3791,7 +4077,7 @@
         "url": "https://en.wikipedia.org/wiki/Dead_or_Alive_Xtreme_Beach_Volleyball"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg",
+        "url": "/covers/dead-or-alive-xtreme-beach-volleyball.jpg",
         "width": 480,
         "height": 672,
         "source": "Wikipedia",
@@ -3800,6 +4086,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 162,
       "lastUpdate": "2026-09-30T15:23:40Z",
       "multiplayer": false,
@@ -3852,7 +4139,7 @@
         "url": "https://en.wikipedia.org/wiki/Dead_Rising_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Dead_Rising_2_cover.jpg",
+        "url": "/covers/dead-rising-2-case-west.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -3861,6 +4148,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 53,
       "lastUpdate": "2026-10-14T07:58:21Z",
       "multiplayer": false,
@@ -3913,7 +4201,7 @@
         "url": "https://en.wikipedia.org/wiki/Dead_Rising_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Dead_Rising_2_cover.jpg",
+        "url": "/covers/dead-rising-2-case-zero.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -3922,6 +4210,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 81,
       "lastUpdate": "2026-10-14T05:12:20Z",
       "multiplayer": false,
@@ -3972,7 +4261,7 @@
         "url": "https://en.wikipedia.org/wiki/Deadly_Premonition"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Deadly_Premonition_cover_art.jpg",
+        "url": "/covers/deadly-premonition.jpg",
         "width": 480,
         "height": 591,
         "source": "Wikipedia",
@@ -3981,6 +4270,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 160,
       "lastUpdate": "2026-10-03T19:32:08Z",
       "multiplayer": false,
@@ -4031,7 +4321,7 @@
         "url": "https://en.wikipedia.org/wiki/Def_Jam:_Fight_for_NY"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Def_Jam_Fight_for_NY.jpg",
+        "url": "/covers/def-jam-fight-for-ny.jpg",
         "width": 480,
         "height": 611,
         "source": "Wikipedia",
@@ -4040,6 +4330,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 51,
       "lastUpdate": "2026-10-15T14:17:09Z",
       "multiplayer": false,
@@ -4090,7 +4381,7 @@
         "url": "https://en.wikipedia.org/wiki/Descent_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Descent_cover.png",
+        "url": "/covers/descent.png",
         "width": 480,
         "height": 596,
         "source": "Wikipedia",
@@ -4099,10 +4390,21 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-descent-web-dxx-rebirth",
+          "name": "Descent Web (DXX-Rebirth)",
+          "url": "https://midzer.de/wasm/descent1/",
+          "repo": "midzer/dxx-rebirth",
+          "access": "free",
+          "note": "DXX-Rebirth with the official shareware data included.",
+          "multiplayer": false
+        }
+      ],
       "stars": 714,
       "lastUpdate": "2026-10-11T19:02:51Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "dxx-redux-dxx-redux",
@@ -4172,7 +4474,7 @@
         "url": "https://en.wikipedia.org/wiki/Descent_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
+        "url": "/covers/descent-3.jpg",
         "width": 480,
         "height": 676,
         "source": "Wikipedia",
@@ -4181,6 +4483,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 161,
       "lastUpdate": "2024-09-12T21:07:27Z",
       "multiplayer": false,
@@ -4230,7 +4533,7 @@
         "url": "https://en.wikipedia.org/wiki/Destroy_All_Humans!_Path_of_the_Furon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Destroy_All_Humans%21_Path_of_the_Furon_cover.jpg",
+        "url": "/covers/destroy-all-humans-path-of-the-furon.jpg",
         "width": 480,
         "height": 599,
         "source": "Wikipedia",
@@ -4239,6 +4542,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 42,
       "lastUpdate": "2026-08-24T04:41:11Z",
       "multiplayer": false,
@@ -4291,7 +4595,7 @@
         "url": "https://en.wikipedia.org/wiki/Diablo_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
+        "url": "/covers/diablo.png",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -4300,10 +4604,30 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-diabloweb",
+          "name": "DiabloWeb",
+          "url": "https://d07riv.github.io/diabloweb/",
+          "repo": "d07RiV/diabloweb",
+          "access": "free",
+          "note": "Plays the free shareware version instantly. Load your own DIABDAT.MPQ for the full game.",
+          "multiplayer": true
+        },
+        {
+          "id": "web-devilutionx-web",
+          "name": "DevilutionX Web",
+          "url": "https://devilutionx.app",
+          "repo": null,
+          "access": "free",
+          "note": "DevilutionX in the browser. Starts with the shareware data; drag in your own DIABDAT.MPQ for the full game.",
+          "multiplayer": false
+        }
+      ],
       "stars": 21034,
       "lastUpdate": "2025-10-30T17:00:17Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "diasurgical-devilutionx",
@@ -4395,7 +4719,7 @@
         "url": "https://en.wikipedia.org/wiki/Diablo_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+        "url": "/covers/diablo-ii.png",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -4404,6 +4728,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1104,
       "lastUpdate": "2025-01-13T06:57:39Z",
       "multiplayer": false,
@@ -4448,6 +4773,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 326,
       "lastUpdate": "2026-05-31T00:23:46Z",
       "multiplayer": false,
@@ -4498,7 +4824,7 @@
         "url": "https://en.wikipedia.org/wiki/Hercules_(1997_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Hercposter.jpg",
+        "url": "/covers/disneys-hercules-action-game.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -4507,6 +4833,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 62,
       "lastUpdate": "2026-10-15T07:58:41Z",
       "multiplayer": false,
@@ -4557,7 +4884,7 @@
         "url": "https://en.wikipedia.org/wiki/DoDonPachi_SaiDaiOuJou"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/DoDonPachi_SaiDaiOuJou_arcade_flyer.jpg",
+        "url": "/covers/dodonpachi-saidaioujou.jpg",
         "width": 480,
         "height": 683,
         "source": "Wikipedia",
@@ -4566,6 +4893,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 152,
       "lastUpdate": "2026-07-18T01:01:25Z",
       "multiplayer": false,
@@ -4618,7 +4946,7 @@
         "url": "https://en.wikipedia.org/wiki/Donkey_Kong_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
+        "url": "/covers/donkey-kong-64.jpg",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -4627,6 +4955,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 504,
       "lastUpdate": "2026-09-30T00:21:10Z",
       "multiplayer": false,
@@ -4681,7 +5010,7 @@
         "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+        "url": "/covers/doom.jpg",
         "width": 480,
         "height": 713,
         "source": "Wikipedia",
@@ -4691,10 +5020,39 @@
         "source-port",
         "decompilation"
       ],
+      "web": [
+        {
+          "id": "web-silent-space-marine",
+          "name": "Silent Space Marine",
+          "url": "https://silentspacemarine.com/",
+          "repo": "cloudflare/doom-wasm",
+          "access": "free",
+          "note": "Chocolate Doom compiled to WebAssembly with online deathmatch. Uses the shareware episode.",
+          "multiplayer": true
+        },
+        {
+          "id": "web-chocolate-doom-web",
+          "name": "Chocolate Doom Web",
+          "url": "https://midzer.de/wasm/doom/",
+          "repo": "midzer/chocolate-doom",
+          "access": "free",
+          "note": "Faithful Chocolate Doom build with the shareware episode (doom1.wad) included.",
+          "multiplayer": false
+        },
+        {
+          "id": "web-uzdoom-wasm",
+          "name": "UZDoom WASM",
+          "url": "https://uzdoom.bootnet.io/",
+          "repo": "abootnet/uzdoom-wasm",
+          "access": "own-files",
+          "note": "The UZDoom source port in the browser. Drag in your own WAD files, including mods like Brutal Doom.",
+          "multiplayer": false
+        }
+      ],
       "stars": 11925,
       "lastUpdate": "2026-10-12T09:41:41Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "uzdoom-uzdoom",
@@ -4975,7 +5333,7 @@
         "url": "https://en.wikipedia.org/wiki/Doom_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+        "url": "/covers/doom-3.jpg",
         "width": 480,
         "height": 597,
         "source": "Wikipedia",
@@ -4985,10 +5343,21 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-d3wasm-doom-3-demo",
+          "name": "D3wasm (Doom 3 demo)",
+          "url": "https://wasm.continuation-labs.com/d3demo/",
+          "repo": "gabrielcuvillier/d3wasm",
+          "access": "free",
+          "note": "id Tech 4 compiled to WebAssembly with the official Doom 3 demo. Large download, desktop only.",
+          "multiplayer": false
+        }
+      ],
       "stars": 4670,
       "lastUpdate": "2026-09-30T05:15:53Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "dhewm-dhewm3",
@@ -5078,7 +5447,7 @@
         "url": "https://en.wikipedia.org/wiki/Doom_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg",
+        "url": "/covers/doom-64.jpg",
         "width": 480,
         "height": 329,
         "source": "Wikipedia",
@@ -5087,6 +5456,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 44,
       "lastUpdate": "2025-10-28T18:05:23Z",
       "multiplayer": false,
@@ -5137,7 +5507,7 @@
         "url": "https://en.wikipedia.org/wiki/Dr._Mario_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Dr._Mario_64.jpg",
+        "url": "/covers/dr-mario-64.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -5146,6 +5516,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 151,
       "lastUpdate": "2025-12-18T04:36:00Z",
       "multiplayer": false,
@@ -5190,6 +5561,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 128,
       "lastUpdate": "2026-02-22T01:33:40Z",
       "multiplayer": false,
@@ -5234,6 +5606,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 359,
       "lastUpdate": "2026-10-15T00:15:18Z",
       "multiplayer": false,
@@ -5285,7 +5658,7 @@
         "url": "https://en.wikipedia.org/wiki/Dragon_Quest_VIII"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/94/Dragon_Quest_VIII_Journey_of_the_Cursed_King.jpeg",
+        "url": "/covers/dragon-quest-viii.jpg",
         "width": 480,
         "height": 675,
         "source": "Wikipedia",
@@ -5294,6 +5667,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 59,
       "lastUpdate": "2026-10-11T15:44:45Z",
       "multiplayer": false,
@@ -5342,7 +5716,7 @@
         "url": "https://en.wikipedia.org/wiki/Driver_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg",
+        "url": "/covers/driver-2.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -5351,6 +5725,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1403,
       "lastUpdate": "2022-02-04T19:01:30Z",
       "multiplayer": false,
@@ -5408,7 +5783,7 @@
         "url": "https://en.wikipedia.org/wiki/Duke_Nukem_3D"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/61/Duke_Nukem_3D_Coverart.png",
+        "url": "/covers/duke-nukem-3d.png",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -5417,10 +5792,30 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-duke-nukem-3d-web",
+          "name": "Duke Nukem 3D Web",
+          "url": "https://midzer.de/wasm/duke3d/",
+          "repo": "midzer/BelgianChocolateDuke3D",
+          "access": "free",
+          "note": "Includes the official shareware episode, L.A. Meltdown.",
+          "multiplayer": false
+        },
+        {
+          "id": "web-webduke",
+          "name": "webduke",
+          "url": "https://gawen.me/webduke",
+          "repo": null,
+          "access": "free",
+          "note": "Plays the shareware episode; upload your own DUKE3D.GRP for the full game.",
+          "multiplayer": false
+        }
+      ],
       "stars": 888,
       "lastUpdate": "2025-02-22T17:47:27Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "zdoom-raze",
@@ -5468,7 +5863,7 @@
         "url": "https://en.wikipedia.org/wiki/Duke_Nukem_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg",
+        "url": "/covers/duke-nukem-ii.jpg",
         "width": 480,
         "height": 698,
         "source": "Wikipedia",
@@ -5477,6 +5872,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1007,
       "lastUpdate": "2022-12-10T17:55:58Z",
       "multiplayer": false,
@@ -5527,7 +5923,7 @@
         "url": "https://en.wikipedia.org/wiki/Duke_Nukem:_Zero_Hour"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7e/Duke_Nukem_Zero_Hour_box.jpg",
+        "url": "/covers/duke-nukem-zero-hour.jpg",
         "width": 480,
         "height": 350,
         "source": "Wikipedia",
@@ -5536,6 +5932,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 190,
       "lastUpdate": "2025-11-01T22:11:40Z",
       "multiplayer": false,
@@ -5587,7 +5984,7 @@
         "url": "https://en.wikipedia.org/wiki/Dune_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
+        "url": "/covers/dune-ii.jpg",
         "width": 480,
         "height": 539,
         "source": "Wikipedia",
@@ -5597,6 +5994,7 @@
         "engine-remake",
         "source-port"
       ],
+      "web": [],
       "stars": 2223,
       "lastUpdate": "2026-09-13T13:57:33Z",
       "multiplayer": false,
@@ -5690,7 +6088,7 @@
         "url": "https://en.wikipedia.org/wiki/Dungeon_Keeper"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Dungkeep.jpg",
+        "url": "/covers/dungeon-keeper.jpg",
         "width": 480,
         "height": 580,
         "source": "Wikipedia",
@@ -5699,6 +6097,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1569,
       "lastUpdate": "2026-10-13T18:23:45Z",
       "multiplayer": false,
@@ -5792,7 +6191,7 @@
         "url": "https://en.wikipedia.org/wiki/Earth_2140"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/40/Earth2140Box.jpg",
+        "url": "/covers/earth-2140.jpg",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -5801,6 +6200,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 73,
       "lastUpdate": "2026-09-20T20:52:55Z",
       "multiplayer": false,
@@ -5853,7 +6253,7 @@
         "url": "https://en.wikipedia.org/wiki/EarthBound"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
+        "url": "/covers/earthbound.jpg",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -5862,6 +6262,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 109,
       "lastUpdate": "2026-10-10T16:39:55Z",
       "multiplayer": false,
@@ -5912,7 +6313,7 @@
         "url": "https://en.wikipedia.org/wiki/Earthworm_Jim_HD"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/24/EarthwormJimHD.jpg",
+        "url": "/covers/earthworm-jim-hd.jpg",
         "width": 480,
         "height": 576,
         "source": "Wikipedia",
@@ -5921,6 +6322,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 67,
       "lastUpdate": "2026-10-07T15:17:59Z",
       "multiplayer": false,
@@ -5969,7 +6371,7 @@
         "url": "https://en.wikipedia.org/wiki/Ecstatica"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Ecstatica_Coverart.png",
+        "url": "/covers/ecstatica.png",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -5978,6 +6380,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 33,
       "lastUpdate": "2026-05-20T08:24:50Z",
       "multiplayer": false,
@@ -6028,7 +6431,7 @@
         "url": "https://en.wikipedia.org/wiki/Eternal_Sonata"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/aa/Eternal_Sonata.jpg",
+        "url": "/covers/eternal-sonata.jpg",
         "width": 480,
         "height": 593,
         "source": "Wikipedia",
@@ -6037,6 +6440,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 135,
       "lastUpdate": "2026-10-13T21:17:03Z",
       "multiplayer": false,
@@ -6085,7 +6489,7 @@
         "url": "https://en.wikipedia.org/wiki/Extreme-G"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d3/Extreme-G.jpg",
+        "url": "/covers/extreme-g.jpg",
         "width": 480,
         "height": 349,
         "source": "Wikipedia",
@@ -6094,6 +6498,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 0,
       "lastUpdate": null,
       "multiplayer": false,
@@ -6144,7 +6549,7 @@
         "url": "https://en.wikipedia.org/wiki/F-15_Strike_Eagle_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/24/Box_F15SE_500.jpg",
+        "url": "/covers/f-15-strike-eagle-ii.jpg",
         "width": 480,
         "height": 557,
         "source": "Wikipedia",
@@ -6153,6 +6558,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 144,
       "lastUpdate": "2026-06-22T23:31:34Z",
       "multiplayer": false,
@@ -6205,7 +6611,7 @@
         "url": "https://en.wikipedia.org/wiki/Fable_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fable_II_cover_%28cropped%29.png",
+        "url": "/covers/fable-ii.png",
         "width": 480,
         "height": 575,
         "source": "Wikipedia",
@@ -6214,6 +6620,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 436,
       "lastUpdate": "2026-10-11T22:03:26Z",
       "multiplayer": false,
@@ -6266,7 +6673,7 @@
         "url": "https://en.wikipedia.org/wiki/Fallout_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
+        "url": "/covers/fallout.jpg",
         "width": 480,
         "height": 383,
         "source": "Wikipedia",
@@ -6275,6 +6682,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 2946,
       "lastUpdate": "2024-03-03T19:08:06Z",
       "multiplayer": false,
@@ -6326,7 +6734,7 @@
         "url": "https://en.wikipedia.org/wiki/Fallout_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/PC_Game_Fallout_2.jpg",
+        "url": "/covers/fallout-2.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -6336,6 +6744,7 @@
         "engine-remake",
         "decompilation"
       ],
+      "web": [],
       "stars": 1298,
       "lastUpdate": "2023-01-20T16:44:03Z",
       "multiplayer": false,
@@ -6409,7 +6818,7 @@
         "url": "https://en.wikipedia.org/wiki/Fallout_Tactics:_Brotherhood_of_Steel"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Fallout_Tactics_Box.jpg",
+        "url": "/covers/fallout-tactics-brotherhood-of-steel.jpg",
         "width": 480,
         "height": 593,
         "source": "Wikipedia",
@@ -6418,6 +6827,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 193,
       "lastUpdate": "2025-11-27T17:43:13Z",
       "multiplayer": false,
@@ -6468,7 +6878,7 @@
         "url": "https://en.wikipedia.org/wiki/FIFA_Street_(2012_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Fifa_street_2012.jpg",
+        "url": "/covers/fifa-street.jpg",
         "width": 480,
         "height": 599,
         "source": "Wikipedia",
@@ -6477,6 +6887,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 189,
       "lastUpdate": "2026-10-14T01:09:49Z",
       "multiplayer": false,
@@ -6527,7 +6938,7 @@
         "url": "https://en.wikipedia.org/wiki/Final_Fantasy_Tactics_Advance"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
+        "url": "/covers/final-fantasy-tactics-advance.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -6536,6 +6947,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 73,
       "lastUpdate": "2026-10-13T09:26:28Z",
       "multiplayer": false,
@@ -6587,7 +6999,7 @@
         "url": "https://en.wikipedia.org/wiki/Forza_Horizon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
+        "url": "/covers/forza-horizon.jpg",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -6596,6 +7008,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 759,
       "lastUpdate": "2026-10-15T01:44:40Z",
       "multiplayer": false,
@@ -6668,7 +7081,7 @@
         "url": "https://en.wikipedia.org/wiki/Freelancer_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Fl_box.jpg",
+        "url": "/covers/freelancer.jpg",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -6677,6 +7090,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 612,
       "lastUpdate": "2025-11-07T15:28:17Z",
       "multiplayer": false,
@@ -6726,7 +7140,7 @@
         "url": "https://en.wikipedia.org/wiki/FreeSpace_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
+        "url": "/covers/freespace-2.jpg",
         "width": 480,
         "height": 610,
         "source": "Wikipedia",
@@ -6735,6 +7149,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 492,
       "lastUpdate": "2026-09-24T10:06:21Z",
       "multiplayer": false,
@@ -6784,7 +7199,7 @@
         "url": "https://en.wikipedia.org/wiki/Gears_of_War:_Judgment"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Gears_of_War-_Judgment_cover.jpg",
+        "url": "/covers/gears-of-war-judgment.jpg",
         "width": 480,
         "height": 611,
         "source": "Wikipedia",
@@ -6793,6 +7208,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 53,
       "lastUpdate": "2026-10-11T12:20:44Z",
       "multiplayer": false,
@@ -6841,7 +7257,7 @@
         "url": "https://en.wikipedia.org/wiki/Geometry_Wars:_Retro_Evolved_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Geometrywars2cover.jpg",
+        "url": "/covers/geometry-wars-retro-evolved-2.jpg",
         "width": 480,
         "height": 658,
         "source": "Wikipedia",
@@ -6850,6 +7266,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 32,
       "lastUpdate": "2026-10-15T04:41:46Z",
       "multiplayer": false,
@@ -6900,7 +7317,7 @@
         "url": "https://en.wikipedia.org/wiki/Gish_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/55/Gish_%28video_game%29.jpg",
+        "url": "/covers/gish.jpg",
         "width": 480,
         "height": 224,
         "source": "Wikipedia",
@@ -6909,6 +7326,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 88,
       "lastUpdate": "2026-08-13T02:54:46Z",
       "multiplayer": false,
@@ -6960,7 +7378,7 @@
         "url": "https://en.wikipedia.org/wiki/God_of_War_III"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg",
+        "url": "/covers/god-of-war-iii-remastered.jpg",
         "width": 480,
         "height": 550,
         "source": "Wikipedia",
@@ -6969,6 +7387,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 2439,
       "lastUpdate": "2026-10-15T02:39:38Z",
       "multiplayer": false,
@@ -7022,6 +7441,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 38,
       "lastUpdate": "2026-10-10T10:14:56Z",
       "multiplayer": false,
@@ -7072,7 +7492,7 @@
         "url": "https://en.wikipedia.org/wiki/GoldenEye_007"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+        "url": "/covers/goldeneye-007.jpg",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -7081,6 +7501,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 977,
       "lastUpdate": "2026-10-09T20:28:29Z",
       "multiplayer": false,
@@ -7152,7 +7573,7 @@
         "url": "https://en.wikipedia.org/wiki/Gothic_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Gothic2cover.png",
+        "url": "/covers/gothic-ii.png",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -7161,6 +7582,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1619,
       "lastUpdate": "2026-10-13T16:49:12Z",
       "multiplayer": false,
@@ -7211,7 +7633,7 @@
         "url": "https://en.wikipedia.org/wiki/Gran_Turismo_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
+        "url": "/covers/gran-turismo-2.jpg",
         "width": 480,
         "height": 450,
         "source": "Wikipedia",
@@ -7220,6 +7642,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 112,
       "lastUpdate": "2026-09-30T11:19:02Z",
       "multiplayer": false,
@@ -7269,7 +7692,7 @@
         "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/GTA_-_Box_Front.jpg",
+        "url": "/covers/grand-theft-auto.jpg",
         "width": 480,
         "height": 592,
         "source": "Wikipedia",
@@ -7278,6 +7701,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 568,
       "lastUpdate": "2026-08-09T15:35:07Z",
       "multiplayer": false,
@@ -7327,7 +7751,7 @@
         "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+        "url": "/covers/grand-theft-auto-iv.jpg",
         "width": 480,
         "height": 600,
         "source": "Wikipedia",
@@ -7336,6 +7760,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 79,
       "lastUpdate": "2026-10-14T18:59:19Z",
       "multiplayer": false,
@@ -7383,7 +7808,7 @@
         "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+        "url": "/covers/grand-theft-auto-san-andreas.jpg",
         "width": 480,
         "height": 593,
         "source": "Wikipedia",
@@ -7392,6 +7817,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1060,
       "lastUpdate": "2026-10-12T11:04:09Z",
       "multiplayer": false,
@@ -7421,6 +7847,57 @@
       ]
     },
     {
+      "slug": "grand-theft-auto-vice-city",
+      "title": "Grand Theft Auto: Vice City",
+      "aka": [],
+      "platform": "playstation-2",
+      "family": "PlayStation",
+      "year": 2002,
+      "developers": [],
+      "publishers": [],
+      "genres": [
+        "action-adventure game"
+      ],
+      "summary": "Grand Theft Auto: Vice City is a 2002 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fourth main game in the Grand Theft Auto series, following 2001's Grand Theft Auto III, and the sixth entry overall. Set in 1986 within the fictional Vice City (based on Miami), the single-player story follows gangster Tommy Vercetti's rise to power after being released from prison and becoming caught up in an ambushed drug deal.",
+      "wikipedia": {
+        "title": "Grand Theft Auto: Vice City",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+      },
+      "cover": {
+        "url": "/covers/grand-theft-auto-vice-city.jpg",
+        "width": 480,
+        "height": 609,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Vice-city-cover.jpg"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-revc-web",
+          "name": "reVC Web",
+          "url": "https://revc.wasm.ltd",
+          "repo": "origami-ltd/wasm-revc",
+          "access": "own-files",
+          "note": "The reVC decompilation running in the browser. Bring your own copy of the game.",
+          "multiplayer": false
+        },
+        {
+          "id": "web-vice-city-wasm-port",
+          "name": "Vice City WASM Port",
+          "url": "https://joncodeofficial.github.io/gta-vice-city-wasm/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Alternative WebAssembly build of reVC. Needs your own game files.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "grand-theft-auto-vice-city-stories",
       "title": "Grand Theft Auto: Vice City Stories",
       "aka": [],
@@ -7439,7 +7916,7 @@
         "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City_Stories"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3e/GTA_Vice_City_Stories_PSP_boxart.jpg",
+        "url": "/covers/grand-theft-auto-vice-city-stories.jpg",
         "width": 480,
         "height": 614,
         "source": "Wikipedia",
@@ -7448,6 +7925,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 31,
       "lastUpdate": "2026-09-28T14:53:48Z",
       "multiplayer": false,
@@ -7496,7 +7974,7 @@
         "url": "https://en.wikipedia.org/wiki/Guitar_Hero:_Warriors_of_Rock"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Guitar_Hero_Warriors_of_Rock_Game_Cover.jpg",
+        "url": "/covers/guitar-hero-warriors-of-rock.jpg",
         "width": 480,
         "height": 594,
         "source": "Wikipedia",
@@ -7505,6 +7983,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 39,
       "lastUpdate": "2026-03-03T01:53:32Z",
       "multiplayer": false,
@@ -7557,7 +8036,7 @@
         "url": "https://en.wikipedia.org/wiki/Half-Life_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg",
+        "url": "/covers/half-life.jpg",
         "width": 480,
         "height": 690,
         "source": "Wikipedia",
@@ -7566,10 +8045,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-webxash",
+          "name": "WebXash",
+          "url": "https://x8bitrain.github.io/webXash/",
+          "repo": "FWGS/xash3d-fwgs",
+          "access": "free",
+          "note": "Xash3D FWGS in the browser. Plays the free demo; supports your own Half-Life and Counter-Strike files.",
+          "multiplayer": false
+        }
+      ],
       "stars": 2846,
       "lastUpdate": "2026-10-15T10:38:49Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "fwgs-xash3d-fwgs",
@@ -7617,7 +8107,7 @@
         "url": "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+        "url": "/covers/halo-combat-evolved.jpg",
         "width": 480,
         "height": 646,
         "source": "Wikipedia",
@@ -7626,10 +8116,30 @@
       "types": [
         "static-recomp"
       ],
+      "web": [
+        {
+          "id": "web-halo-ce-web",
+          "name": "Halo CE Web",
+          "url": "https://mitchellhynes.com/halo/halo.html",
+          "repo": "ecumene/web-halo",
+          "access": "own-files",
+          "note": "Decompiled Xbox version with campaign, split-screen and online play. Your Xbox disc image is validated locally.",
+          "multiplayer": true
+        },
+        {
+          "id": "web-hcemobile",
+          "name": "HCEMobile",
+          "url": "https://hcemobile.com/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Halo CE decomp for phone and desktop browsers with matchmaking and online co-op.",
+          "multiplayer": true
+        }
+      ],
       "stars": 123,
       "lastUpdate": "2026-10-10T14:01:08Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "chrissotraidis-projectreach",
@@ -7676,7 +8186,7 @@
         "url": "https://en.wikipedia.org/wiki/Harvest_Moon_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png",
+        "url": "/covers/harvest-moon-64.png",
         "width": 480,
         "height": 332,
         "source": "Wikipedia",
@@ -7686,6 +8196,7 @@
         "decompilation",
         "static-recomp"
       ],
+      "web": [],
       "stars": 382,
       "lastUpdate": "2026-09-25T21:17:14Z",
       "multiplayer": false,
@@ -7755,7 +8266,7 @@
         "url": "https://en.wikipedia.org/wiki/Heretic_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/ca/Heretic_II_Coverart.png",
+        "url": "/covers/heretic-ii.png",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -7764,6 +8275,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 301,
       "lastUpdate": "2026-08-03T10:06:35Z",
       "multiplayer": false,
@@ -7835,7 +8347,7 @@
         "url": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/90/Heroes_2_cover.jpg",
+        "url": "/covers/heroes-of-might-and-magic-ii.jpg",
         "width": 480,
         "height": 529,
         "source": "Wikipedia",
@@ -7844,10 +8356,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-fheroes2-web",
+          "name": "fheroes2 Web",
+          "url": "https://midzer.de/wasm/heroes2/",
+          "repo": "midzer/fheroes2",
+          "access": "free",
+          "note": "The fheroes2 engine running the official demo version.",
+          "multiplayer": false
+        }
+      ],
       "stars": 3506,
       "lastUpdate": "2026-06-30T14:33:54Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "ihhub-fheroes2",
@@ -7894,7 +8417,7 @@
         "url": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_III"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+        "url": "/covers/heroes-of-might-and-magic-iii.jpg",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -7903,6 +8426,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 5946,
       "lastUpdate": "2026-08-15T12:02:44Z",
       "multiplayer": false,
@@ -7932,6 +8456,41 @@
       ]
     },
     {
+      "slug": "hurrican",
+      "title": "Hurrican",
+      "aka": [],
+      "platform": "pc",
+      "family": "Computers",
+      "year": 2007,
+      "developers": [
+        "Poke53280"
+      ],
+      "publishers": [],
+      "genres": [
+        "Run and gun"
+      ],
+      "summary": "Hurrican is a freeware run-and-gun game released in 2007 as a homage to the Turrican series, later open-sourced by its developers.",
+      "wikipedia": null,
+      "cover": null,
+      "types": [],
+      "web": [
+        {
+          "id": "web-hurrican-web",
+          "name": "Hurrican Web",
+          "url": "https://midzer.de/wasm/hurrican/",
+          "repo": "midzer/Hurrican",
+          "access": "free",
+          "note": "Freeware Turrican-style run-and-gun, playable in full.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "ico",
       "title": "Ico",
       "aka": [],
@@ -7953,7 +8512,7 @@
         "url": "https://en.wikipedia.org/wiki/Ico"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg",
+        "url": "/covers/ico.jpg",
         "width": 480,
         "height": 684,
         "source": "Wikipedia",
@@ -7962,6 +8521,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 321,
       "lastUpdate": "2026-10-15T10:51:29Z",
       "multiplayer": false,
@@ -8013,6 +8573,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 147,
       "lastUpdate": "2026-09-03T10:42:56Z",
       "multiplayer": false,
@@ -8063,7 +8624,7 @@
         "url": "https://en.wikipedia.org/wiki/Jackie_Chan_Stuntmaster"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
+        "url": "/covers/jackie-chan-stuntmaster.jpg",
         "width": 480,
         "height": 461,
         "source": "Wikipedia",
@@ -8072,6 +8633,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 53,
       "lastUpdate": "2026-07-19T08:35:36Z",
       "multiplayer": false,
@@ -8122,7 +8684,7 @@
         "url": "https://en.wikipedia.org/wiki/Jagged_Alliance_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Jagged_Alliance_2_Coverart.png",
+        "url": "/covers/jagged-alliance-2.png",
         "width": 480,
         "height": 536,
         "source": "Wikipedia",
@@ -8131,10 +8693,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-ja2-stracciatella-web",
+          "name": "JA2 Stracciatella Web",
+          "url": "https://ja2.virtastic.app",
+          "repo": "Virtastic/ja2-web",
+          "access": "own-files",
+          "note": "Jagged Alliance 2 Stracciatella in the browser. Upload your own game files.",
+          "multiplayer": false
+        }
+      ],
       "stars": 540,
       "lastUpdate": "2025-10-05T09:26:01Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "ja2-stracciatella-ja2-stracciatella",
@@ -8185,7 +8758,7 @@
         "url": "https://en.wikipedia.org/wiki/Jak_and_Daxter:_The_Precursor_Legacy"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+        "url": "/covers/jak-and-daxter-trilogy.png",
         "width": 480,
         "height": 683,
         "source": "Wikipedia",
@@ -8194,6 +8767,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 3573,
       "lastUpdate": "2026-09-20T04:27:59Z",
       "multiplayer": false,
@@ -8245,7 +8819,7 @@
         "url": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit_(1994_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Jazz-cover.jpg",
+        "url": "/covers/jazz-jackrabbit.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -8254,6 +8828,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 409,
       "lastUpdate": "2026-03-01T00:47:44Z",
       "multiplayer": false,
@@ -8307,7 +8882,7 @@
         "url": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",
+        "url": "/covers/jazz-jackrabbit-2.png",
         "width": 480,
         "height": 579,
         "source": "Wikipedia",
@@ -8316,10 +8891,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-jazz2-resurrection-web",
+          "name": "Jazz² Resurrection Web",
+          "url": "https://de4th.dev/jazz2/",
+          "repo": "deathkiller/jazz2-native",
+          "access": "free",
+          "note": "Plays the shareware episode; the full game needs your own files.",
+          "multiplayer": false
+        }
+      ],
       "stars": 577,
       "lastUpdate": "2026-08-22T17:18:56Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "deathkiller-jazz2",
@@ -8360,6 +8946,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 3,
       "lastUpdate": "2026-10-01T02:02:42Z",
       "multiplayer": false,
@@ -8410,7 +8997,7 @@
         "url": "https://en.wikipedia.org/wiki/Kirby%27s_Return_to_Dream_Land"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d4/Kirbys_return_to_dreamland_boxart.jpg",
+        "url": "/covers/kirbys-return-to-dream-land.jpg",
         "width": 480,
         "height": 687,
         "source": "Wikipedia",
@@ -8419,6 +9006,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 169,
       "lastUpdate": "2026-07-22T13:03:43Z",
       "multiplayer": false,
@@ -8469,7 +9057,7 @@
         "url": "https://en.wikipedia.org/wiki/KKnD_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7f/KKnD_Coverart.png",
+        "url": "/covers/kknd.png",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -8478,6 +9066,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 127,
       "lastUpdate": "2022-02-22T20:30:48Z",
       "multiplayer": false,
@@ -8528,7 +9117,7 @@
         "url": "https://en.wikipedia.org/wiki/Lego_Island"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+        "url": "/covers/lego-island.jpg",
         "width": 480,
         "height": 536,
         "source": "Wikipedia",
@@ -8538,6 +9127,7 @@
         "decompilation",
         "source-port"
       ],
+      "web": [],
       "stars": 4555,
       "lastUpdate": "2026-10-08T15:23:00Z",
       "multiplayer": false,
@@ -8609,7 +9199,7 @@
         "url": "https://en.wikipedia.org/wiki/Lionheart_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ee/Lionheart_Coverart.png",
+        "url": "/covers/lionheart.png",
         "width": 480,
         "height": 536,
         "source": "Wikipedia",
@@ -8618,6 +9208,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 86,
       "lastUpdate": "2023-05-12T20:33:03Z",
       "multiplayer": false,
@@ -8670,7 +9261,7 @@
         "url": "https://en.wikipedia.org/wiki/Little_Big_Adventure_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Little_Big_Adventure_2_cover.jpg",
+        "url": "/covers/little-big-adventure-2.jpg",
         "width": 480,
         "height": 611,
         "source": "Wikipedia",
@@ -8679,6 +9270,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 112,
       "lastUpdate": "2026-07-16T20:50:10Z",
       "multiplayer": false,
@@ -8733,7 +9325,7 @@
         "url": "https://en.wikipedia.org/wiki/Lollipop_Chainsaw"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/39/Lollipop_Chainsaw_Cover_Art.png",
+        "url": "/covers/lollipop-chainsaw.png",
         "width": 480,
         "height": 509,
         "source": "Wikipedia",
@@ -8742,6 +9334,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 42,
       "lastUpdate": "2026-04-05T00:49:45Z",
       "multiplayer": false,
@@ -8793,7 +9386,7 @@
         "url": "https://en.wikipedia.org/wiki/Lost_Odyssey"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
+        "url": "/covers/lost-odyssey.jpg",
         "width": 480,
         "height": 683,
         "source": "Wikipedia",
@@ -8802,6 +9395,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 681,
       "lastUpdate": "2026-10-15T08:24:56Z",
       "multiplayer": false,
@@ -8873,7 +9467,7 @@
         "url": "https://en.wikipedia.org/wiki/Mechanized_Assault_%26_Exploration"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f4/Mechanized_Assault_%26_Exploration_cover.jpg",
+        "url": "/covers/max-mechanized-assault-and-exploration.jpg",
         "width": 480,
         "height": 597,
         "source": "Wikipedia",
@@ -8882,6 +9476,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 47,
       "lastUpdate": "2024-11-07T16:25:53Z",
       "multiplayer": false,
@@ -8928,7 +9523,7 @@
         "url": "https://en.wikipedia.org/wiki/Machines_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Machines_Coverart.png",
+        "url": "/covers/machines-wired-for-war.png",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -8937,6 +9532,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 46,
       "lastUpdate": "2026-09-02T19:29:51Z",
       "multiplayer": false,
@@ -8987,7 +9583,7 @@
         "url": "https://en.wikipedia.org/wiki/Magic_Carpet_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Magic_Carpet_2_cover.png",
+        "url": "/covers/magic-carpet-2.png",
         "width": 480,
         "height": 615,
         "source": "Wikipedia",
@@ -8996,6 +9592,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 151,
       "lastUpdate": "2021-04-15T09:24:57Z",
       "multiplayer": false,
@@ -9047,7 +9644,7 @@
         "url": "https://en.wikipedia.org/wiki/Marathon_(1994_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Marathon_%28video_game%29.jpg",
+        "url": "/covers/marathon.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -9056,6 +9653,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 813,
       "lastUpdate": "2026-10-01T01:46:14Z",
       "multiplayer": false,
@@ -9105,7 +9703,7 @@
         "url": "https://en.wikipedia.org/wiki/Marble_Blast"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Marble_blast_gold.jpg",
+        "url": "/covers/marble-blast-gold.jpg",
         "width": 480,
         "height": 600,
         "source": "Wikipedia",
@@ -9114,6 +9712,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 216,
       "lastUpdate": "2026-09-28T22:51:40Z",
       "multiplayer": false,
@@ -9166,7 +9765,7 @@
         "url": "https://en.wikipedia.org/wiki/Mario_Kart_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+        "url": "/covers/mario-kart-64.jpg",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -9176,6 +9775,7 @@
         "source-port",
         "static-recomp"
       ],
+      "web": [],
       "stars": 3021,
       "lastUpdate": "2026-02-25T02:26:04Z",
       "multiplayer": false,
@@ -9247,7 +9847,7 @@
         "url": "https://en.wikipedia.org/wiki/Mario_Kart_8"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+        "url": "/covers/mario-kart-8-deluxe.jpg",
         "width": 480,
         "height": 678,
         "source": "Wikipedia",
@@ -9256,6 +9856,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 69,
       "lastUpdate": "2026-10-14T10:25:15Z",
       "multiplayer": false,
@@ -9306,7 +9907,7 @@
         "url": "https://en.wikipedia.org/wiki/Mario_Kart_Wii"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+        "url": "/covers/mario-kart-wii.png",
         "width": 480,
         "height": 513,
         "source": "Wikipedia",
@@ -9315,6 +9916,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1811,
       "lastUpdate": "2026-10-13T01:18:40Z",
       "multiplayer": false,
@@ -9386,7 +9988,7 @@
         "url": "https://en.wikipedia.org/wiki/Mario_Party_4"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg",
+        "url": "/covers/mario-party-4.jpg",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -9395,6 +9997,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 93,
       "lastUpdate": "2026-10-14T14:43:45Z",
       "multiplayer": false,
@@ -9466,7 +10069,7 @@
         "url": "https://en.wikipedia.org/wiki/Mario_Strikers_Charged"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/50/Mario_Strikers_Charged.jpg",
+        "url": "/covers/mario-strikers-charged.jpg",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -9475,6 +10078,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 359,
       "lastUpdate": "2026-10-13T20:00:38Z",
       "multiplayer": false,
@@ -9552,7 +10156,7 @@
         "url": "https://en.wikipedia.org/wiki/Mass_Effect_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e8/MassEffect.jpg",
+        "url": "/covers/mass-effect.jpg",
         "width": 480,
         "height": 678,
         "source": "Wikipedia",
@@ -9561,6 +10165,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 30,
       "lastUpdate": "2026-10-09T14:51:22Z",
       "multiplayer": false,
@@ -9613,7 +10218,7 @@
         "url": "https://en.wikipedia.org/wiki/Master_of_Orion"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/55/Master_of_Orion_cover.jpg",
+        "url": "/covers/master-of-orion.jpg",
         "width": 480,
         "height": 551,
         "source": "Wikipedia",
@@ -9622,6 +10227,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 110,
       "lastUpdate": "2026-08-12T15:56:52Z",
       "multiplayer": false,
@@ -9673,7 +10279,7 @@
         "url": "https://en.wikipedia.org/wiki/MDK"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/97/Mdk1cover.jpg",
+        "url": "/covers/mdk.jpg",
         "width": 480,
         "height": 596,
         "source": "Wikipedia",
@@ -9682,6 +10288,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 36,
       "lastUpdate": "2026-10-13T08:36:22Z",
       "multiplayer": false,
@@ -9732,7 +10339,7 @@
         "url": "https://en.wikipedia.org/wiki/MechCommander_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Mechcommander_2_box_art.jpg",
+        "url": "/covers/mechcommander-2.jpg",
         "width": 480,
         "height": 624,
         "source": "Wikipedia",
@@ -9741,6 +10348,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 159,
       "lastUpdate": "2026-05-04T16:45:16Z",
       "multiplayer": false,
@@ -9791,7 +10399,7 @@
         "url": "https://en.wikipedia.org/wiki/Medal_of_Honor:_Allied_Assault"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Medal_of_Honor_-_Allied_Assault_Coverart.png",
+        "url": "/covers/medal-of-honor-allied-assault.png",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -9800,6 +10408,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 833,
       "lastUpdate": "2025-08-05T17:01:23Z",
       "multiplayer": false,
@@ -9851,7 +10460,7 @@
         "url": "https://en.wikipedia.org/wiki/MediEvil"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
+        "url": "/covers/medievil.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -9860,6 +10469,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 177,
       "lastUpdate": "2026-10-03T21:52:59Z",
       "multiplayer": false,
@@ -9910,7 +10520,7 @@
         "url": "https://en.wikipedia.org/wiki/Mega_Man_Legends_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3d/MMLegendsBox.jpg",
+        "url": "/covers/mega-man-64.jpg",
         "width": 480,
         "height": 467,
         "source": "Wikipedia",
@@ -9919,6 +10529,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 268,
       "lastUpdate": "2026-04-30T20:35:04Z",
       "multiplayer": false,
@@ -9970,7 +10581,7 @@
         "url": "https://en.wikipedia.org/wiki/Metroid_Prime"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+        "url": "/covers/metroid-prime.jpg",
         "width": 480,
         "height": 666,
         "source": "Wikipedia",
@@ -9980,6 +10591,7 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [],
       "stars": 1225,
       "lastUpdate": "2026-10-14T22:06:04Z",
       "multiplayer": false,
@@ -10050,7 +10662,7 @@
         "url": "https://en.wikipedia.org/wiki/Midnight_Club:_Los_Angeles"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+        "url": "/covers/midnight-club-los-angeles.jpg",
         "width": 480,
         "height": 592,
         "source": "Wikipedia",
@@ -10059,6 +10671,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 53,
       "lastUpdate": "2026-10-14T22:09:23Z",
       "multiplayer": false,
@@ -10109,7 +10722,7 @@
         "url": "https://en.wikipedia.org/wiki/Might_and_Magic_VI:_The_Mandate_of_Heaven"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f0/MightAndMagic6Box.jpg",
+        "url": "/covers/might-and-magic-vi-the-mandate-of-heaven.jpg",
         "width": 480,
         "height": 568,
         "source": "Wikipedia",
@@ -10118,6 +10731,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 872,
       "lastUpdate": "2026-10-11T15:32:05Z",
       "multiplayer": false,
@@ -10168,7 +10782,7 @@
         "url": "https://en.wikipedia.org/wiki/Power_Pete"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Powerpetebox.jpeg",
+        "url": "/covers/mighty-mike.jpg",
         "width": 480,
         "height": 605,
         "source": "Wikipedia",
@@ -10177,6 +10791,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 211,
       "lastUpdate": "2023-01-28T20:21:16Z",
       "multiplayer": false,
@@ -10228,7 +10843,7 @@
         "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_vs._DC_Universe"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
+        "url": "/covers/mortal-kombat-vs-dc-universe.png",
         "width": 480,
         "height": 593,
         "source": "Wikipedia",
@@ -10237,6 +10852,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 37,
       "lastUpdate": "2026-09-23T18:31:09Z",
       "multiplayer": false,
@@ -10281,6 +10897,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 228,
       "lastUpdate": "2024-05-19T04:28:47Z",
       "multiplayer": false,
@@ -10332,7 +10949,7 @@
         "url": "https://en.wikipedia.org/wiki/Mystical_Ninja_Starring_Goemon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg",
+        "url": "/covers/mystical-ninja-starring-goemon.jpg",
         "width": 480,
         "height": 341,
         "source": "Wikipedia",
@@ -10341,6 +10958,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 314,
       "lastUpdate": "2026-01-31T15:40:34Z",
       "multiplayer": false,
@@ -10393,6 +11011,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 104,
       "lastUpdate": "2022-12-17T22:06:40Z",
       "multiplayer": false,
@@ -10440,7 +11059,7 @@
         "url": "https://en.wikipedia.org/wiki/Naruto:_Rise_of_a_Ninja"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
+        "url": "/covers/naruto-rise-of-a-ninja.jpg",
         "width": 480,
         "height": 666,
         "source": "Wikipedia",
@@ -10449,6 +11068,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 58,
       "lastUpdate": "2026-10-11T13:12:54Z",
       "multiplayer": false,
@@ -10498,7 +11118,7 @@
         "url": "https://en.wikipedia.org/wiki/Naughty_Bear"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
+        "url": "/covers/naughty-bear.jpg",
         "width": 480,
         "height": 595,
         "source": "Wikipedia",
@@ -10507,6 +11127,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 55,
       "lastUpdate": "2026-09-10T22:01:41Z",
       "multiplayer": false,
@@ -10557,7 +11178,7 @@
         "url": "https://en.wikipedia.org/wiki/Need_for_Speed_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg",
+        "url": "/covers/need-for-speed-ii.jpg",
         "width": 480,
         "height": 551,
         "source": "Wikipedia",
@@ -10567,6 +11188,7 @@
         "decompilation",
         "static-recomp"
       ],
+      "web": [],
       "stars": 841,
       "lastUpdate": "2026-03-04T22:30:00Z",
       "multiplayer": false,
@@ -10638,7 +11260,7 @@
         "url": "https://en.wikipedia.org/wiki/Need_for_Speed_III:_Hot_Pursuit"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/NFS_III_Hot_Pursuit_%28PC%2C_US%29_cover_art.jpg",
+        "url": "/covers/need-for-speed-iii-hot-pursuit.jpg",
         "width": 480,
         "height": 591,
         "source": "Wikipedia",
@@ -10647,6 +11269,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 45,
       "lastUpdate": "2026-10-03T23:15:30Z",
       "multiplayer": false,
@@ -10697,7 +11320,7 @@
         "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Carbon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+        "url": "/covers/need-for-speed-carbon.jpg",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -10706,6 +11329,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 93,
       "lastUpdate": "2026-10-12T13:58:20Z",
       "multiplayer": false,
@@ -10775,7 +11399,7 @@
         "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
+        "url": "/covers/need-for-speed-most-wanted.jpg",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -10784,6 +11408,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 85,
       "lastUpdate": "2026-10-14T16:02:01Z",
       "multiplayer": false,
@@ -10834,7 +11459,7 @@
         "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Underground_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+        "url": "/covers/need-for-speed-underground-2.jpg",
         "width": 480,
         "height": 734,
         "source": "Wikipedia",
@@ -10843,6 +11468,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 92,
       "lastUpdate": "2026-10-13T19:50:21Z",
       "multiplayer": false,
@@ -10896,6 +11522,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 48,
       "lastUpdate": "2026-07-22T05:30:53Z",
       "multiplayer": false,
@@ -10948,7 +11575,7 @@
         "url": "https://en.wikipedia.org/wiki/Oddworld:_Abe%27s_Oddysee"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Abe%27s_Oddysee_Cover.jpg",
+        "url": "/covers/oddworld-abes-oddysee.jpg",
         "width": 480,
         "height": 468,
         "source": "Wikipedia",
@@ -10957,6 +11584,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 441,
       "lastUpdate": "2025-03-21T21:05:57Z",
       "multiplayer": false,
@@ -11004,7 +11632,7 @@
         "url": "https://en.wikipedia.org/wiki/One_Must_Fall:_2097"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/80/One-must-fall-cover.jpg",
+        "url": "/covers/one-must-fall-2097.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -11013,6 +11641,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 484,
       "lastUpdate": "2026-07-05T19:33:20Z",
       "multiplayer": false,
@@ -11063,7 +11692,7 @@
         "url": "https://en.wikipedia.org/wiki/Otto_Matic"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/22/OttoMatic_boxart.jpg",
+        "url": "/covers/otto-matic.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -11072,6 +11701,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 181,
       "lastUpdate": "2023-01-31T22:46:58Z",
       "multiplayer": false,
@@ -11120,7 +11750,7 @@
         "url": "https://en.wikipedia.org/wiki/Out_Run"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Out_Run_Coverart.png",
+        "url": "/covers/out-run.png",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -11129,6 +11759,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 975,
       "lastUpdate": "2023-06-07T22:46:06Z",
       "multiplayer": false,
@@ -11198,7 +11829,7 @@
         "url": "https://en.wikipedia.org/wiki/P.T._(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a8/P.T._cover_art.jpg",
+        "url": "/covers/pt.jpg",
         "width": 480,
         "height": 277,
         "source": "Wikipedia",
@@ -11207,6 +11838,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 1752,
       "lastUpdate": "2026-10-11T23:14:27Z",
       "multiplayer": false,
@@ -11258,7 +11890,7 @@
         "url": "https://en.wikipedia.org/wiki/Paper_Mario_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg",
+        "url": "/covers/paper-mario.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -11268,6 +11900,7 @@
         "decompilation",
         "source-port"
       ],
+      "web": [],
       "stars": 777,
       "lastUpdate": "2026-10-11T17:56:48Z",
       "multiplayer": false,
@@ -11342,7 +11975,7 @@
         "url": "https://en.wikipedia.org/wiki/Perfect_Dark"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+        "url": "/covers/perfect-dark.jpg",
         "width": 480,
         "height": 333,
         "source": "Wikipedia",
@@ -11351,6 +11984,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 2153,
       "lastUpdate": "2026-08-27T17:15:19Z",
       "multiplayer": false,
@@ -11418,7 +12052,7 @@
         "url": "https://en.wikipedia.org/wiki/King_Kong_(2005_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/21/King-kong-cover-pc.jpg",
+        "url": "/covers/peter-jacksons-king-kong.jpg",
         "width": 480,
         "height": 677,
         "source": "Wikipedia",
@@ -11427,6 +12061,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 161,
       "lastUpdate": "2026-10-11T04:20:53Z",
       "multiplayer": false,
@@ -11478,7 +12113,7 @@
         "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
+        "url": "/covers/pokemon-gold-and-silver.png",
         "width": 480,
         "height": 240,
         "source": "Wikipedia",
@@ -11487,6 +12122,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 387,
       "lastUpdate": "2026-10-15T02:45:47Z",
       "multiplayer": false,
@@ -11538,7 +12174,7 @@
         "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png",
+        "url": "/covers/pokemon-snap.png",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -11547,6 +12183,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 106,
       "lastUpdate": "2026-10-11T15:40:53Z",
       "multiplayer": false,
@@ -11598,7 +12235,7 @@
         "url": "https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Prince_of_Persia_1989_cover.jpg",
+        "url": "/covers/prince-of-persia.jpg",
         "width": 480,
         "height": 614,
         "source": "Wikipedia",
@@ -11607,6 +12244,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1350,
       "lastUpdate": "2025-12-24T11:24:41Z",
       "multiplayer": false,
@@ -11678,7 +12316,7 @@
         "url": "https://en.wikipedia.org/wiki/Project_Gotham_Racing_4"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/88/PGR4boxart.jpg",
+        "url": "/covers/project-gotham-racing-4.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -11687,6 +12325,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 175,
       "lastUpdate": "2026-08-22T12:03:44Z",
       "multiplayer": false,
@@ -11740,7 +12379,7 @@
         "url": "https://en.wikipedia.org/wiki/Quake_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg",
+        "url": "/covers/quake.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -11750,10 +12389,30 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-netquakeio",
+          "name": "NetQuake.io",
+          "url": "https://www.netquake.io/",
+          "repo": null,
+          "access": "free",
+          "note": "Quake single-player and multiplayer with the shareware episode; use your own files for the full game.",
+          "multiplayer": true
+        },
+        {
+          "id": "web-qwasm",
+          "name": "Qwasm",
+          "url": "https://qwasm.m-h.org.uk",
+          "repo": "GMH-Code/Qwasm",
+          "access": "own-files",
+          "note": "Faithful WinQuake/GLQuake port. Needs PAK0.PAK from the shareware or full version.",
+          "multiplayer": false
+        }
+      ],
       "stars": 4861,
       "lastUpdate": "2026-10-12T03:36:06Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "novum-vkquake",
@@ -11905,7 +12564,7 @@
         "url": "https://en.wikipedia.org/wiki/Quake_4"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Quake4box.jpg",
+        "url": "/covers/quake-4.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -11914,6 +12573,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 150,
       "lastUpdate": "2026-09-14T20:18:39Z",
       "multiplayer": false,
@@ -11961,7 +12621,7 @@
         "url": "https://en.wikipedia.org/wiki/Quake_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+        "url": "/covers/quake-ii.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -11970,6 +12630,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 2024,
       "lastUpdate": "2026-10-10T16:44:56Z",
       "multiplayer": false,
@@ -12040,7 +12701,7 @@
         "url": "https://en.wikipedia.org/wiki/Quake_III_Arena"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Quake3Title.jpg",
+        "url": "/covers/quake-iii-arena.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -12049,10 +12710,30 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-q3js",
+          "name": "Q3JS",
+          "url": "https://q3js.com/",
+          "repo": null,
+          "access": "free",
+          "note": "Quake III Arena demo content with online servers.",
+          "multiplayer": true
+        },
+        {
+          "id": "web-quake-iii-arena-demo-web",
+          "name": "Quake III Arena Demo (web)",
+          "url": "https://thelongestyard.link/q3a-demo/",
+          "repo": "JWally/web-quaker",
+          "access": "free",
+          "note": "The official Quake III Arena demo running in the browser.",
+          "multiplayer": true
+        }
+      ],
       "stars": 6115,
       "lastUpdate": "2026-10-14T19:58:57Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "ec-quake3e",
@@ -12162,7 +12843,7 @@
         "url": "https://en.wikipedia.org/wiki/Quest_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg",
+        "url": "/covers/quest-64.jpg",
         "width": 480,
         "height": 331,
         "source": "Wikipedia",
@@ -12171,6 +12852,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 279,
       "lastUpdate": "2026-01-11T23:08:21Z",
       "multiplayer": false,
@@ -12220,7 +12902,7 @@
         "url": "https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/BARIS_cover.jpg",
+        "url": "/covers/race-into-space.jpg",
         "width": 480,
         "height": 640,
         "source": "Wikipedia",
@@ -12229,6 +12911,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 230,
       "lastUpdate": "2025-03-27T17:48:52Z",
       "multiplayer": false,
@@ -12279,7 +12962,7 @@
         "url": "https://en.wikipedia.org/wiki/Raptor:_Call_of_the_Shadows"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/19/Raptor_Call_of_the_Shadows_cover.jpg",
+        "url": "/covers/raptor-call-of-the-shadows.jpg",
         "width": 480,
         "height": 514,
         "source": "Wikipedia",
@@ -12288,6 +12971,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 131,
       "lastUpdate": "2026-09-28T19:16:00Z",
       "multiplayer": false,
@@ -12339,7 +13023,7 @@
         "url": "https://en.wikipedia.org/wiki/Ratchet_%26_Clank_(2002_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/RaCbox.jpg",
+        "url": "/covers/ratchet-and-clank.jpg",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -12348,6 +13032,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 35,
       "lastUpdate": "2026-10-15T12:21:21Z",
       "multiplayer": false,
@@ -12398,7 +13083,7 @@
         "url": "https://en.wikipedia.org/wiki/Resident_Evil_%E2%80%93_Code:_Veronica"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+        "url": "/covers/resident-evil-code-veronica-x.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -12407,6 +13092,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 274,
       "lastUpdate": "2026-07-18T23:02:44Z",
       "multiplayer": false,
@@ -12460,7 +13146,7 @@
         "url": "https://en.wikipedia.org/wiki/Resident_Evil_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/40/NTSC_Resident_Evil_2_Cover.png",
+        "url": "/covers/resident-evil-2.png",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -12469,6 +13155,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 292,
       "lastUpdate": "2026-08-17T03:22:36Z",
       "multiplayer": false,
@@ -12519,7 +13206,7 @@
         "url": "https://en.wikipedia.org/wiki/Resident_Evil_3:_Nemesis"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Resident_Evil_3_Cover.jpg",
+        "url": "/covers/resident-evil-3-nemesis.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -12528,6 +13215,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 49,
       "lastUpdate": "2026-10-15T03:35:33Z",
       "multiplayer": false,
@@ -12580,7 +13268,7 @@
         "url": "https://en.wikipedia.org/wiki/Return_to_Castle_Wolfenstein"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
+        "url": "/covers/return-to-castle-wolfenstein.jpg",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -12589,6 +13277,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 760,
       "lastUpdate": "2019-03-16T21:15:16Z",
       "multiplayer": false,
@@ -12639,7 +13328,7 @@
         "url": "https://en.wikipedia.org/wiki/Ridge_Racer_(1993_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Ridge_Racer_Arcade_Flyer.jpeg",
+        "url": "/covers/ridge-racer.jpg",
         "width": 480,
         "height": 618,
         "source": "Wikipedia",
@@ -12648,6 +13337,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 41,
       "lastUpdate": "2026-08-17T20:52:25Z",
       "multiplayer": false,
@@ -12698,7 +13388,7 @@
         "url": "https://en.wikipedia.org/wiki/Ridge_Racer_6"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/57/Ridge_Racer_6.jpg",
+        "url": "/covers/ridge-racer-6.jpg",
         "width": 480,
         "height": 677,
         "source": "Wikipedia",
@@ -12707,6 +13397,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 87,
       "lastUpdate": "2026-10-09T18:25:28Z",
       "multiplayer": false,
@@ -12757,7 +13448,7 @@
         "url": "https://en.wikipedia.org/wiki/Ridge_Racer_V"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/RidgeRacerVCover.jpg",
+        "url": "/covers/ridge-racer-v.jpg",
         "width": 480,
         "height": 685,
         "source": "Wikipedia",
@@ -12766,6 +13457,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 56,
       "lastUpdate": "2026-10-14T11:05:05Z",
       "multiplayer": false,
@@ -12816,7 +13508,7 @@
         "url": "https://en.wikipedia.org/wiki/Rise_of_the_Triad"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Rise_of_the_Triad_cover.jpg",
+        "url": "/covers/rise-of-the-triad-dark-war.jpg",
         "width": 480,
         "height": 685,
         "source": "Wikipedia",
@@ -12825,6 +13517,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 58,
       "lastUpdate": "2025-12-22T12:52:09Z",
       "multiplayer": false,
@@ -12871,7 +13564,7 @@
         "url": "https://en.wikipedia.org/wiki/Rocket:_Robot_on_Wheels"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/90/Rocket_Robot_on_Wheels_Cover.jpg",
+        "url": "/covers/rocket-robot-on-wheels.jpg",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -12880,6 +13573,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 37,
       "lastUpdate": "2026-09-27T22:48:32Z",
       "multiplayer": false,
@@ -12932,6 +13626,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 84,
       "lastUpdate": "2026-02-21T16:00:30Z",
       "multiplayer": false,
@@ -12978,7 +13673,7 @@
         "url": "https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/RollerCoaster_Tycoon_2_%28boxart%29.jpg",
+        "url": "/covers/rollercoaster-tycoon-2.jpg",
         "width": 480,
         "height": 566,
         "source": "Wikipedia",
@@ -12987,6 +13682,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 16436,
       "lastUpdate": "2026-10-10T12:32:52Z",
       "multiplayer": false,
@@ -13038,7 +13734,7 @@
         "url": "https://en.wikipedia.org/wiki/Rush_2:_Extreme_Racing_USA"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Rush2box.jpg",
+        "url": "/covers/rush-2-extreme-racing-usa.jpg",
         "width": 480,
         "height": 329,
         "source": "Wikipedia",
@@ -13047,6 +13743,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 46,
       "lastUpdate": "2026-10-15T06:00:40Z",
       "multiplayer": false,
@@ -13097,7 +13794,7 @@
         "url": "https://en.wikipedia.org/wiki/Sensible_World_of_Soccer"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/aa/Sensible_World_of_Soccer_cover_art.png",
+        "url": "/covers/sensible-world-of-soccer.png",
         "width": 480,
         "height": 610,
         "source": "Wikipedia",
@@ -13106,6 +13803,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 33,
       "lastUpdate": "2026-09-06T22:35:24Z",
       "multiplayer": false,
@@ -13158,7 +13856,7 @@
         "url": "https://en.wikipedia.org/wiki/Serious_Sam:_The_First_Encounter"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Serious_Sam_-_The_First_Encounter.jpg",
+        "url": "/covers/serious-sam-the-first-encounter.jpg",
         "width": 480,
         "height": 652,
         "source": "Wikipedia",
@@ -13168,6 +13866,7 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [],
       "stars": 347,
       "lastUpdate": "2025-02-02T21:37:48Z",
       "multiplayer": false,
@@ -13239,7 +13938,7 @@
         "url": "https://en.wikipedia.org/wiki/Shadow_Warrior_(1997_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d8/Shadow_Warrior_1997_cover.jpg",
+        "url": "/covers/shadow-warrior.jpg",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -13248,6 +13947,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 888,
       "lastUpdate": "2025-02-22T17:47:27Z",
       "multiplayer": false,
@@ -13300,7 +14000,7 @@
         "url": "https://en.wikipedia.org/wiki/Sid_Meier%27s_Alpha_Centauri"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Alpha_Centauri_cover.jpg",
+        "url": "/covers/sid-meiers-alpha-centauri.jpg",
         "width": 480,
         "height": 608,
         "source": "Wikipedia",
@@ -13309,6 +14009,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 638,
       "lastUpdate": "2026-05-31T22:59:45Z",
       "multiplayer": false,
@@ -13361,7 +14062,7 @@
         "url": "https://en.wikipedia.org/wiki/Silent_Hill_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
+        "url": "/covers/silent-hill.png",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -13370,6 +14071,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 677,
       "lastUpdate": "2026-09-04T08:39:34Z",
       "multiplayer": false,
@@ -13420,7 +14122,7 @@
         "url": "https://en.wikipedia.org/wiki/Silent_Hill:_Downpour"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e2/Silent_Hill_Downpour_box_art.jpg",
+        "url": "/covers/silent-hill-downpour.jpg",
         "width": 480,
         "height": 592,
         "source": "Wikipedia",
@@ -13429,6 +14131,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 287,
       "lastUpdate": "2026-09-02T22:18:50Z",
       "multiplayer": false,
@@ -13482,7 +14185,7 @@
         "url": "https://en.wikipedia.org/wiki/SimCity_2000"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d4/SimCity_2000_Coverart.png",
+        "url": "/covers/simcity-2000.png",
         "width": 480,
         "height": 603,
         "source": "Wikipedia",
@@ -13492,6 +14195,7 @@
         "engine-remake",
         "decompilation"
       ],
+      "web": [],
       "stars": 5507,
       "lastUpdate": "2026-10-09T19:27:55Z",
       "multiplayer": false,
@@ -13561,7 +14265,7 @@
         "url": "https://en.wikipedia.org/wiki/Skate_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Skate_2_Cover.jpg",
+        "url": "/covers/skate-2.jpg",
         "width": 480,
         "height": 600,
         "source": "Wikipedia",
@@ -13570,6 +14274,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 41,
       "lastUpdate": "2026-10-12T15:22:21Z",
       "multiplayer": false,
@@ -13618,7 +14323,7 @@
         "url": "https://en.wikipedia.org/wiki/Skate_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+        "url": "/covers/skate-3.jpg",
         "width": 480,
         "height": 505,
         "source": "Wikipedia",
@@ -13628,6 +14333,7 @@
         "static-recomp",
         "engine-remake"
       ],
+      "web": [],
       "stars": 2511,
       "lastUpdate": "2026-10-09T09:36:00Z",
       "multiplayer": false,
@@ -13742,7 +14448,7 @@
         "url": "https://en.wikipedia.org/wiki/Sly_Cooper_and_the_Thievius_Raccoonus"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
+        "url": "/covers/sly-cooper-and-the-thievius-raccoonus.jpg",
         "width": 480,
         "height": 678,
         "source": "Wikipedia",
@@ -13751,6 +14457,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 259,
       "lastUpdate": "2026-10-15T01:25:34Z",
       "multiplayer": false,
@@ -13799,7 +14506,7 @@
         "url": "https://en.wikipedia.org/wiki/Snowboard_Kids_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg",
+        "url": "/covers/snowboard-kids-2.jpg",
         "width": 480,
         "height": 353,
         "source": "Wikipedia",
@@ -13808,6 +14515,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 107,
       "lastUpdate": "2026-06-21T18:50:51Z",
       "multiplayer": false,
@@ -13856,7 +14564,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
+        "url": "/covers/sonic-3-and-knuckles.jpg",
         "width": 480,
         "height": 672,
         "source": "Wikipedia",
@@ -13865,6 +14573,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 653,
       "lastUpdate": "2026-03-28T15:37:07Z",
       "multiplayer": false,
@@ -13914,7 +14623,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_and_the_Secret_Rings"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Sonic_and_the_Secret_Rings_coverart.png",
+        "url": "/covers/sonic-and-the-secret-rings.png",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -13923,6 +14632,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 297,
       "lastUpdate": "2025-09-20T22:00:29Z",
       "multiplayer": false,
@@ -13973,7 +14683,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_CD"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+        "url": "/covers/sonic-cd.jpg",
         "width": 480,
         "height": 811,
         "source": "Wikipedia",
@@ -13982,6 +14692,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 709,
       "lastUpdate": "2025-11-02T00:12:09Z",
       "multiplayer": false,
@@ -14032,7 +14743,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_Mania"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+        "url": "/covers/sonic-mania.jpg",
         "width": 480,
         "height": 533,
         "source": "Wikipedia",
@@ -14041,6 +14752,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 1380,
       "lastUpdate": "2025-11-01T23:53:19Z",
       "multiplayer": false,
@@ -14111,7 +14823,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+        "url": "/covers/sonic-the-hedgehog.jpg",
         "width": 480,
         "height": 692,
         "source": "Wikipedia",
@@ -14121,6 +14833,7 @@
         "source-port",
         "decompilation"
       ],
+      "web": [],
       "stars": 1176,
       "lastUpdate": "2025-11-02T00:48:00Z",
       "multiplayer": false,
@@ -14212,7 +14925,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+        "url": "/covers/sonic-the-hedgehog-2.jpg",
         "width": 480,
         "height": 672,
         "source": "Wikipedia",
@@ -14222,6 +14935,7 @@
         "source-port",
         "decompilation"
       ],
+      "web": [],
       "stars": 1145,
       "lastUpdate": "2025-11-02T00:48:00Z",
       "multiplayer": false,
@@ -14291,7 +15005,7 @@
         "url": "https://en.wikipedia.org/wiki/Sonic_Unleashed"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+        "url": "/covers/sonic-unleashed.jpg",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -14300,6 +15014,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 5402,
       "lastUpdate": "2026-10-10T02:06:44Z",
       "multiplayer": false,
@@ -14370,6 +15085,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 119,
       "lastUpdate": "2025-12-06T23:10:53Z",
       "multiplayer": false,
@@ -14418,7 +15134,7 @@
         "url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Silicon_Valley_Artwork.jpg",
+        "url": "/covers/space-station-silicon-valley.jpg",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -14427,6 +15143,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 100,
       "lastUpdate": "2026-03-13T13:03:41Z",
       "multiplayer": false,
@@ -14471,6 +15188,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 303,
       "lastUpdate": "2026-10-13T08:09:49Z",
       "multiplayer": false,
@@ -14521,7 +15239,7 @@
         "url": "https://en.wikipedia.org/wiki/Spelunky"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/5b/Spelunky.jpg",
+        "url": "/covers/spelunky.jpg",
         "width": 480,
         "height": 372,
         "source": "Wikipedia",
@@ -14530,6 +15248,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 225,
       "lastUpdate": "2025-09-03T15:37:03Z",
       "multiplayer": false,
@@ -14580,7 +15299,7 @@
         "url": "https://en.wikipedia.org/wiki/Spider-Man:_Edge_of_Time"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/df/Spider-Man_Edge_of_Time.jpg",
+        "url": "/covers/spider-man-edge-of-time.jpg",
         "width": 480,
         "height": 636,
         "source": "Wikipedia",
@@ -14589,6 +15308,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 402,
       "lastUpdate": "2026-10-13T13:25:15Z",
       "multiplayer": false,
@@ -14661,7 +15381,7 @@
         "url": "https://en.wikipedia.org/wiki/SSX_Tricky"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/SSX_Tricky.jpg",
+        "url": "/covers/ssx-tricky.jpg",
         "width": 480,
         "height": 614,
         "source": "Wikipedia",
@@ -14670,6 +15390,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 48,
       "lastUpdate": "2026-10-14T10:43:05Z",
       "multiplayer": false,
@@ -14723,7 +15444,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Fox_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+        "url": "/covers/star-fox-64.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -14734,6 +15455,7 @@
         "static-recomp",
         "source-port"
       ],
+      "web": [],
       "stars": 2579,
       "lastUpdate": "2026-08-04T03:48:32Z",
       "multiplayer": false,
@@ -14826,7 +15548,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Fox_Adventures"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg",
+        "url": "/covers/star-fox-adventures.jpg",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -14835,6 +15557,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 67,
       "lastUpdate": "2026-10-09T19:21:21Z",
       "multiplayer": false,
@@ -14884,7 +15607,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_%E2%80%93_Elite_Force"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/48/Star_Trek_Voyager_Elite_Force.jpg",
+        "url": "/covers/star-trek-voyager-elite-force.jpg",
         "width": 480,
         "height": 580,
         "source": "Wikipedia",
@@ -14893,6 +15616,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 58,
       "lastUpdate": "2019-11-02T22:11:22Z",
       "multiplayer": false,
@@ -14944,7 +15668,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/15/The_phantom_menace_video_game.jpg",
+        "url": "/covers/star-wars-episode-i-the-phantom-menace.jpg",
         "width": 480,
         "height": 609,
         "source": "Wikipedia",
@@ -14953,6 +15677,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 57,
       "lastUpdate": "2026-10-05T14:40:28Z",
       "multiplayer": false,
@@ -15003,7 +15728,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/90/Jabox.jpg",
+        "url": "/covers/star-wars-jedi-knight-jedi-academy.jpg",
         "width": 480,
         "height": 690,
         "source": "Wikipedia",
@@ -15012,10 +15737,21 @@
       "types": [
         "source-port"
       ],
+      "web": [
+        {
+          "id": "web-jedi-academy-web",
+          "name": "Jedi Academy Web",
+          "url": "https://jk.q3js.com",
+          "repo": null,
+          "access": "own-files",
+          "note": "OpenJK in the browser with multiplayer. Needs your own game files.",
+          "multiplayer": true
+        }
+      ],
       "stars": 2300,
       "lastUpdate": "2026-09-29T09:22:50Z",
-      "multiplayer": false,
-      "browser": false,
+      "multiplayer": true,
+      "browser": true,
       "ports": [
         {
           "id": "jacoders-openjk",
@@ -15062,7 +15798,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/Dark_Forces_box_cover.jpg",
+        "url": "/covers/star-wars-dark-forces.jpg",
         "width": 480,
         "height": 612,
         "source": "Wikipedia",
@@ -15071,6 +15807,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1164,
       "lastUpdate": "2025-09-10T02:20:39Z",
       "multiplayer": false,
@@ -15125,6 +15862,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 52,
       "lastUpdate": "2026-10-10T02:55:21Z",
       "multiplayer": false,
@@ -15175,7 +15913,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_TIE_Fighter"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Swtiefightercd.jpg",
+        "url": "/covers/star-wars-tie-fighter.jpg",
         "width": 480,
         "height": 599,
         "source": "Wikipedia",
@@ -15184,6 +15922,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 329,
       "lastUpdate": "2026-10-04T17:49:52Z",
       "multiplayer": false,
@@ -15234,7 +15973,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_X-Wing_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/X-Wing_-_Space_Combat_Simulator_%28box_cover%29.jpg",
+        "url": "/covers/star-wars-x-wing.jpg",
         "width": 480,
         "height": 616,
         "source": "Wikipedia",
@@ -15243,6 +15982,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 110,
       "lastUpdate": "2026-09-29T12:50:06Z",
       "multiplayer": false,
@@ -15294,7 +16034,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_X-Wing_Alliance"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Star_Wars_-_X-Wing_Alliance_Coverart.png",
+        "url": "/covers/star-wars-x-wing-alliance.png",
         "width": 480,
         "height": 474,
         "source": "Wikipedia",
@@ -15303,6 +16043,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 152,
       "lastUpdate": "2026-08-31T21:08:14Z",
       "multiplayer": false,
@@ -15354,7 +16095,7 @@
         "url": "https://en.wikipedia.org/wiki/Star_Wars:_X-Wing_vs._TIE_Fighter"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Star_Wars_X-Wing_vs._Tie_Fighter_box_art.jpg",
+        "url": "/covers/star-wars-x-wing-vs-tie-fighter.jpg",
         "width": 480,
         "height": 605,
         "source": "Wikipedia",
@@ -15363,6 +16104,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 49,
       "lastUpdate": "2026-10-10T11:36:40Z",
       "multiplayer": false,
@@ -15413,7 +16155,7 @@
         "url": "https://en.wikipedia.org/wiki/Street_Fighter_EX"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Street_Fighter_EX_flyer.jpg",
+        "url": "/covers/street-fighter-ex-plus-alpha.jpg",
         "width": 480,
         "height": 600,
         "source": "Wikipedia",
@@ -15422,6 +16164,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 37,
       "lastUpdate": "2026-08-28T15:51:39Z",
       "multiplayer": false,
@@ -15472,7 +16215,7 @@
         "url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e6/Street_Fighter_III_3rd_Strike_%28flyer%29.png",
+        "url": "/covers/street-fighter-iii-3rd-strike.png",
         "width": 480,
         "height": 664,
         "source": "Wikipedia",
@@ -15481,6 +16224,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 411,
       "lastUpdate": "2026-10-15T13:18:06Z",
       "multiplayer": false,
@@ -15553,7 +16297,7 @@
         "url": "https://en.wikipedia.org/wiki/Stronghold:_Crusader"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Crusadercover.jpg",
+        "url": "/covers/stronghold-crusader.jpg",
         "width": 480,
         "height": 618,
         "source": "Wikipedia",
@@ -15562,6 +16306,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 41,
       "lastUpdate": "2026-06-08T19:00:57Z",
       "multiplayer": false,
@@ -15612,7 +16357,7 @@
         "url": "https://en.wikipedia.org/wiki/Supaplex"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Supaplex_cover.jpg",
+        "url": "/covers/supaplex.jpg",
         "width": 480,
         "height": 586,
         "source": "Wikipedia",
@@ -15621,6 +16366,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 304,
       "lastUpdate": "2026-03-30T23:08:13Z",
       "multiplayer": false,
@@ -15676,7 +16422,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Mario_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+        "url": "/covers/super-mario-64.png",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -15686,6 +16432,7 @@
         "source-port",
         "decompilation"
       ],
+      "web": [],
       "stars": 13003,
       "lastUpdate": "2026-09-07T04:57:17Z",
       "multiplayer": false,
@@ -15841,7 +16588,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+        "url": "/covers/super-mario-bros.png",
         "width": 480,
         "height": 693,
         "source": "Wikipedia",
@@ -15850,6 +16597,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 30,
       "lastUpdate": "2026-10-05T06:07:28Z",
       "multiplayer": false,
@@ -15900,7 +16648,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+        "url": "/covers/super-mario-galaxy.jpg",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -15909,6 +16657,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 71,
       "lastUpdate": "2026-10-15T03:17:40Z",
       "multiplayer": false,
@@ -15960,7 +16709,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Mario_Sunshine"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+        "url": "/covers/super-mario-sunshine.png",
         "width": 480,
         "height": 668,
         "source": "Wikipedia",
@@ -15969,6 +16718,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 185,
       "lastUpdate": "2026-10-04T11:15:41Z",
       "multiplayer": false,
@@ -16019,7 +16769,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Mario_World"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+        "url": "/covers/super-mario-world.png",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -16028,6 +16778,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 639,
       "lastUpdate": "2023-08-16T22:38:38Z",
       "multiplayer": false,
@@ -16080,7 +16831,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Metroid"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+        "url": "/covers/super-metroid.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -16089,6 +16840,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 206,
       "lastUpdate": "2023-03-21T20:14:30Z",
       "multiplayer": false,
@@ -16118,6 +16870,53 @@
       ]
     },
     {
+      "slug": "super-monkey-ball",
+      "title": "Super Monkey Ball",
+      "aka": [],
+      "platform": "gamecube",
+      "family": "Nintendo",
+      "year": 2001,
+      "developers": [
+        "Amusement Vision"
+      ],
+      "publishers": [],
+      "genres": [
+        "platformer",
+        "party",
+        "arcade",
+        "action game"
+      ],
+      "summary": "Super Monkey Ball is a 2001 video game developed by Amusement Vision and published by Sega. The game debuted in Japan at the 2001 Amusement Operators Union trade show as Monkey Ball, an arcade cabinet running on Sega's NAOMI hardware and controlled with a distinctive banana-shaped analog stick. Due to the discontinuation of Sega's Dreamcast home console and the company's subsequent restructuring, an enhanced port dubbed Super Monkey Ball was released as a launch title for the GameCube in late 2001, garnering interest as Sega's first game published for a Nintendo home console.",
+      "wikipedia": {
+        "title": "Super Monkey Ball (video game)",
+        "url": "https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)"
+      },
+      "cover": {
+        "url": "/covers/super-monkey-ball.png",
+        "width": 480,
+        "height": 681,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Monkey_Ball_Coverart.png"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-monkey-ball-online",
+          "name": "Monkey Ball Online",
+          "url": "https://monkeyball-online.pages.dev/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Super Monkey Ball running natively in the browser. Needs your own game files.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "super-smash-bros",
       "title": "Super Smash Bros.",
       "aka": [],
@@ -16140,7 +16939,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Smash_Bros._(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg",
+        "url": "/covers/super-smash-bros.jpg",
         "width": 480,
         "height": 331,
         "source": "Wikipedia",
@@ -16149,6 +16948,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 482,
       "lastUpdate": "2026-08-12T03:19:33Z",
       "multiplayer": false,
@@ -16200,7 +17000,7 @@
         "url": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+        "url": "/covers/super-smash-bros-melee.png",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -16209,6 +17009,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 462,
       "lastUpdate": "2026-10-14T00:09:40Z",
       "multiplayer": false,
@@ -16261,7 +17062,7 @@
         "url": "https://en.wikipedia.org/wiki/Syndicate_Wars"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Syndicate_Wars_Coverart.png",
+        "url": "/covers/syndicate-wars.png",
         "width": 480,
         "height": 613,
         "source": "Wikipedia",
@@ -16270,6 +17071,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 262,
       "lastUpdate": "2025-10-13T21:25:30Z",
       "multiplayer": false,
@@ -16321,7 +17123,7 @@
         "url": "https://en.wikipedia.org/wiki/Syphon_Filter_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f9/Syphon_Filter_US_Cover.jpg",
+        "url": "/covers/syphon-filter.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -16330,6 +17132,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 111,
       "lastUpdate": "2026-08-13T18:47:33Z",
       "multiplayer": false,
@@ -16381,7 +17184,7 @@
         "url": "https://en.wikipedia.org/wiki/System_Shock"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/93/Sysshock.jpg",
+        "url": "/covers/system-shock.jpg",
         "width": 480,
         "height": 664,
         "source": "Wikipedia",
@@ -16390,6 +17193,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 905,
       "lastUpdate": "2019-04-08T16:40:50Z",
       "multiplayer": false,
@@ -16438,7 +17242,7 @@
         "url": "https://en.wikipedia.org/wiki/Tails_Adventure"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f0/Tails_Adventure_Coverart.png",
+        "url": "/covers/tails-adventure.png",
         "width": 480,
         "height": 669,
         "source": "Wikipedia",
@@ -16447,6 +17251,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 152,
       "lastUpdate": "2026-04-22T14:22:14Z",
       "multiplayer": false,
@@ -16497,7 +17302,7 @@
         "url": "https://en.wikipedia.org/wiki/Tekken_3"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",
+        "url": "/covers/tekken-3.jpg",
         "width": 480,
         "height": 720,
         "source": "Wikipedia",
@@ -16506,6 +17311,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 46,
       "lastUpdate": "2026-09-23T15:02:50Z",
       "multiplayer": false,
@@ -16557,7 +17363,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Darkness_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Darkness_cover.jpg",
+        "url": "/covers/the-darkness.jpg",
         "width": 480,
         "height": 599,
         "source": "Wikipedia",
@@ -16566,6 +17372,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 326,
       "lastUpdate": "2026-10-14T17:40:56Z",
       "multiplayer": false,
@@ -16638,7 +17445,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_II:_Daggerfall"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/Daggerfall_Cover_art.gif",
+        "url": "/covers/the-elder-scrolls-ii-daggerfall.gif",
         "width": 480,
         "height": 605,
         "source": "Wikipedia",
@@ -16647,6 +17454,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 3525,
       "lastUpdate": "2025-10-05T01:34:39Z",
       "multiplayer": false,
@@ -16700,7 +17508,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+        "url": "/covers/the-elder-scrolls-iii-morrowind.jpg",
         "width": 480,
         "height": 671,
         "source": "Wikipedia",
@@ -16709,10 +17517,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-openmw-web",
+          "name": "OpenMW Web",
+          "url": "https://morrowind.virtastic.app",
+          "repo": "Virtastic/openmw-web",
+          "access": "own-files",
+          "note": "Experimental OpenMW build for the browser. Upload your own Morrowind data files.",
+          "multiplayer": false
+        }
+      ],
       "stars": 6631,
       "lastUpdate": "2026-06-19T19:58:46Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "openmw-openmw",
@@ -16759,7 +17578,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls:_Arena"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/89/Elder_Scrolls_Arena_Cover.jpg",
+        "url": "/covers/the-elder-scrolls-arena.jpg",
         "width": 480,
         "height": 589,
         "source": "Wikipedia",
@@ -16768,6 +17587,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1430,
       "lastUpdate": "2026-08-13T03:56:58Z",
       "multiplayer": false,
@@ -16818,7 +17638,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Great_Escape_(1986_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Great_escape_c64_inlay.png",
+        "url": "/covers/the-great-escape.png",
         "width": 480,
         "height": 616,
         "source": "Wikipedia",
@@ -16827,6 +17647,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 132,
       "lastUpdate": "2022-04-20T00:12:09Z",
       "multiplayer": false,
@@ -16878,7 +17699,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Dragoon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg",
+        "url": "/covers/the-legend-of-dragoon.jpg",
         "width": 480,
         "height": 719,
         "source": "Wikipedia",
@@ -16887,6 +17708,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 550,
       "lastUpdate": "2025-06-22T15:37:49Z",
       "multiplayer": false,
@@ -16931,6 +17753,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1978,
       "lastUpdate": "2025-06-15T20:16:16Z",
       "multiplayer": false,
@@ -16982,7 +17805,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+        "url": "/covers/the-legend-of-zelda-a-link-to-the-past.jpg",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -16992,6 +17815,7 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [],
       "stars": 5323,
       "lastUpdate": "2026-10-07T11:52:34Z",
       "multiplayer": false,
@@ -17063,7 +17887,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Legend_of_Zelda_Link%27s_Awakening_%282019_video_game%29.jpg",
+        "url": "/covers/the-legend-of-zelda-links-awakening-2019.jpg",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -17072,6 +17896,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 752,
       "lastUpdate": "2026-10-15T03:07:44Z",
       "multiplayer": false,
@@ -17125,7 +17950,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+        "url": "/covers/the-legend-of-zelda-majoras-mask.jpg",
         "width": 480,
         "height": 335,
         "source": "Wikipedia",
@@ -17136,6 +17961,7 @@
         "decompilation",
         "source-port"
       ],
+      "web": [],
       "stars": 9789,
       "lastUpdate": "2026-10-04T12:20:34Z",
       "multiplayer": false,
@@ -17232,7 +18058,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+        "url": "/covers/the-legend-of-zelda-ocarina-of-time.jpg",
         "width": 480,
         "height": 334,
         "source": "Wikipedia",
@@ -17241,6 +18067,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 5611,
       "lastUpdate": "2026-10-06T02:44:55Z",
       "multiplayer": false,
@@ -17292,7 +18119,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time_3D"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+        "url": "/covers/the-legend-of-zelda-ocarina-of-time-3d.png",
         "width": 480,
         "height": 467,
         "source": "Wikipedia",
@@ -17301,6 +18128,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 489,
       "lastUpdate": "2026-10-15T12:54:52Z",
       "multiplayer": false,
@@ -17351,7 +18179,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+        "url": "/covers/the-legend-of-zelda-the-minish-cap.png",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -17361,6 +18189,7 @@
         "source-port",
         "decompilation"
       ],
+      "web": [],
       "stars": 533,
       "lastUpdate": "2026-09-28T06:56:37Z",
       "multiplayer": false,
@@ -17433,7 +18262,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+        "url": "/covers/the-legend-of-zelda-the-wind-waker.jpg",
         "width": 480,
         "height": 579,
         "source": "Wikipedia",
@@ -17443,6 +18272,7 @@
         "static-recomp",
         "source-port"
       ],
+      "web": [],
       "stars": 425,
       "lastUpdate": "2026-10-13T15:45:18Z",
       "multiplayer": false,
@@ -17515,7 +18345,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+        "url": "/covers/the-legend-of-zelda-the-wind-waker-hd.jpg",
         "width": 480,
         "height": 579,
         "source": "Wikipedia",
@@ -17524,6 +18354,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 705,
       "lastUpdate": "2026-10-15T08:38:34Z",
       "multiplayer": false,
@@ -17597,7 +18428,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+        "url": "/covers/the-legend-of-zelda-twilight-princess.jpg",
         "width": 480,
         "height": 680,
         "source": "Wikipedia",
@@ -17606,6 +18437,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 5858,
       "lastUpdate": "2026-09-30T07:06:44Z",
       "multiplayer": false,
@@ -17661,7 +18493,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Settlers_(1993_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/ee/Settlers_boxscan_amiga.jpg",
+        "url": "/covers/the-settlers.jpg",
         "width": 480,
         "height": 628,
         "source": "Wikipedia",
@@ -17670,6 +18502,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 512,
       "lastUpdate": "2026-10-12T15:04:41Z",
       "multiplayer": false,
@@ -17743,7 +18576,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Settlers_II"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7e/Settlers_2_cover.png",
+        "url": "/covers/the-settlers-ii.png",
         "width": 480,
         "height": 581,
         "source": "Wikipedia",
@@ -17752,6 +18585,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 596,
       "lastUpdate": "2022-02-28T19:10:33Z",
       "multiplayer": false,
@@ -17803,7 +18637,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Simpsons_Game"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Simpsons_Game_XBOX_360_Cover.jpg",
+        "url": "/covers/the-simpsons-game.jpg",
         "width": 480,
         "height": 593,
         "source": "Wikipedia",
@@ -17812,6 +18646,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 346,
       "lastUpdate": "2026-10-10T08:44:09Z",
       "multiplayer": false,
@@ -17862,7 +18697,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Sims_Online"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Sims_Online_Cover.jpg",
+        "url": "/covers/the-sims-online.jpg",
         "width": 480,
         "height": 686,
         "source": "Wikipedia",
@@ -17871,6 +18706,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 983,
       "lastUpdate": "2024-12-08T18:29:02Z",
       "multiplayer": false,
@@ -17922,7 +18758,7 @@
         "url": "https://en.wikipedia.org/wiki/Skynet_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/SkyNET_cover.jpg",
+        "url": "/covers/the-terminator-skynet.jpg",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -17931,6 +18767,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 34,
       "lastUpdate": "2026-10-13T11:53:42Z",
       "multiplayer": false,
@@ -17981,7 +18818,7 @@
         "url": "https://en.wikipedia.org/wiki/Theme_Hospital"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/26/Theme_Hospital.front_cover.jpg",
+        "url": "/covers/theme-hospital.jpg",
         "width": 480,
         "height": 469,
         "source": "Wikipedia",
@@ -17990,6 +18827,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 4593,
       "lastUpdate": "2026-08-28T13:33:08Z",
       "multiplayer": false,
@@ -18038,7 +18876,7 @@
         "url": "https://en.wikipedia.org/wiki/Tom_Clancy%27s_Splinter_Cell:_Double_Agent"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Scda_boxart.jpg",
+        "url": "/covers/tom-clancys-splinter-cell-double-agent.jpg",
         "width": 480,
         "height": 630,
         "source": "Wikipedia",
@@ -18047,6 +18885,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 193,
       "lastUpdate": "2026-10-11T19:19:36Z",
       "multiplayer": false,
@@ -18100,7 +18939,7 @@
         "url": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+        "url": "/covers/tomb-raider-i-and-ii.png",
         "width": 480,
         "height": 610,
         "source": "Wikipedia",
@@ -18109,10 +18948,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-openlara",
+          "name": "OpenLara",
+          "url": "http://xproger.info/projects/OpenLara/",
+          "repo": "XProger/OpenLara",
+          "access": "free",
+          "note": "Open-source Tomb Raider engine with a demo level included.",
+          "multiplayer": false
+        }
+      ],
       "stars": 1008,
       "lastUpdate": "2026-09-22T15:24:08Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "lostartefacts-trx",
@@ -18160,7 +19010,7 @@
         "url": "https://en.wikipedia.org/wiki/Tomb_Raider:_Chronicles"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png",
+        "url": "/covers/tomb-raider-chronicles.png",
         "width": 480,
         "height": 634,
         "source": "Wikipedia",
@@ -18169,6 +19019,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 520,
       "lastUpdate": "2021-03-07T21:43:45Z",
       "multiplayer": false,
@@ -18218,7 +19069,7 @@
         "url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Project_8"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
+        "url": "/covers/tony-hawks-project-8.jpg",
         "width": 480,
         "height": 589,
         "source": "Wikipedia",
@@ -18227,6 +19078,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 39,
       "lastUpdate": "2026-08-24T13:53:28Z",
       "multiplayer": false,
@@ -18278,7 +19130,7 @@
         "url": "https://en.wikipedia.org/wiki/Total_Annihilation"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Total_Annihilation_Coverart.png",
+        "url": "/covers/total-annihilation.png",
         "width": 480,
         "height": 578,
         "source": "Wikipedia",
@@ -18287,6 +19139,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 54,
       "lastUpdate": "2026-10-10T07:17:06Z",
       "multiplayer": false,
@@ -18331,6 +19184,7 @@
       "types": [
         "decompilation"
       ],
+      "web": [],
       "stars": 875,
       "lastUpdate": "2026-03-16T23:22:51Z",
       "multiplayer": false,
@@ -18379,7 +19233,7 @@
         "url": "https://en.wikipedia.org/wiki/Transport_Tycoon"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Transport_Tycoon_Coverart.jpg",
+        "url": "/covers/transport-tycoon-deluxe.jpg",
         "width": 480,
         "height": 642,
         "source": "Wikipedia",
@@ -18388,6 +19242,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 9175,
       "lastUpdate": "2026-10-12T18:03:29Z",
       "multiplayer": false,
@@ -18462,6 +19317,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 46,
       "lastUpdate": "2026-10-15T05:46:20Z",
       "multiplayer": false,
@@ -18510,7 +19366,7 @@
         "url": "https://en.wikipedia.org/wiki/Tyrian_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/73/Tryian_-_Box.jpg",
+        "url": "/covers/tyrian.jpg",
         "width": 480,
         "height": 595,
         "source": "Wikipedia",
@@ -18519,10 +19375,21 @@
       "types": [
         "engine-remake"
       ],
+      "web": [
+        {
+          "id": "web-opentyrian-web",
+          "name": "OpenTyrian Web",
+          "url": "https://midzer.de/wasm/opentyrian/",
+          "repo": "midzer/opentyrian",
+          "access": "free",
+          "note": "Tyrian 2.1, released as freeware, playable in full.",
+          "multiplayer": false
+        }
+      ],
       "stars": 584,
       "lastUpdate": "2026-09-14T00:00:40Z",
       "multiplayer": false,
-      "browser": false,
+      "browser": true,
       "ports": [
         {
           "id": "opentyrian-opentyrian",
@@ -18573,7 +19440,7 @@
         "url": "https://en.wikipedia.org/wiki/UFO:_Enemy_Unknown"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/66/UFO_Enemy_Unknown_cover_art.png",
+        "url": "/covers/ufo-enemy-unknown.png",
         "width": 480,
         "height": 559,
         "source": "Wikipedia",
@@ -18582,6 +19449,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 2231,
       "lastUpdate": "2026-09-28T07:32:05Z",
       "multiplayer": false,
@@ -18632,7 +19500,7 @@
         "url": "https://en.wikipedia.org/wiki/Ultima_Underworld:_The_Stygian_Abyss"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/dd/Ultima_Underworld_cover.png",
+        "url": "/covers/ultima-underworld-the-stygian-abyss.png",
         "width": 480,
         "height": 616,
         "source": "Wikipedia",
@@ -18642,6 +19510,7 @@
         "static-recomp",
         "engine-remake"
       ],
+      "web": [],
       "stars": 385,
       "lastUpdate": "2026-10-14T17:03:25Z",
       "multiplayer": false,
@@ -18714,7 +19583,7 @@
         "url": "https://en.wikipedia.org/wiki/Ultima_VII:_The_Black_Gate"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ultima_VII_Black_Gate_box.jpg",
+        "url": "/covers/ultima-vii-the-black-gate.jpg",
         "width": 480,
         "height": 681,
         "source": "Wikipedia",
@@ -18723,6 +19592,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 693,
       "lastUpdate": "2026-01-08T11:51:22Z",
       "multiplayer": false,
@@ -18772,7 +19642,7 @@
         "url": "https://en.wikipedia.org/wiki/Unreal_Tournament"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/f/f4/Unrealtournament.jpg",
+        "url": "/covers/unreal-tournament.jpg",
         "width": 480,
         "height": 586,
         "source": "Wikipedia",
@@ -18781,6 +19651,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 1115,
       "lastUpdate": "2025-08-14T21:37:03Z",
       "multiplayer": false,
@@ -18810,6 +19681,48 @@
       ]
     },
     {
+      "slug": "urban-terror",
+      "title": "Urban Terror",
+      "aka": [],
+      "platform": "pc",
+      "family": "Computers",
+      "year": 2000,
+      "developers": [],
+      "publishers": [],
+      "genres": [
+        "first-person shooter"
+      ],
+      "summary": "Urban Terror is a freeware multiplayer first-person shooter video game developed by FrozenSand. Originally a total conversion of id Software's Quake III Arena, FrozenSand released Urban Terror as a free standalone game in 2007 utilizing ioquake3 as the game engine. While the game engine is licensed under the open-source GPL, Urban Terror's game code is closed source and its assets are freeware but not open content.",
+      "wikipedia": {
+        "title": "Urban Terror",
+        "url": "https://en.wikipedia.org/wiki/Urban_Terror"
+      },
+      "cover": {
+        "url": "/covers/urban-terror.png",
+        "width": 480,
+        "height": 122,
+        "source": "Wikipedia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urban_terror_wordmark.svg"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-urban-terror-web",
+          "name": "Urban Terror Web",
+          "url": "https://ut.pieter.com",
+          "repo": "FrozenSand/ioq3-for-UrbanTerror-4",
+          "access": "free",
+          "note": "The freeware tactical shooter, playable online.",
+          "multiplayer": true
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": true,
+      "browser": true,
+      "ports": []
+    },
+    {
       "slug": "vandal-hearts",
       "title": "Vandal Hearts",
       "aka": [],
@@ -18831,7 +19744,7 @@
         "url": "https://en.wikipedia.org/wiki/Vandal_Hearts"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png",
+        "url": "/covers/vandal-hearts.png",
         "width": 480,
         "height": 454,
         "source": "Wikipedia",
@@ -18840,6 +19753,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 48,
       "lastUpdate": "2026-08-31T01:08:42Z",
       "multiplayer": false,
@@ -18895,7 +19809,7 @@
         "url": "https://en.wikipedia.org/wiki/Vangers"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Vangers_Coverart.png",
+        "url": "/covers/vangers.png",
         "width": 480,
         "height": 598,
         "source": "Wikipedia",
@@ -18905,6 +19819,7 @@
         "source-port",
         "engine-remake"
       ],
+      "web": [],
       "stars": 1225,
       "lastUpdate": "2026-08-26T05:37:33Z",
       "multiplayer": false,
@@ -18976,7 +19891,7 @@
         "url": "https://en.wikipedia.org/wiki/Virtual_Pro_Wrestling_64"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Virtual_Pro_Wrestling_64_Cover.png",
+        "url": "/covers/virtual-pro-wrestling-64.png",
         "width": 480,
         "height": 677,
         "source": "Wikipedia",
@@ -18985,6 +19900,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 8,
       "lastUpdate": "2026-10-14T02:45:34Z",
       "multiplayer": false,
@@ -19035,7 +19951,7 @@
         "url": "https://en.wikipedia.org/wiki/Viva_Pi%C3%B1ata:_Trouble_in_Paradise"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Viva_Pinata_Trouble_in_Paradise.jpg",
+        "url": "/covers/viva-pinata-trouble-in-paradise.jpg",
         "width": 480,
         "height": 679,
         "source": "Wikipedia",
@@ -19044,6 +19960,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 209,
       "lastUpdate": "2026-10-01T22:35:45Z",
       "multiplayer": false,
@@ -19095,7 +20012,7 @@
         "url": "https://en.wikipedia.org/wiki/VVVVVV"
       },
       "cover": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/VVVVVV_logo.svg/500px-VVVVVV_logo.svg.png",
+        "url": "/covers/vvvvv.png",
         "width": 480,
         "height": 66,
         "source": "Wikipedia",
@@ -19104,6 +20021,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 8033,
       "lastUpdate": "2026-04-21T16:17:38Z",
       "multiplayer": false,
@@ -19156,7 +20074,7 @@
         "url": "https://en.wikipedia.org/wiki/Warcraft_II:_Tides_of_Darkness"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/Warcraft-2-Tides-Of-Darkness-Pc.jpg",
+        "url": "/covers/warcraft-ii-tides-of-darkness.jpg",
         "width": 480,
         "height": 608,
         "source": "Wikipedia",
@@ -19165,6 +20083,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 441,
       "lastUpdate": "2022-08-10T18:47:27Z",
       "multiplayer": false,
@@ -19217,7 +20136,7 @@
         "url": "https://en.wikipedia.org/wiki/Warcraft:_Orcs_%26_Humans"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Warcraft_-_Orcs_%26_Humans_Coverart.png",
+        "url": "/covers/warcraft-orcs-and-humans.png",
         "width": 480,
         "height": 610,
         "source": "Wikipedia",
@@ -19226,6 +20145,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 134,
       "lastUpdate": "2022-08-10T19:06:45Z",
       "multiplayer": false,
@@ -19284,6 +20204,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 3997,
       "lastUpdate": "2026-04-07T15:47:54Z",
       "multiplayer": false,
@@ -19334,7 +20255,7 @@
         "url": "https://en.wikipedia.org/wiki/WCW_vs._nWo:_World_Tour"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/WCW_vs._nWo_-_World_Tour_Coverart.png",
+        "url": "/covers/wcw-vs-nwo-world-tour.png",
         "width": 480,
         "height": 351,
         "source": "Wikipedia",
@@ -19343,6 +20264,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 40,
       "lastUpdate": "2026-10-14T04:12:25Z",
       "multiplayer": false,
@@ -19393,7 +20315,7 @@
         "url": "https://en.wikipedia.org/wiki/WCW/nWo_Revenge"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/1/1d/WCWnWoRevengebox.jpg",
+        "url": "/covers/wcw-nwo-revenge.jpg",
         "width": 480,
         "height": 319,
         "source": "Wikipedia",
@@ -19402,6 +20324,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 25,
       "lastUpdate": "2026-10-14T02:45:33Z",
       "multiplayer": false,
@@ -19448,6 +20371,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 90,
       "lastUpdate": "2026-09-30T02:21:07Z",
       "multiplayer": false,
@@ -19499,7 +20423,7 @@
         "url": "https://en.wikipedia.org/wiki/Wing_Commander_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/d/d1/WingCommanderBox-front.jpg",
+        "url": "/covers/wing-commander.jpg",
         "width": 480,
         "height": 683,
         "source": "Wikipedia",
@@ -19508,6 +20432,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 53,
       "lastUpdate": "2026-09-14T08:18:29Z",
       "multiplayer": false,
@@ -19556,7 +20481,7 @@
         "url": "https://en.wikipedia.org/wiki/Wipeout_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg",
+        "url": "/covers/wipeout.jpg",
         "width": 480,
         "height": 488,
         "source": "Wikipedia",
@@ -19566,6 +20491,7 @@
         "decompilation",
         "engine-remake"
       ],
+      "web": [],
       "stars": 3947,
       "lastUpdate": "2026-09-27T13:52:25Z",
       "multiplayer": false,
@@ -19642,7 +20568,7 @@
         "url": "https://en.wikipedia.org/wiki/Wolfenstein_3D"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Wolfenstein-3d.jpg",
+        "url": "/covers/wolfenstein-3d.jpg",
         "width": 480,
         "height": 757,
         "source": "Wikipedia",
@@ -19651,6 +20577,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 138,
       "lastUpdate": "2026-06-06T19:49:44Z",
       "multiplayer": false,
@@ -19701,7 +20628,7 @@
         "url": "https://en.wikipedia.org/wiki/WWE_%2713"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/62/WWE_%2713_box_art.png",
+        "url": "/covers/wwe-13.png",
         "width": 480,
         "height": 568,
         "source": "Wikipedia",
@@ -19710,6 +20637,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 71,
       "lastUpdate": "2026-10-13T15:54:36Z",
       "multiplayer": false,
@@ -19760,7 +20688,7 @@
         "url": "https://en.wikipedia.org/wiki/WWE_SmackDown_vs._Raw_2007"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/62/WWE_SmackDown_vs._Raw_2007.jpg",
+        "url": "/covers/wwe-smackdown-vs-raw-2007.jpg",
         "width": 480,
         "height": 611,
         "source": "Wikipedia",
@@ -19769,6 +20697,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 149,
       "lastUpdate": "2026-04-24T05:37:53Z",
       "multiplayer": false,
@@ -19819,7 +20748,7 @@
         "url": "https://en.wikipedia.org/wiki/WWE_SmackDown_vs._Raw_2011"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
+        "url": "/covers/wwe-smackdown-vs-raw-2011.jpg",
         "width": 480,
         "height": 505,
         "source": "Wikipedia",
@@ -19828,6 +20757,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 77,
       "lastUpdate": "2026-10-15T14:19:00Z",
       "multiplayer": false,
@@ -19879,7 +20809,7 @@
         "url": "https://en.wikipedia.org/wiki/WWF_No_Mercy_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/9/90/NoMercyGameBox.jpg",
+        "url": "/covers/wwf-no-mercy.jpg",
         "width": 480,
         "height": 331,
         "source": "Wikipedia",
@@ -19888,6 +20818,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 30,
       "lastUpdate": "2026-10-14T02:45:35Z",
       "multiplayer": false,
@@ -19938,7 +20869,7 @@
         "url": "https://en.wikipedia.org/wiki/WWF_SmackDown!_2:_Know_Your_Role"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0a/WWFSmackDown2KnowYourRole.jpg",
+        "url": "/covers/wwf-smackdown-2-know-your-role.jpg",
         "width": 480,
         "height": 463,
         "source": "Wikipedia",
@@ -19947,6 +20878,7 @@
       "types": [
         "source-port"
       ],
+      "web": [],
       "stars": 2,
       "lastUpdate": "2026-09-30T19:53:54Z",
       "multiplayer": false,
@@ -19997,7 +20929,7 @@
         "url": "https://en.wikipedia.org/wiki/WWF_WrestleMania_2000_(video_game)"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Wwfwrestlemania2000n64.jpg",
+        "url": "/covers/wwf-wrestlemania-2000.jpg",
         "width": 480,
         "height": 338,
         "source": "Wikipedia",
@@ -20006,6 +20938,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 14,
       "lastUpdate": "2026-10-14T02:45:33Z",
       "multiplayer": false,
@@ -20058,7 +20991,7 @@
         "url": "https://en.wikipedia.org/wiki/X-COM:_Apocalypse"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/05/XCom_Apoc.jpg",
+        "url": "/covers/x-com-apocalypse.jpg",
         "width": 480,
         "height": 622,
         "source": "Wikipedia",
@@ -20067,6 +21000,7 @@
       "types": [
         "engine-remake"
       ],
+      "web": [],
       "stars": 597,
       "lastUpdate": "2026-04-10T18:20:54Z",
       "multiplayer": false,
@@ -20118,7 +21052,7 @@
         "url": "https://en.wikipedia.org/wiki/Xenogears"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg",
+        "url": "/covers/xenogears.jpg",
         "width": 480,
         "height": 451,
         "source": "Wikipedia",
@@ -20127,6 +21061,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 54,
       "lastUpdate": "2026-10-15T02:19:16Z",
       "multiplayer": false,
@@ -20177,7 +21112,7 @@
         "url": "https://en.wikipedia.org/wiki/Yu-Gi-Oh!_Forbidden_Memories"
       },
       "cover": {
-        "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Yu-Gi-Oh%21_Forbidden_Memories_Cover.png",
+        "url": "/covers/yu-gi-oh-forbidden-memories.png",
         "width": 480,
         "height": 480,
         "source": "Wikipedia",
@@ -20186,6 +21121,7 @@
       "types": [
         "static-recomp"
       ],
+      "web": [],
       "stars": 307,
       "lastUpdate": "2026-10-11T15:30:19Z",
       "multiplayer": false,
@@ -20234,6 +21170,53 @@
           "recommended": false
         }
       ]
+    },
+    {
+      "slug": "zelda-ii-the-adventure-of-link",
+      "title": "Zelda II: The Adventure of Link",
+      "aka": [],
+      "platform": "nes",
+      "family": "Nintendo",
+      "year": 1987,
+      "developers": [
+        "Nintendo Entertainment Analysis & Development"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "action role-playing game",
+        "role-playing"
+      ],
+      "summary": "Zelda II: The Adventure of Link is a 1987 action role-playing game developed and published by Nintendo. It is the second installment in the Legend of Zelda series, and was released in Japan for the Famicom Disk System on January 14, 1987, less than a year after the Japanese release and seven months before the North American release of the original The Legend of Zelda. Zelda II was released in North America and the PAL region for the Nintendo Entertainment System in late 1988, almost two years after its initial release in Japan.",
+      "wikipedia": {
+        "title": "Zelda II: The Adventure of Link",
+        "url": "https://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link"
+      },
+      "cover": {
+        "url": "/covers/zelda-ii-the-adventure-of-link.jpg",
+        "width": 480,
+        "height": 684,
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Zelda_II_The_Adventure_of_Link_box.jpg"
+      },
+      "types": [],
+      "web": [
+        {
+          "id": "web-z2rs",
+          "name": "z2rs",
+          "url": "https://z2rs.com/",
+          "repo": null,
+          "access": "own-files",
+          "note": "Reconstruction of Zelda II in Rust. Load your own ROM to play.",
+          "multiplayer": false
+        }
+      ],
+      "stars": 0,
+      "lastUpdate": null,
+      "multiplayer": false,
+      "browser": true,
+      "ports": []
     }
   ]
 }

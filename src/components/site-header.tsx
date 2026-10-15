@@ -4,7 +4,8 @@ import { LogoMark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const nav = [
-  { href: "/#catalog", label: "Catalog" },
+  { href: "/#play", label: "Play online" },
+  { href: "/pc-ports", label: "PC ports" },
   { href: "/platforms", label: "Platforms" },
   { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },

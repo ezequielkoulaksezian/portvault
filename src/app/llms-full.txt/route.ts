@@ -13,6 +13,9 @@ export function GET() {
       g.developers.length ? `Developer: ${g.developers.join(", ")}` : null,
       g.genres.length ? `Genre: ${g.genres.slice(0, 3).join(", ")}` : null,
     ].filter(Boolean);
+    const web = g.web.map(
+      (w) => `- **Play in browser: ${w.name}** (${w.access === "free" ? "free" : "needs your own game files"}): ${w.url}\n  ${w.note}`,
+    );
     const ports = g.ports.map((p) => {
       const bits = [
         portTypes[p.type].name,
@@ -27,7 +30,7 @@ export function GET() {
 URL: ${absoluteUrl(`/games/${g.slug}`)}
 ${facts.join(" · ")}
 
-${ports.join("\n")}`;
+${[...web, ...ports].join("\n")}`;
   });
 
   const body = `# ${site.name}: full catalog

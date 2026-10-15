@@ -1,13 +1,18 @@
 export const site = {
   name: "PortVault",
-  tagline: "Native PC ports of classic games",
+  tagline: "Play classic games in your browser",
   description:
-    "An open-source catalog of native PC ports of classic games: decompilations, static recompilations, source ports and engine remakes, with links to every project.",
+    "Play classic games in your browser: hand-checked WebAssembly ports of Doom, Quake, Diablo, Halo and more, free or with your own game files. Plus every native PC port, decompilation and recompilation.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://portvault.vercel.app").replace(/\/$/, ""),
   locale: "en_US",
   repo: "https://github.com/ezequielkoulaksezian/portvault",
   author: { name: "Ezequiel Koulaksezian", url: "https://github.com/ezequielkoulaksezian" },
   keywords: [
+    "play classic games in browser",
+    "browser game ports",
+    "webassembly games",
+    "play doom in browser",
+    "play quake online",
     "pc ports",
     "decompilation",
     "static recompilation",

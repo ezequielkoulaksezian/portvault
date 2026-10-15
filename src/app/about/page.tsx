@@ -19,10 +19,10 @@ export default function AboutPage() {
       <h1 className="mt-4 font-pixel text-4xl text-ink sm:text-5xl">About PortVault</h1>
       <div className="prose-retro mt-6 text-ink-soft">
         <p className="text-lg">
-          PortVault is a free, open-source catalog of <strong>native PC ports of classic games</strong>. It lists{" "}
-          {stats.games} games and {stats.ports} community projects that let you play them on Windows, Linux, macOS
-          or Steam Deck without an emulator, and it links straight to each project&apos;s source code, releases and
-          website.
+          PortVault is a free, open-source guide to <strong>playing classic games in your browser</strong> and on
+          modern PCs. It lists {stats.webGames} games you can play in a browser tab through WebAssembly ports of their
+          original engines, and {stats.ports} native PC ports of {stats.nativeGames} games for Windows, Linux, macOS and
+          Steam Deck, with links straight to each project.
         </p>
 
         <h2>Why native ports matter</h2>
@@ -52,7 +52,28 @@ export default function AboutPage() {
           art are the property of their respective owners and are shown only to identify each game.
         </p>
 
-        <h2>What gets included</h2>
+        <h2>Browser games: what gets listed</h2>
+        <p>
+          Every browser port is opened and checked by hand before it is listed. It must run the original game&apos;s
+          engine (ported to WebAssembly or reimplemented), not a video stream, and it must use one of two legal models:
+        </p>
+        <ul>
+          <li>
+            <strong>Free</strong>: the data it plays may be shared legally, such as a shareware episode, an official
+            demo, a freeware release or open-source assets. We check the files it loads, for example that a Doom port
+            ships the shareware <code>doom1.wad</code> and not the full game.
+          </li>
+          <li>
+            <strong>Your files</strong>: the port asks you to load the files from a copy you own, such as a disc image or
+            the original data folder.
+          </li>
+        </ul>
+        <p>
+          Sites that stream full commercial games without permission are not listed, however popular they are. Plain
+          emulator front-ends are also left out: PortVault is about ports.
+        </p>
+
+        <h2>Native PC ports: what gets listed</h2>
         <p>A game is listed when at least one of its ports:</p>
         <ul>
           <li>is a decompilation port, static recompilation, source port or engine remake;</li>

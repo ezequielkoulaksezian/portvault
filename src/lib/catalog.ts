@@ -6,6 +6,7 @@ import {
   type GameIndexEntry,
   type Platform,
   type PortType,
+  type WebAccess,
 } from "@/lib/meta";
 
 export * from "@/lib/meta";
@@ -32,6 +33,16 @@ export type Port = {
   recommended: boolean;
 };
 
+export type WebPort = {
+  id: string;
+  name: string;
+  url: string;
+  repo: string | null;
+  access: WebAccess;
+  note: string;
+  multiplayer: boolean;
+};
+
 export type Cover = {
   url: string;
   width: number;
@@ -54,6 +65,7 @@ export type Game = {
   wikipedia: { title: string; url: string } | null;
   cover: Cover | null;
   types: PortType[];
+  web: WebPort[];
   stars: number;
   lastUpdate: string | null;
   multiplayer: boolean;
@@ -101,18 +113,27 @@ export function relatedGames(game: Game, limit = 6): Game[] {
     .slice(0, limit);
 }
 
-export function recommendedPort(game: Game): Port {
-  return game.ports[0];
+export const webGames: Game[] = games.filter((g) => g.web.length > 0);
+export const nativeGames: Game[] = games.filter((g) => g.ports.length > 0);
+
+/** Browser games first, free ones before bring-your-own-files, then by popularity. */
+export function byFeatured(a: Game, b: Game): number {
+  const free = (g: Game) => Number(g.web.some((w) => w.access === "free"));
+  return free(b) - free(a) || byPopularity(a, b);
 }
 
 export const stats = {
   games: games.length,
+  nativeGames: nativeGames.length,
   ports: games.reduce((n, g) => n + g.ports.length, 0),
   platforms: new Set(games.map((g) => g.platform)).size,
+  webGames: webGames.length,
+  webPorts: webGames.reduce((n, g) => n + g.web.length, 0),
+  webFree: webGames.filter((g) => g.web.some((w) => w.access === "free")).length,
 };
 
-export function searchIndex(): GameIndexEntry[] {
-  return [...games].sort(byPopularity).map(indexEntry);
+export function searchIndex(list: Game[] = games): GameIndexEntry[] {
+  return [...list].sort(byPopularity).map(indexEntry);
 }
 
 export function indexEntry(g: Game): GameIndexEntry {
@@ -130,13 +151,20 @@ export function indexEntry(g: Game): GameIndexEntry {
     browser: g.browser,
     hasRelease: g.ports.some((p) => p.release),
     portCount: g.ports.length,
-    topPort: g.ports[0]?.name ?? "",
+    topPort: g.ports[0]?.name ?? g.web[0]?.name ?? "",
     cover: g.cover?.url ?? null,
+    webCount: g.web.length,
+    webFree: g.web.some((w) => w.access === "free"),
+    webOwn: g.web.some((w) => w.access === "own-files"),
+    webMultiplayer: g.web.some((w) => w.multiplayer),
+    playUrl: g.web[0]?.url ?? null,
+    playName: g.web[0]?.name ?? null,
     search: normalizeText(
       [
         g.title,
         ...g.aka,
         ...g.ports.map((p) => `${p.name} ${p.repo ?? ""}`),
+        ...g.web.map((w) => w.name),
         ...g.developers,
         ...g.publishers,
         platform?.name ?? "",

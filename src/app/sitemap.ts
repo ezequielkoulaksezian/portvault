@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const updated = new Date(catalog.generatedAt);
   return [
     { url: absoluteUrl("/"), lastModified: updated, changeFrequency: "weekly", priority: 1 },
+    { url: absoluteUrl("/pc-ports"), lastModified: updated, changeFrequency: "weekly", priority: 0.9 },
     { url: absoluteUrl("/platforms"), lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
     { url: absoluteUrl("/faq"), lastModified: updated, changeFrequency: "monthly", priority: 0.6 },
     { url: absoluteUrl("/about"), lastModified: updated, changeFrequency: "monthly", priority: 0.5 },

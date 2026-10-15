@@ -391,7 +391,8 @@
       "exclude": true
     },
     "command-and-conquer-red-alert-2": {
-      "exclude": true
+      "platform": "pc",
+      "wikipedia": "Command & Conquer: Red Alert 2"
     },
     "shattered-paradise": {
       "exclude": true
@@ -619,7 +620,8 @@
     },
     "cave-story": {
       "platform": "pc",
-      "wikipedia": "Cave Story"
+      "wikipedia": "Cave Story",
+      "title": "Cave Story"
     },
     "baldurs-gate": {
       "platform": "pc",
@@ -1264,6 +1266,55 @@
     },
     "driver-2": {
       "wikipedia": "Driver 2"
+    },
+    "super-monkey-ball": {
+      "platform": "gamecube",
+      "wikipedia": "Super Monkey Ball (video game)"
+    },
+    "abuse": {
+      "platform": "dos",
+      "wikipedia": "Abuse (video game)"
+    },
+    "celeste-classic": {
+      "platform": "pc",
+      "wikipedia": false,
+      "year": 2015,
+      "developers": [
+        "Maddy Thorson",
+        "Noel Berry"
+      ],
+      "genres": [
+        "Platform game"
+      ],
+      "summary": "Celeste Classic is the original PICO-8 game made in four days by Maddy Thorson and Noel Berry in 2015, which later grew into the commercial game Celeste. It is free to play."
+    },
+    "hurrican": {
+      "platform": "pc",
+      "wikipedia": false,
+      "year": 2007,
+      "developers": [
+        "Poke53280"
+      ],
+      "genres": [
+        "Run and gun"
+      ],
+      "summary": "Hurrican is a freeware run-and-gun game released in 2007 as a homage to the Turrican series, later open-sourced by its developers."
+    },
+    "commander-keen-in-invasion-of-the-vorticons": {
+      "platform": "dos",
+      "wikipedia": "Commander Keen in Invasion of the Vorticons"
+    },
+    "urban-terror": {
+      "platform": "pc",
+      "wikipedia": "Urban Terror"
+    },
+    "grand-theft-auto-vice-city": {
+      "platform": "playstation-2",
+      "wikipedia": "Grand Theft Auto: Vice City"
+    },
+    "zelda-ii-the-adventure-of-link": {
+      "platform": "nes",
+      "wikipedia": "Zelda II: The Adventure of Link"
     }
   },
   "extraPorts": [

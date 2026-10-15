@@ -43,6 +43,26 @@ export function TypeBadge({ type, size = "sm" }: { type: PortType; size?: "sm" |
   );
 }
 
+/** "Free" (legally free data) or "Your files" (bring your own copy) for browser ports. */
+export function AccessBadge({ free, compact = false }: { free: boolean; compact?: boolean }) {
+  if (compact)
+    return (
+      <span className="inline-flex items-center rounded-sm border border-line bg-surface-muted px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-ink-soft">
+        Web
+      </span>
+    );
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-sm px-1.5 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wider shadow-sm ${
+        free ? "bg-phosphor text-black" : "bg-surface text-ink ring-1 ring-line-strong"
+      }`}
+      title={free ? "Plays instantly with legally free data" : "Needs the game files from your own copy"}
+    >
+      {free ? "Free" : "Your files"}
+    </span>
+  );
+}
+
 export function RecommendedBadge() {
   return (
     <span className="inline-flex items-center gap-1 rounded-sm bg-accent px-1.5 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wider text-white dark:text-bg">

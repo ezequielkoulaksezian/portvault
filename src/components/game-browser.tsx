@@ -1,17 +1,28 @@
 "use client";
 
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import { families, normalizeText, platforms, portTypeList, type GameIndexEntry, type PortType } from "@/lib/meta";
+import {
+  families,
+  normalizeText,
+  platforms,
+  portTypeList,
+  webAccess,
+  type GameIndexEntry,
+  type PortType,
+  type WebAccess,
+} from "@/lib/meta";
 import { familyColor } from "@/components/badges";
 import { GameCard } from "@/components/game-card";
 
-type Sort = "popular" | "updated" | "az" | "oldest" | "newest";
+type Sort = "featured" | "popular" | "updated" | "az" | "oldest" | "newest";
+type Mode = "native" | "web";
 
 type Filters = {
   q: string;
   family: string;
   platform: string;
   types: PortType[];
+  access: WebAccess | "";
   multiplayer: boolean;
   browser: boolean;
   release: boolean;
@@ -23,23 +34,27 @@ const EMPTY: Filters = {
   family: "",
   platform: "",
   types: [],
+  access: "",
   multiplayer: false,
   browser: false,
   release: false,
   sort: "popular",
 };
 
+const defaultSort = (mode: Mode): Sort => (mode === "web" ? "featured" : "popular");
+
 const PAGE_SIZE = 48;
 
-const SORTS: { value: Sort; label: string }[] = [
+const SORTS: { value: Sort; label: string; modes?: Mode[] }[] = [
+  { value: "featured", label: "Free first", modes: ["web"] },
   { value: "popular", label: "Most popular" },
-  { value: "updated", label: "Recently updated" },
+  { value: "updated", label: "Recently updated", modes: ["native"] },
   { value: "az", label: "A–Z" },
   { value: "oldest", label: "Oldest games" },
   { value: "newest", label: "Newest games" },
 ];
 
-function readUrl(): Filters {
+function readUrl(mode: Mode): Filters {
   const p = new URLSearchParams(window.location.search);
   const sort = p.get("sort") as Sort | null;
   return {
@@ -47,23 +62,27 @@ function readUrl(): Filters {
     family: p.get("family") ?? "",
     platform: p.get("platform") ?? "",
     types: (p.get("type")?.split(",").filter(Boolean) as PortType[]) ?? [],
+    access: p.get("access") === "free" || p.get("access") === "own-files" ? (p.get("access") as WebAccess) : "",
     multiplayer: p.get("mp") === "1",
     browser: p.get("web") === "1",
     release: p.get("release") === "1",
-    sort: SORTS.some((s) => s.value === sort) ? (sort as Sort) : "popular",
+    sort: SORTS.some((s) => s.value === sort && (!s.modes || s.modes.includes(mode)))
+      ? (sort as Sort)
+      : defaultSort(mode),
   };
 }
 
-function writeUrl(f: Filters) {
+function writeUrl(f: Filters, mode: Mode) {
   const p = new URLSearchParams();
   if (f.q) p.set("q", f.q);
   if (f.family) p.set("family", f.family);
   if (f.platform) p.set("platform", f.platform);
   if (f.types.length) p.set("type", f.types.join(","));
+  if (f.access) p.set("access", f.access);
   if (f.multiplayer) p.set("mp", "1");
   if (f.browser) p.set("web", "1");
   if (f.release) p.set("release", "1");
-  if (f.sort !== "popular") p.set("sort", f.sort);
+  if (f.sort !== defaultSort(mode)) p.set("sort", f.sort);
   const qs = p.toString();
   const url = `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash}`;
   window.history.replaceState(window.history.state, "", url);
@@ -82,6 +101,7 @@ function relevance(g: GameIndexEntry, tokens: string[], phrase: string): number 
 }
 
 const SORTERS: Record<Sort, (a: GameIndexEntry, b: GameIndexEntry) => number> = {
+  featured: (a, b) => Number(b.webFree) - Number(a.webFree) || b.stars - a.stars,
   popular: (a, b) => b.stars - a.stars,
   updated: (a, b) => (b.lastUpdate ?? "").localeCompare(a.lastUpdate ?? ""),
   az: (a, b) => a.title.localeCompare(b.title),
@@ -89,21 +109,23 @@ const SORTERS: Record<Sort, (a: GameIndexEntry, b: GameIndexEntry) => number> = 
   newest: (a, b) => (b.year ?? 0) - (a.year ?? 0) || a.title.localeCompare(b.title),
 };
 
-export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
-  const [filters, setFilters] = useState<Filters>(EMPTY);
+export function GameBrowser({ entries, mode = "native" }: { entries: GameIndexEntry[]; mode?: Mode }) {
+  const web = mode === "web";
+  const empty: Filters = { ...EMPTY, sort: defaultSort(mode) };
+  const [filters, setFilters] = useState<Filters>(empty);
   const [ready, setReady] = useState(false);
   const [visible, setVisible] = useState(PAGE_SIZE);
   const deferredQuery = useDeferredValue(filters.q);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setFilters(readUrl());
+    setFilters(readUrl(mode));
     setReady(true);
-  }, []);
+  }, [mode]);
 
   useEffect(() => {
-    if (ready) writeUrl(filters);
-  }, [filters, ready]);
+    if (ready) writeUrl(filters, mode);
+  }, [filters, ready, mode]);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -126,19 +148,21 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
   const matches = useMemo(() => {
     const phrase = normalizeText(deferredQuery);
     const tokens = phrase.split(" ").filter(Boolean);
-    const test = (g: GameIndexEntry, skip?: "family" | "platform" | "types") => {
+    const test = (g: GameIndexEntry, skip?: "family" | "platform" | "types" | "access") => {
       if (tokens.length && !tokens.every((t) => g.search.includes(t))) return false;
       if (skip !== "family" && skip !== "platform" && filters.family && g.family !== filters.family) return false;
       if (skip !== "platform" && filters.platform && g.platform !== filters.platform) return false;
       if (skip !== "types" && filters.types.length && !filters.types.some((t) => g.types.includes(t))) return false;
-      if (filters.multiplayer && !g.multiplayer) return false;
+      if (skip !== "access" && filters.access === "free" && !g.webFree) return false;
+      if (skip !== "access" && filters.access === "own-files" && !g.webOwn) return false;
+      if (filters.multiplayer && !(web ? g.webMultiplayer : g.multiplayer)) return false;
       if (filters.browser && !g.browser) return false;
       if (filters.release && !g.hasRelease) return false;
       return true;
     };
 
     let results = entries.filter((g) => test(g));
-    if (tokens.length && filters.sort === "popular") {
+    if (tokens.length && (filters.sort === "popular" || filters.sort === "featured")) {
       const scored = new Map(results.map((g) => [g.slug, relevance(g, tokens, phrase)]));
       results = results.sort((a, b) => scored.get(b.slug)! - scored.get(a.slug)!);
     } else {
@@ -148,20 +172,26 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
     const familyCounts = new Map<string, number>();
     const platformCounts = new Map<string, number>();
     const typeCounts = new Map<string, number>();
+    const accessCounts = new Map<string, number>();
     for (const g of entries) {
       if (test(g, "family")) familyCounts.set(g.family, (familyCounts.get(g.family) ?? 0) + 1);
       if (test(g, "platform") && (!filters.family || g.family === filters.family))
         platformCounts.set(g.platform, (platformCounts.get(g.platform) ?? 0) + 1);
       if (test(g, "types")) for (const t of g.types) typeCounts.set(t, (typeCounts.get(t) ?? 0) + 1);
+      if (test(g, "access")) {
+        if (g.webFree) accessCounts.set("free", (accessCounts.get("free") ?? 0) + 1);
+        if (g.webOwn) accessCounts.set("own-files", (accessCounts.get("own-files") ?? 0) + 1);
+      }
     }
-    return { results, familyCounts, platformCounts, typeCounts };
-  }, [entries, deferredQuery, filters]);
+    return { results, familyCounts, platformCounts, typeCounts, accessCounts };
+  }, [entries, deferredQuery, filters, web]);
 
   const activeCount =
     (filters.q ? 1 : 0) +
     (filters.family ? 1 : 0) +
     (filters.platform ? 1 : 0) +
     filters.types.length +
+    (filters.access ? 1 : 0) +
     Number(filters.multiplayer) +
     Number(filters.browser) +
     Number(filters.release);
@@ -196,7 +226,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
             inputMode="search"
             autoComplete="off"
             spellCheck={false}
-            placeholder="Search games, ports or developers…"
+            placeholder={web ? "Search games you can play in your browser…" : "Search games, ports or developers…"}
             value={filters.q}
             onChange={(e) => update({ q: e.target.value })}
             className="h-12 w-full rounded-md border border-line bg-bg-elevated pl-11 pr-20 text-base text-ink outline-none transition placeholder:text-muted focus:border-accent focus:ring-2 focus:ring-accent/25"
@@ -261,38 +291,62 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
             </FilterRow>
           )}
 
-          <FilterRow label="Port type">
-            {portTypeList.map((t) => {
-              const active = filters.types.includes(t.slug);
-              return (
+          {web ? (
+            <FilterRow label="Access">
+              <Chip active={!filters.access} onClick={() => update({ access: "" })}>
+                Any
+              </Chip>
+              {(Object.keys(webAccess) as WebAccess[]).map((a) => (
                 <Chip
-                  key={t.slug}
-                  active={active}
-                  title={t.blurb}
-                  count={matches.typeCounts.get(t.slug) ?? 0}
-                  onClick={() =>
-                    update({
-                      types: active ? filters.types.filter((x) => x !== t.slug) : [...filters.types, t.slug],
-                    })
-                  }
+                  key={a}
+                  active={filters.access === a}
+                  title={webAccess[a].blurb}
+                  count={matches.accessCounts.get(a) ?? 0}
+                  dot={a === "free" ? "var(--phosphor)" : undefined}
+                  onClick={() => update({ access: filters.access === a ? "" : a })}
                 >
-                  {t.plural}
+                  {webAccess[a].label}
                 </Chip>
-              );
-            })}
-          </FilterRow>
+              ))}
+            </FilterRow>
+          ) : (
+            <FilterRow label="Port type">
+              {portTypeList.map((t) => {
+                const active = filters.types.includes(t.slug);
+                return (
+                  <Chip
+                    key={t.slug}
+                    active={active}
+                    title={t.blurb}
+                    count={matches.typeCounts.get(t.slug) ?? 0}
+                    onClick={() =>
+                      update({
+                        types: active ? filters.types.filter((x) => x !== t.slug) : [...filters.types, t.slug],
+                      })
+                    }
+                  >
+                    {t.plural}
+                  </Chip>
+                );
+              })}
+            </FilterRow>
+          )}
 
           <div className="flex flex-col gap-3 border-t border-line pt-3 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap gap-x-5 gap-y-2">
-              <Toggle checked={filters.release} onChange={(v) => update({ release: v })}>
-                Has a release download
-              </Toggle>
+              {!web && (
+                <Toggle checked={filters.release} onChange={(v) => update({ release: v })}>
+                  Has a release download
+                </Toggle>
+              )}
               <Toggle checked={filters.multiplayer} onChange={(v) => update({ multiplayer: v })}>
-                Multiplayer
+                {web ? "Online multiplayer" : "Multiplayer"}
               </Toggle>
-              <Toggle checked={filters.browser} onChange={(v) => update({ browser: v })}>
-                Playable in browser
-              </Toggle>
+              {!web && (
+                <Toggle checked={filters.browser} onChange={(v) => update({ browser: v })}>
+                  Also playable in browser
+                </Toggle>
+              )}
             </div>
             <div className="flex items-center gap-2">
               <label htmlFor="sort" className="font-mono text-[11px] uppercase tracking-wider text-muted">
@@ -304,7 +358,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
                 onChange={(e) => update({ sort: e.target.value as Sort })}
                 className="h-9 rounded-md border border-line bg-bg-elevated px-2 text-sm text-ink outline-none focus:border-accent"
               >
-                {SORTS.map((s) => (
+                {SORTS.filter((s) => !s.modes || s.modes.includes(mode)).map((s) => (
                   <option key={s.value} value={s.value}>
                     {s.label}
                   </option>
@@ -317,8 +371,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
 
       <div className="mt-6 flex items-center justify-between gap-3">
         <p className="font-mono text-xs uppercase tracking-wider text-muted" aria-live="polite">
-          <span className="text-ink">{matches.results.length}</span>{" "}
-          {matches.results.length === 1 ? "game" : "games"}
+          <span className="text-ink">{matches.results.length}</span> {matches.results.length === 1 ? "game" : "games"}
           {filters.q && (
             <>
               {" "}
@@ -329,7 +382,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
         {activeCount > 0 && (
           <button
             type="button"
-            onClick={() => update({ ...EMPTY, sort: filters.sort })}
+            onClick={() => update({ ...empty, sort: filters.sort })}
             className="font-mono text-xs uppercase tracking-wider text-accent-ink hover:underline"
           >
             Reset filters ({activeCount})
@@ -341,7 +394,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
         <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
           {matches.results.slice(0, visible).map((g, i) => (
             <li key={g.slug} className="flex">
-              <GameCard game={g} priority={i < 5} />
+              <GameCard game={g} priority={i < 5} variant={mode} />
             </li>
           ))}
         </ul>
@@ -371,7 +424,7 @@ export function GameBrowser({ entries }: { entries: GameIndexEntry[] }) {
           </p>
           <button
             type="button"
-            onClick={() => update(EMPTY)}
+            onClick={() => update(empty)}
             className="mt-5 rounded-md border border-line bg-bg-elevated px-4 py-2 text-sm text-ink hover:border-line-strong"
           >
             Show all games

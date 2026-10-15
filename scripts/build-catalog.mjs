@@ -6,7 +6,7 @@
 //   node scripts/build-catalog.mjs --refresh  re-query Wikipedia/Wikidata for every game
 //   node scripts/build-catalog.mjs --report   also print the selection for review
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import { execSync } from "node:child_process";
 import path from "node:path";
 
@@ -134,7 +134,7 @@ function toPort(x, extra = {}) {
     release: x.release ?? null,
     releaseDate: x.release_date ?? null,
     releaseUrl: x.release_url ?? null,
-    playUrl: x.browser_playable ? x.play_url : null,
+    playUrl: null,
     multiplayer: x.multiplayer === true,
     video: x.video ?? null,
     score: x.score ?? null,
@@ -335,11 +335,54 @@ async function enrich(games, cache, refresh) {
   }
 }
 
+// ---------------------------------------------------------------- Covers
+
+/**
+ * Downloads every cover once into public/covers so the site never hotlinks Wikimedia (which rate-limits
+ * bursts of image requests). Existing files are kept; returns the local path for each game.
+ */
+async function downloadCovers(list, cache) {
+  const dir = path.join(ROOT, "public/covers");
+  await mkdir(dir, { recursive: true });
+  const local = new Map();
+  let fetched = 0;
+  for (const game of list) {
+    const remote = cache[game.slug]?.cover?.url;
+    if (!remote) continue;
+    const ext = path.extname(new URL(remote).pathname).toLowerCase().replace(".jpeg", ".jpg") || ".jpg";
+    const file = `${game.slug}${ext}`;
+    const target = path.join(dir, file);
+    const exists = await access(target).then(() => true, () => false);
+    if (!exists) {
+      let ok = false;
+      for (let attempt = 0; attempt < 5 && !ok; attempt++) {
+        const res = await fetch(remote, { headers: { "User-Agent": USER_AGENT } });
+        if (res.ok) {
+          await writeFile(target, Buffer.from(await res.arrayBuffer()));
+          ok = true;
+          fetched++;
+        } else {
+          await sleep(2000 * (attempt + 1));
+        }
+      }
+      if (!ok) {
+        console.warn(`  ! cover download failed: ${game.slug}`);
+        continue;
+      }
+      await sleep(250);
+    }
+    local.set(game.slug, `/covers/${file}`);
+  }
+  console.log(`Covers: ${local.size} available, ${fetched} downloaded.`);
+  return local;
+}
+
 // ---------------------------------------------------------------- Main
 
 async function main() {
   const platforms = await readJson("data/platforms.json");
   const curated = await readJson("data/curated.json");
+  const webPorts = await readJson("data/web-ports.json");
   const overrides = await readJson("data/overrides.json");
   const cache = await readJson("data/enrichment-cache.json").catch(() => ({}));
   const resolvePlatform = platformResolver(platforms);
@@ -511,6 +554,33 @@ async function main() {
     if (o.wikipedia !== undefined) game.wikipedia = o.wikipedia;
     if (o.aka) game.aka = o.aka;
   }
+
+  // 4b. Browser-playable ports (hand-verified in data/web-ports.json). They can create games of their own.
+  for (const w of webPorts) {
+    const title = overrides.aliases?.[normalize(w.game)] ?? w.game;
+    const slug = slugify(title);
+    let game = games.get(slug);
+    unusedOverrides.delete(slug);
+    if (!game) {
+      const o = overrides.games?.[slug] ?? {};
+      if (o.exclude) continue;
+      game = { slug, title: o.title ?? title, ports: [], platform: o.platform ?? w.platform, o, web: [] };
+      if (o.wikipedia !== undefined) game.wikipedia = o.wikipedia;
+      if (o.aka) game.aka = o.aka;
+      games.set(slug, game);
+    }
+    game.web ??= [];
+    game.web.push({
+      id: `web-${slugify(w.name)}`,
+      name: w.name,
+      url: w.url,
+      repo: w.repo ?? null,
+      access: w.access,
+      note: w.note,
+      multiplayer: !!w.multiplayer,
+    });
+  }
+
   if (unusedOverrides.size) console.log(`  overrides with no matching game: ${[...unusedOverrides].join(", ")}`);
 
   const list = [...games.values()].sort((a, b) => a.title.localeCompare(b.title));
@@ -522,6 +592,8 @@ async function main() {
     await enrich(list, cache, ARGS.has("--refresh"));
     await writeJson("data/enrichment-cache.json", cache);
   }
+
+  const localCovers = await downloadCovers(list, cache);
 
   // 6. Final shape.
   const platformBySlug = new Map(platforms.map((p) => [p.slug, p]));
@@ -563,12 +635,16 @@ async function main() {
       genres: o.genres ?? facts.genres ?? [],
       summary: o.summary ?? e.summary ?? null,
       wikipedia: e.wikipedia ?? null,
-      cover: o.cover === null ? null : (o.cover ?? e.cover ?? null),
+      cover:
+        o.cover === null
+          ? null
+          : (o.cover ?? (e.cover && localCovers.has(game.slug) ? { ...e.cover, url: localCovers.get(game.slug) } : null)),
       types: [...new Set(portsSorted.map((p) => p.type))],
+      web: (game.web ?? []).sort((a, b) => Number(a.access !== "free") - Number(b.access !== "free")),
       stars: portsSorted.reduce((n, p) => n + p.stars, 0),
       lastUpdate: lastUpdate ?? null,
-      multiplayer: portsSorted.some((p) => p.multiplayer),
-      browser: portsSorted.some((p) => p.playUrl),
+      multiplayer: portsSorted.some((p) => p.multiplayer) || (game.web ?? []).some((w) => w.multiplayer),
+      browser: (game.web ?? []).length > 0,
       ports: portsSorted.map((p) => {
         const copy = { ...p };
         delete copy.platformSlug;

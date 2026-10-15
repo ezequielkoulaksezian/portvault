@@ -8,15 +8,15 @@ export function SiteFooter() {
   const platforms = platformsInUse();
   return (
     <footer className="mt-10 border-t border-line bg-bg-elevated">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="flex items-center gap-2.5">
             <LogoMark size={24} />
             <span className="font-pixel text-base text-ink">{site.name}</span>
           </Link>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-            {stats.games} classic games with {stats.ports} native ports, decompilations and recompilations. Open
-            source and community maintained.
+            {stats.webGames} classic games you can play in your browser and {stats.ports} native PC ports of{" "}
+            {stats.nativeGames} more. Open source and community maintained.
           </p>
           <p className="mt-3 max-w-sm text-xs leading-relaxed text-muted">
             PortVault links to source code and project pages only. It never hosts or links to ROMs, ISOs or game
@@ -40,6 +40,11 @@ export function SiteFooter() {
               </FooterLink>
             ))}
           <FooterLink href="/platforms">All platforms →</FooterLink>
+        </FooterColumn>
+        <FooterColumn title="Play">
+          <FooterLink href="/#play">Play online</FooterLink>
+          <FooterLink href="/?access=free#play">Free to play now</FooterLink>
+          <FooterLink href="/pc-ports">Native PC ports</FooterLink>
         </FooterColumn>
         <FooterColumn title="Project">
           <FooterLink href="/about">About & methodology</FooterLink>

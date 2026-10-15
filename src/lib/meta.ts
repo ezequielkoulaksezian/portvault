@@ -104,7 +104,28 @@ export type GameIndexEntry = {
   portCount: number;
   topPort: string;
   cover: string | null;
+  webCount: number;
+  webFree: boolean;
+  webOwn: boolean;
+  webMultiplayer: boolean;
+  playUrl: string | null;
+  playName: string | null;
   search: string;
+};
+
+export type WebAccess = "free" | "own-files";
+
+export const webAccess: Record<WebAccess, { label: string; short: string; blurb: string }> = {
+  free: {
+    label: "Free to play",
+    short: "Free",
+    blurb: "Plays instantly with legally free data: shareware, an official demo, freeware or open-source assets.",
+  },
+  "own-files": {
+    label: "Bring your own files",
+    short: "Your files",
+    blurb: "The port runs in the browser, but you load the game files from a copy you own.",
+  },
 };
 
 export function normalizeText(s: string): string {

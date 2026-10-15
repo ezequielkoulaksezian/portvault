@@ -1,0 +1,324 @@
+[
+  {
+    "game": "Diablo",
+    "platform": "pc",
+    "name": "DiabloWeb",
+    "url": "https://d07riv.github.io/diabloweb/",
+    "repo": "d07RiV/diabloweb",
+    "access": "free",
+    "note": "Plays the free shareware version instantly. Load your own DIABDAT.MPQ for the full game.",
+    "multiplayer": true
+  },
+  {
+    "game": "Diablo",
+    "platform": "pc",
+    "name": "DevilutionX Web",
+    "url": "https://devilutionx.app",
+    "access": "free",
+    "note": "DevilutionX in the browser. Starts with the shareware data; drag in your own DIABDAT.MPQ for the full game."
+  },
+  {
+    "game": "Doom",
+    "platform": "dos",
+    "name": "Silent Space Marine",
+    "url": "https://silentspacemarine.com/",
+    "repo": "cloudflare/doom-wasm",
+    "access": "free",
+    "note": "Chocolate Doom compiled to WebAssembly with online deathmatch. Uses the shareware episode.",
+    "multiplayer": true
+  },
+  {
+    "game": "Doom",
+    "platform": "dos",
+    "name": "Chocolate Doom Web",
+    "url": "https://midzer.de/wasm/doom/",
+    "repo": "midzer/chocolate-doom",
+    "access": "free",
+    "note": "Faithful Chocolate Doom build with the shareware episode (doom1.wad) included."
+  },
+  {
+    "game": "Doom",
+    "platform": "dos",
+    "name": "UZDoom WASM",
+    "url": "https://uzdoom.bootnet.io/",
+    "repo": "abootnet/uzdoom-wasm",
+    "access": "own-files",
+    "note": "The UZDoom source port in the browser. Drag in your own WAD files, including mods like Brutal Doom."
+  },
+  {
+    "game": "Duke Nukem 3D",
+    "platform": "dos",
+    "name": "Duke Nukem 3D Web",
+    "url": "https://midzer.de/wasm/duke3d/",
+    "repo": "midzer/BelgianChocolateDuke3D",
+    "access": "free",
+    "note": "Includes the official shareware episode, L.A. Meltdown."
+  },
+  {
+    "game": "Duke Nukem 3D",
+    "platform": "dos",
+    "name": "webduke",
+    "url": "https://gawen.me/webduke",
+    "access": "free",
+    "note": "Plays the shareware episode; upload your own DUKE3D.GRP for the full game."
+  },
+  {
+    "game": "Descent",
+    "platform": "dos",
+    "name": "Descent Web (DXX-Rebirth)",
+    "url": "https://midzer.de/wasm/descent1/",
+    "repo": "midzer/dxx-rebirth",
+    "access": "free",
+    "note": "DXX-Rebirth with the official shareware data included."
+  },
+  {
+    "game": "Heroes of Might and Magic II",
+    "platform": "dos",
+    "name": "fheroes2 Web",
+    "url": "https://midzer.de/wasm/heroes2/",
+    "repo": "midzer/fheroes2",
+    "access": "free",
+    "note": "The fheroes2 engine running the official demo version."
+  },
+  {
+    "game": "Cave Story",
+    "platform": "pc",
+    "name": "Cave Story Web (NXEngine-evo)",
+    "url": "https://midzer.de/wasm/cavestory/",
+    "repo": "midzer/nxengine-evo",
+    "access": "free",
+    "note": "The original freeware Cave Story, playable in full."
+  },
+  {
+    "game": "Tyrian",
+    "platform": "dos",
+    "name": "OpenTyrian Web",
+    "url": "https://midzer.de/wasm/opentyrian/",
+    "repo": "midzer/opentyrian",
+    "access": "free",
+    "note": "Tyrian 2.1, released as freeware, playable in full."
+  },
+  {
+    "game": "Abuse",
+    "platform": "dos",
+    "name": "Abuse Web",
+    "url": "https://midzer.de/wasm/abuse/",
+    "repo": "midzer/abuse",
+    "access": "free",
+    "note": "Abuse in the browser with the game data Crack dot Com made freely available alongside the public-domain source code."
+  },
+  {
+    "game": "Celeste Classic",
+    "platform": "pc",
+    "name": "ccleste Web",
+    "url": "https://midzer.de/wasm/celeste/",
+    "repo": "midzer/ccleste",
+    "access": "free",
+    "note": "C port of the free PICO-8 original that later became Celeste."
+  },
+  {
+    "game": "Hurrican",
+    "platform": "pc",
+    "name": "Hurrican Web",
+    "url": "https://midzer.de/wasm/hurrican/",
+    "repo": "midzer/Hurrican",
+    "access": "free",
+    "note": "Freeware Turrican-style run-and-gun, playable in full."
+  },
+  {
+    "game": "Commander Keen in Invasion of the Vorticons",
+    "platform": "dos",
+    "name": "Chocolate Keen",
+    "url": "https://jamesfmackenzie.github.io/chocolatekeen/",
+    "repo": "jamesfmackenzie/chocolatekeen",
+    "access": "free",
+    "note": "Episode One, Marooned on Mars (the shareware episode), included."
+  },
+  {
+    "game": "Quake",
+    "platform": "dos",
+    "name": "NetQuake.io",
+    "url": "https://www.netquake.io/",
+    "access": "free",
+    "note": "Quake single-player and multiplayer with the shareware episode; use your own files for the full game.",
+    "multiplayer": true
+  },
+  {
+    "game": "Quake",
+    "platform": "dos",
+    "name": "Qwasm",
+    "url": "https://qwasm.m-h.org.uk",
+    "repo": "GMH-Code/Qwasm",
+    "access": "own-files",
+    "note": "Faithful WinQuake/GLQuake port. Needs PAK0.PAK from the shareware or full version."
+  },
+  {
+    "game": "Quake III Arena",
+    "platform": "pc",
+    "name": "Q3JS",
+    "url": "https://q3js.com/",
+    "access": "free",
+    "note": "Quake III Arena demo content with online servers.",
+    "multiplayer": true
+  },
+  {
+    "game": "Quake III Arena",
+    "platform": "pc",
+    "name": "Quake III Arena Demo (web)",
+    "url": "https://thelongestyard.link/q3a-demo/",
+    "repo": "JWally/web-quaker",
+    "access": "free",
+    "note": "The official Quake III Arena demo running in the browser.",
+    "multiplayer": true
+  },
+  {
+    "game": "Doom 3",
+    "platform": "pc",
+    "name": "D3wasm (Doom 3 demo)",
+    "url": "https://wasm.continuation-labs.com/d3demo/",
+    "repo": "gabrielcuvillier/d3wasm",
+    "access": "free",
+    "note": "id Tech 4 compiled to WebAssembly with the official Doom 3 demo. Large download, desktop only."
+  },
+  {
+    "game": "Half-Life",
+    "platform": "pc",
+    "name": "WebXash",
+    "url": "https://x8bitrain.github.io/webXash/",
+    "repo": "FWGS/xash3d-fwgs",
+    "access": "free",
+    "note": "Xash3D FWGS in the browser. Plays the free demo; supports your own Half-Life and Counter-Strike files."
+  },
+  {
+    "game": "Tomb Raider I & II",
+    "platform": "pc",
+    "name": "OpenLara",
+    "url": "http://xproger.info/projects/OpenLara/",
+    "repo": "XProger/OpenLara",
+    "access": "free",
+    "note": "Open-source Tomb Raider engine with a demo level included."
+  },
+  {
+    "game": "Jazz Jackrabbit 2",
+    "platform": "pc",
+    "name": "Jazz² Resurrection Web",
+    "url": "https://de4th.dev/jazz2/",
+    "repo": "deathkiller/jazz2-native",
+    "access": "free",
+    "note": "Plays the shareware episode; the full game needs your own files."
+  },
+  {
+    "game": "Urban Terror",
+    "platform": "pc",
+    "name": "Urban Terror Web",
+    "url": "https://ut.pieter.com",
+    "repo": "FrozenSand/ioq3-for-UrbanTerror-4",
+    "access": "free",
+    "note": "The freeware tactical shooter, playable online.",
+    "multiplayer": true
+  },
+  {
+    "game": "Halo: Combat Evolved",
+    "platform": "xbox",
+    "name": "Halo CE Web",
+    "url": "https://mitchellhynes.com/halo/halo.html",
+    "repo": "ecumene/web-halo",
+    "access": "own-files",
+    "note": "Decompiled Xbox version with campaign, split-screen and online play. Your Xbox disc image is validated locally.",
+    "multiplayer": true
+  },
+  {
+    "game": "Halo: Combat Evolved",
+    "platform": "xbox",
+    "name": "HCEMobile",
+    "url": "https://hcemobile.com/",
+    "access": "own-files",
+    "note": "Halo CE decomp for phone and desktop browsers with matchmaking and online co-op.",
+    "multiplayer": true
+  },
+  {
+    "game": "Command & Conquer: Generals – Zero Hour",
+    "platform": "pc",
+    "name": "GeneralsX Web",
+    "url": "https://generals.wasm.ltd",
+    "access": "own-files",
+    "note": "The Generals decompilation compiled to WebAssembly. Bring your own game files."
+  },
+  {
+    "game": "Command & Conquer: Red Alert 2",
+    "platform": "pc",
+    "name": "Chrono Divide",
+    "url": "https://chronodivide.com/",
+    "access": "own-files",
+    "note": "Browser recreation of Red Alert 2 with online multiplayer, ladder and replays. Needs the original game files.",
+    "multiplayer": true
+  },
+  {
+    "game": "Grand Theft Auto: Vice City",
+    "platform": "playstation-2",
+    "name": "reVC Web",
+    "url": "https://revc.wasm.ltd",
+    "repo": "origami-ltd/wasm-revc",
+    "access": "own-files",
+    "note": "The reVC decompilation running in the browser. Bring your own copy of the game."
+  },
+  {
+    "game": "Grand Theft Auto: Vice City",
+    "platform": "playstation-2",
+    "name": "Vice City WASM Port",
+    "url": "https://joncodeofficial.github.io/gta-vice-city-wasm/",
+    "access": "own-files",
+    "note": "Alternative WebAssembly build of reVC. Needs your own game files."
+  },
+  {
+    "game": "Star Wars Jedi Knight: Jedi Academy",
+    "platform": "pc",
+    "name": "Jedi Academy Web",
+    "url": "https://jk.q3js.com",
+    "access": "own-files",
+    "note": "OpenJK in the browser with multiplayer. Needs your own game files.",
+    "multiplayer": true
+  },
+  {
+    "game": "Zelda II: The Adventure of Link",
+    "platform": "nes",
+    "name": "z2rs",
+    "url": "https://z2rs.com/",
+    "access": "own-files",
+    "note": "Reconstruction of Zelda II in Rust. Load your own ROM to play."
+  },
+  {
+    "game": "The Elder Scrolls III: Morrowind",
+    "platform": "pc",
+    "name": "OpenMW Web",
+    "url": "https://morrowind.virtastic.app",
+    "repo": "Virtastic/openmw-web",
+    "access": "own-files",
+    "note": "Experimental OpenMW build for the browser. Upload your own Morrowind data files."
+  },
+  {
+    "game": "Jagged Alliance 2",
+    "platform": "pc",
+    "name": "JA2 Stracciatella Web",
+    "url": "https://ja2.virtastic.app",
+    "repo": "Virtastic/ja2-web",
+    "access": "own-files",
+    "note": "Jagged Alliance 2 Stracciatella in the browser. Upload your own game files."
+  },
+  {
+    "game": "Animal Crossing",
+    "platform": "gamecube",
+    "name": "Animal Crossing Online",
+    "url": "https://animalcrossingonline.com/",
+    "access": "own-files",
+    "note": "Full GameCube-to-WebAssembly port with cloud saves. Bring your own disc image."
+  },
+  {
+    "game": "Super Monkey Ball",
+    "platform": "gamecube",
+    "name": "Monkey Ball Online",
+    "url": "https://monkeyball-online.pages.dev/",
+    "access": "own-files",
+    "note": "Super Monkey Ball running natively in the browser. Needs your own game files."
+  }
+]

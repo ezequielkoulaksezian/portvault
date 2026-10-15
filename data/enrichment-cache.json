@@ -8756,5 +8756,211 @@
     "key": "Whiplash (1995 video game)",
     "wikipedia": null,
     "checkedAt": "2026-10-15T15:50:19.129Z"
+  },
+  "abuse": {
+    "key": "Abuse (video game)",
+    "wikipedia": {
+      "title": "Abuse (video game)",
+      "url": "https://en.wikipedia.org/wiki/Abuse_(video_game)"
+    },
+    "qid": "Q2300281",
+    "summary": "Abuse is a run and gun video game developed by Crack dot Com and published by Electronic Arts in North America and Origin Systems in Europe. It was released on February 29, 1996 for MS-DOS. A Mac OS port of the game was published by Bungie and released on March 5, 1997. The game's source code, along with some of the shareware content, has been in the public domain since the late 1990s and has been ported to Linux and many other platforms.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Abuse_Coverart.png",
+      "width": 480,
+      "height": 613,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Abuse_Coverart.png"
+    },
+    "checkedAt": "2026-10-15T16:38:05.635Z",
+    "facts": {
+      "year": 1996,
+      "developers": [
+        "Crack dot Com"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "shoot 'em up",
+        "science fiction"
+      ]
+    }
+  },
+  "celeste-classic": {
+    "key": "false",
+    "wikipedia": null,
+    "checkedAt": "2026-10-15T16:38:05.764Z"
+  },
+  "command-and-conquer-red-alert-2": {
+    "key": "Command & Conquer: Red Alert 2",
+    "wikipedia": {
+      "title": "Command & Conquer: Red Alert 2",
+      "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert_2"
+    },
+    "qid": "Q684904",
+    "summary": "Command & Conquer: Red Alert 2 is a real-time strategy video game released for Microsoft Windows on October 25, 2000, as the follow-up to Command & Conquer: Red Alert. Red Alert 2  picks up after the Allied campaign of the first game. Its expansion pack is Command & Conquer: Yuri's Revenge, released a year later in 2001.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
+      "width": 480,
+      "height": 683,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Cncra2-win-cover.jpg"
+    },
+    "checkedAt": "2026-10-15T16:38:07.130Z",
+    "facts": {
+      "year": 2000,
+      "developers": [
+        "Westwood Studios"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "real-time strategy"
+      ]
+    }
+  },
+  "commander-keen-in-invasion-of-the-vorticons": {
+    "key": "Commander Keen in Invasion of the Vorticons",
+    "wikipedia": {
+      "title": "Commander Keen in Invasion of the Vorticons",
+      "url": "https://en.wikipedia.org/wiki/Commander_Keen_in_Invasion_of_the_Vorticons"
+    },
+    "qid": "Q24808194",
+    "summary": "Commander Keen in Invasion of the Vorticons is a three-part episodic side-scrolling platform video game developed by Ideas from the Deep (a precursor to id Software) and published by Apogee Software in 1990 for MS-DOS. It is the first set of episodes of the Commander Keen series. The game follows the titular Commander Keen, an eight-year-old child genius, as he retrieves the stolen parts of his spaceship from the cities of Mars, prevents a recently arrived alien mothership from destroying landmarks on Earth, and hunts down the leader of the aliens, the Grand Intellect, on the alien home planet. The three episodes feature Keen running, jumping, and shooting through various levels while opposed by aliens, robots, and other hazards.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Commander_Keen_Marooned_on_Mars_Title.png",
+      "width": 480,
+      "height": 300,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Commander_Keen_Marooned_on_Mars_Title.png"
+    },
+    "checkedAt": "2026-10-15T16:38:08.060Z",
+    "facts": {
+      "year": 1990,
+      "developers": [],
+      "publishers": [
+        "3D Realms"
+      ],
+      "genres": [
+        "platformer"
+      ]
+    }
+  },
+  "grand-theft-auto-vice-city": {
+    "key": "Grand Theft Auto: Vice City",
+    "wikipedia": {
+      "title": "Grand Theft Auto: Vice City",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+    },
+    "qid": "Q94671",
+    "summary": "Grand Theft Auto: Vice City is a 2002 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fourth main game in the Grand Theft Auto series, following 2001's Grand Theft Auto III, and the sixth entry overall. Set in 1986 within the fictional Vice City (based on Miami), the single-player story follows gangster Tommy Vercetti's rise to power after being released from prison and becoming caught up in an ambushed drug deal.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+      "width": 480,
+      "height": 609,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Vice-city-cover.jpg"
+    },
+    "checkedAt": "2026-10-15T16:38:09.079Z",
+    "facts": {
+      "year": 2002,
+      "developers": [],
+      "publishers": [],
+      "genres": [
+        "action-adventure game"
+      ]
+    }
+  },
+  "hurrican": {
+    "key": "false",
+    "wikipedia": null,
+    "checkedAt": "2026-10-15T16:38:09.202Z"
+  },
+  "super-monkey-ball": {
+    "key": "Super Monkey Ball (video game)",
+    "wikipedia": {
+      "title": "Super Monkey Ball (video game)",
+      "url": "https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)"
+    },
+    "qid": "Q289882",
+    "summary": "Super Monkey Ball is a 2001 video game developed by Amusement Vision and published by Sega. The game debuted in Japan at the 2001 Amusement Operators Union trade show as Monkey Ball, an arcade cabinet running on Sega's NAOMI hardware and controlled with a distinctive banana-shaped analog stick. Due to the discontinuation of Sega's Dreamcast home console and the company's subsequent restructuring, an enhanced port dubbed Super Monkey Ball was released as a launch title for the GameCube in late 2001, garnering interest as Sega's first game published for a Nintendo home console.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Super_Monkey_Ball_Coverart.png",
+      "width": 480,
+      "height": 681,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Monkey_Ball_Coverart.png"
+    },
+    "checkedAt": "2026-10-15T16:38:10.173Z",
+    "facts": {
+      "year": 2001,
+      "developers": [
+        "Amusement Vision"
+      ],
+      "publishers": [],
+      "genres": [
+        "platformer",
+        "party",
+        "arcade",
+        "action game"
+      ]
+    }
+  },
+  "urban-terror": {
+    "key": "Urban Terror",
+    "wikipedia": {
+      "title": "Urban Terror",
+      "url": "https://en.wikipedia.org/wiki/Urban_Terror"
+    },
+    "qid": "Q1165046",
+    "summary": "Urban Terror is a freeware multiplayer first-person shooter video game developed by FrozenSand. Originally a total conversion of id Software's Quake III Arena, FrozenSand released Urban Terror as a free standalone game in 2007 utilizing ioquake3 as the game engine. While the game engine is licensed under the open-source GPL, Urban Terror's game code is closed source and its assets are freeware but not open content.",
+    "cover": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Urban_terror_wordmark.svg/500px-Urban_terror_wordmark.svg.png",
+      "width": 480,
+      "height": 122,
+      "source": "Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urban_terror_wordmark.svg"
+    },
+    "checkedAt": "2026-10-15T16:38:11.136Z",
+    "facts": {
+      "year": 2000,
+      "developers": [],
+      "publishers": [],
+      "genres": [
+        "first-person shooter"
+      ]
+    }
+  },
+  "zelda-ii-the-adventure-of-link": {
+    "key": "Zelda II: The Adventure of Link",
+    "wikipedia": {
+      "title": "Zelda II: The Adventure of Link",
+      "url": "https://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link"
+    },
+    "qid": "Q187339",
+    "summary": "Zelda II: The Adventure of Link is a 1987 action role-playing game developed and published by Nintendo. It is the second installment in the Legend of Zelda series, and was released in Japan for the Famicom Disk System on January 14, 1987, less than a year after the Japanese release and seven months before the North American release of the original The Legend of Zelda. Zelda II was released in North America and the PAL region for the Nintendo Entertainment System in late 1988, almost two years after its initial release in Japan.",
+    "cover": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+      "width": 480,
+      "height": 684,
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Zelda_II_The_Adventure_of_Link_box.jpg"
+    },
+    "checkedAt": "2026-10-15T16:38:12.134Z",
+    "facts": {
+      "year": 1987,
+      "developers": [
+        "Nintendo Entertainment Analysis & Development"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "action role-playing game",
+        "role-playing"
+      ]
+    }
   }
 }
